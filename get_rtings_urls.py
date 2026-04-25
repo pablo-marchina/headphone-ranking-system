@@ -3,47 +3,46 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-def fetch_rtings_database():
-    # O RTINGS divide o sitemap. Este é o sitemap específico para reviews de produtos.
-    # Nota: URLs de sitemaps podem mudar, mas esta é a estrutura padrão.
-    sitemap_url = "https://www.rtings.com/sitemap_reviews.xml"
-    headers = {'User-Agent': 'Mozilla/5.0'}
-    
-    print(f"Acedendo ao Sitemap do RTINGS: {sitemap_url}")
-    
-    try:
-        response = requests.get(sitemap_url, headers=headers)
-        if response.status_code != 200:
-            print("Erro ao aceder ao sitemap.")
-            return []
+SITEMAP_URL = "https://www.rtings.com/sitemap_en_headphones.xml"
+HEADERS     = {'User-Agent': 'Mozilla/5.0'}
 
-        # O sitemap é um XML
-        soup = BeautifulSoup(response.text, 'xml')
-        urls = soup.find_all('loc')
-        
-        # Filtramos apenas os links que são de reviews de headphones
-        # Queremos o formato: 'marca/modelo'
-        headphone_slugs = []
+
+def fetch_rtings_database():
+    """
+    Crawls the RTINGS headphone sitemap and extracts reviewer slugs
+    (format: "brand/model") for use in fetch_rtings_metrics().
+    Saves to data/rtings_library.json.
+    """
+    print(f"Acessando sitemap RTINGS: {SITEMAP_URL}")
+    try:
+        r = requests.get(SITEMAP_URL, headers=HEADERS, timeout=15)
+        if r.status_code != 200:
+            print(f"Falha ({r.status_code}). Tentando sitemap alternativo...")
+            # Fallback: generic sitemap index
+            r = requests.get("https://www.rtings.com/sitemap.xml",
+                             headers=HEADERS, timeout=15)
+
+        soup  = BeautifulSoup(r.text, 'lxml-xml')
+        urls  = [loc.text for loc in soup.find_all('loc')]
+
+        slugs = []
         for url in urls:
-            link = url.text
-            if '/headphones/reviews/' in link:
-                # Extrai apenas a parte final: 'sennheiser/hd-600'
-                slug = link.split('/headphones/reviews/')[-1]
-                if slug: # Evita strings vazias
-                    headphone_slugs.append(slug)
-        
-        print(f"Sucesso! {len(headphone_slugs)} URLs de fones encontradas no RTINGS.")
-        
-        # Guardar para o mapeador usar
-        if not os.path.exists('data'): os.makedirs('data')
+            # Match URLs like: .../headphones/reviews/brand/model
+            if '/headphones/reviews/' in url:
+                slug = url.split('/headphones/reviews/')[-1].rstrip('/')
+                if slug and '/' in slug:   # must have brand/model format
+                    slugs.append(slug)
+
+        print(f"{len(slugs)} URLs de fones encontradas.")
+        os.makedirs('data', exist_ok=True)
         with open("data/rtings_library.json", "w", encoding="utf-8") as f:
-            json.dump(headphone_slugs, f, indent=4, ensure_ascii=False)
-            
-        return headphone_slugs
+            json.dump(slugs, f, indent=4, ensure_ascii=False)
+        return slugs
 
     except Exception as e:
-        print(f"Erro no scraper de sitemap: {e}")
+        print(f"Erro: {e}")
         return []
+
 
 if __name__ == "__main__":
     fetch_rtings_database()

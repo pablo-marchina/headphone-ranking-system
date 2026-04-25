@@ -1,48 +1,39 @@
 import numpy as np
-from src.constants import KAPPA, THD_THRESHOLD, JND_THD, EPSILON
+from src.constants import KAPPA, THD_THRESHOLD, JND_THD, EPSILON, MASKING_BANDWIDTH_POINTS
+
 
 def calculate_masking_factor(measured_mags):
     """
-    Calcula o fator de mascaramento M_h(b).
-    M_h(b) = 1 + KAPPA * E_rel
-    
-    Onde E_rel é a energia relativa (convertida de dB para escala linear 
-    para representar a pressão sonora).
+    M_h(b) = 1 + κ · (1/|B_viz|) Σ_{b'∈B_viz(b)} E_rel,h(b')
+
+    E_rel,h(b) = FR_h_final(b) − mean(FR_h_final)
+        Deviation in dB relative to the headphone's own mean curve.
+        Physically: how energetic this band is compared to the average level.
+        NOT relative to the target (that was the discarded interpretation).
+
+    B_viz(b) = ±MASKING_BANDWIDTH_POINTS (≈ ±1 critical band on the 500-pt ERB grid)
+        Spectral spread: masking by a loud region affects adjacent critical bands.
     """
-    # Convertemos dB para uma escala linear de pressão (relativa)
-    # Usamos 10**(mags/20) para simular a amplitude da onda
-    energy_linear = 10 ** (measured_mags / 20)
-    
-    # Normalizamos a energia pelo valor médio para ter um E_rel equilibrado
-    e_rel = energy_linear / (np.mean(energy_linear) + EPSILON)
-    
-    return 1 + KAPPA * e_rel
+    # E_rel in dB — deviation from own curve mean (not from target)
+    e_rel = measured_mags - np.mean(measured_mags)
+
+    # Spread over ±1 critical band via uniform (box) convolution
+    kernel_size = 2 * MASKING_BANDWIDTH_POINTS + 1
+    kernel      = np.ones(kernel_size) / kernel_size
+    e_rel_spread = np.convolve(e_rel, kernel, mode='same')
+
+    return 1.0 + KAPPA * e_rel_spread
+
 
 def calculate_thd_error(thd_measurements, measured_mags):
     """
-    Calcula o erro de distorção (E_THD) considerando o mascaramento.
-    
-    thd_measurements: Array com os valores de THD em % (ex: 0.5 para 0.5%)
-    measured_mags: Resposta de frequência do fone (para calcular o mascaramento)
-    """
-    # 1. Calcula o Fator de Mascaramento baseado na FR do fone
-    masking_factor = calculate_masking_factor(measured_mags)
-    
-    # 2. Calcula o excesso de distorção acima do limiar (T_THD)
-    # max(0, THD_h - T_THD)
-    excess_thd = np.maximum(0, thd_measurements - THD_THRESHOLD)
-    
-    # 3. Aplica a fórmula final: 
-    # E_THD = Excesso / (JND * Mascaramento)
-    # Quanto maior o mascaramento (mais som na banda), menor a penalidade.
-    perceptual_thd_error = excess_thd / (JND_THD * masking_factor + EPSILON)
-    
-    return np.mean(perceptual_thd_error)
+    E_THD(h) = Σ_b max(0, THD_h(b) − τ_THD) / (JND_THD · M_h(b)) · Δb
 
-if __name__ == "__main__":
-    # Teste: Fone com 1% de THD constante
-    mags = np.zeros(500) # FR plana em 0dB
-    thd = np.ones(500) * 1.0 # 1% de THD em tudo
-    
-    erro = calculate_thd_error(thd, mags)
-    print(f"Erro de Distorção Percebido: {erro:.2f}")
+    Δb is constant on the uniform ERB grid → absorbed into mean().
+    thd_measurements: array in % (e.g. 0.5 for 0.5 % THD).
+    Distortion below τ_THD is perceptually inaudible and earns zero penalty.
+    """
+    masking = calculate_masking_factor(measured_mags)
+    excess  = np.maximum(0.0, thd_measurements - THD_THRESHOLD)
+    error   = excess / (JND_THD * masking + EPSILON)
+    return float(np.mean(error))

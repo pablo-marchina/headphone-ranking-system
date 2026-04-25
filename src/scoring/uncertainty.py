@@ -1,28 +1,32 @@
 import numpy as np
-from src.constants import W_UNC
+from src.constants import (
+    SIGMA_SINGLE_SOURCE, SIGMA_THD_EXPECTED, SIGMA_MATCH_EXPECTED
+)
 
-def calculate_uncertainty_error(variance_array):
-    """
-    Calcula a penalidade por incerteza baseada na variância 
-    entre diferentes fontes de medição.
-    
-    Parâmetros:
-    - variance_array: Array de variância calculado no módulo de combinação.
-    
-    Retorna:
-    - Escalar de erro de incerteza.
-    """
-    if variance_array is None or len(variance_array) == 0:
-        return 0.0
-    
-    # A incerteza é a média da raiz quadrada da variância (desvio padrão médio)
-    # multiplicada pelo nosso peso de importância.
-    avg_std = np.mean(np.sqrt(variance_array))
-    
-    return avg_std * W_UNC
 
-if __name__ == "__main__":
-    # Exemplo: Variância alta em alguns pontos (dados conflitantes)
-    var = np.array([0.1, 4.0, 0.1, 9.0]) # Muita divergência em dois pontos
-    erro = calculate_uncertainty_error(var)
-    print(f"Erro de Incerteza (E_unc): {erro:.2f}")
+def calculate_uncertainty(variance_array, n_sources, thd_available, match_available=True):
+    """
+    E_unc(h) = σ_inter-source + σ_bootstrap + 1[THD=∅]·σ_THD + 1[LR=∅]·σ_match
+
+    σ_inter-source
+        n_sources == 1 → SIGMA_SINGLE_SOURCE (dataset-estimated; not zero,
+                         because one source ≠ perfectly reliable)
+        n_sources > 1  → mean(std per ERB band) from observed inter-source variance
+
+    σ_bootstrap
+        Approximated as 0.5 · σ_inter (full bootstrap deferred to
+        dataset-level calibration, where ERB-band resampling is feasible).
+
+    THD term   : activated when THD measurements are absent for this headphone.
+    Match term : activated when separate L/R channel data is unavailable.
+    """
+    if n_sources > 1 and variance_array is not None and len(variance_array) > 0:
+        sigma_inter = float(np.mean(np.sqrt(np.maximum(variance_array, 0.0))))
+    else:
+        sigma_inter = SIGMA_SINGLE_SOURCE
+
+    sigma_bootstrap = 0.5 * sigma_inter
+    thd_term        = 0.0 if thd_available   else SIGMA_THD_EXPECTED
+    match_term      = 0.0 if match_available else SIGMA_MATCH_EXPECTED
+
+    return sigma_inter + sigma_bootstrap + thd_term + match_term

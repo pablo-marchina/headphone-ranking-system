@@ -1,34 +1,57 @@
 import requests
-from bs4 import BeautifulSoup
 
-def fetch_br_prices_list(headphone_name):
-    query = headphone_name.replace(" ", "-")
-    url = f"https://lista.mercadolivre.com.br/{query}"
-    headers = {'User-Agent': 'Mozilla/5.0'}
-    
-    try:
-        response = requests.get(url, headers=headers)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Captura todos os blocos de anúncios para verificar o título
-        items = soup.find_all('div', {'class': 'ui-search-result__wrapper'})
-        
-        valid_prices = []
-        for item in items:
-            title = item.find('h2').text.lower()
-            price_element = item.find('span', {'class': 'andes-money-amount__fraction'})
-            
-            if price_element:
-                price = int(price_element.text.replace('.', ''))
-                
-                # FILTRO DE PALAVRAS-CHAVE:
-                # Se o título contiver "cabo", "case", "almofada" ou "usado", ignoramos.
-                blacklist = ['cabo', 'case', 'almofada', 'earpad', 'usado', 'substituição', 'parts']
-                if any(word in title for word in blacklist):
+ML_SEARCH_URL = "https://api.mercadolibre.com/sites/MLB/search"
+
+BLACKLIST = [
+    'cabo', 'case', 'almofada', 'earpad', 'substituição', 'usado',
+    'parts', 'peça', 'adaptador', 'cabo auxiliar', 'espuma', 'grip',
+    'protetor', 'suporte', 'stand', 'hanger',
+]
+
+
+def fetch_br_prices_list(headphone_name, pages=3):
+    """
+    Returns a list of valid prices (float, BRL) using the official
+    Mercado Livre search API — no HTML scraping.
+
+    Filters applied per item:
+        • condition == 'new'
+        • title does not contain accessory keywords
+        • price > 0
+
+    pages: number of API pages to fetch (50 items each, max 150 total).
+    """
+    all_prices = []
+
+    for page in range(pages):
+        params = {
+            'q':         headphone_name,
+            'limit':     50,
+            'offset':    page * 50,
+            'condition': 'new',
+        }
+        try:
+            r = requests.get(ML_SEARCH_URL, params=params, timeout=10)
+            if r.status_code != 200:
+                break
+            data    = r.json()
+            results = data.get('results', [])
+            if not results:
+                break
+
+            for item in results:
+                price = item.get('price')
+                if not price or price <= 0:
                     continue
-                
-                valid_prices.append(price)
-        
-        return valid_prices
-    except:
-        return []
+
+                title = item.get('title', '').lower()
+                if any(w in title for w in BLACKLIST):
+                    continue
+
+                all_prices.append(float(price))
+
+        except Exception as e:
+            print(f"  [ML API] Erro na página {page}: {e}")
+            break
+
+    return all_prices

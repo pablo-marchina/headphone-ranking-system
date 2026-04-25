@@ -1,50 +1,64 @@
-from src.collectors.autoeq import fetch_autoeq_data
-from src.collectors.targets import get_harman_target
-from src.collectors.rtings import fetch_rtings_metrics
-from src.collectors.mercadolivre import fetch_br_price
+from src.collectors.autoeq            import fetch_autoeq_data
+from src.collectors.targets           import get_harman_target, detect_category
+from src.collectors.rtings            import fetch_rtings_metrics
+from src.collectors.mercadolivre      import fetch_br_prices_list
+from src.preprocessing.price_cleaner import clean_price_data
 from pipeline import run_evaluation_pipeline
-import numpy as np
 
-def main():
-    headphone_name = "Sennheiser HD 600"
-    rtings_slug = "sennheiser/hd-600"
 
-    print(f"=== SISTEMA DE RANKING DE AUDIO v1.0 ===")
-    
-    # 1. Coleta de dados técnicos
-    freqs, mags = fetch_autoeq_data(headphone_name)
-    target_f, target_m = get_harman_target()
-    rtings_data = fetch_rtings_metrics(rtings_slug)
-    
-    # 2. Coleta de preço
-    price = fetch_br_price(headphone_name)
+def evaluate(headphone_name, rtings_slug=''):
+    print(f"\n{'='*55}")
+    print(f"  AVALIAÇÃO: {headphone_name}")
+    print(f"{'='*55}")
 
-    if freqs is not None:
-        # Executa o pipeline para nota técnica
-        technical_score = run_evaluation_pipeline(
-            name=headphone_name,
-            raw_freqs=freqs,
-            raw_mags=mags,
-            target_freqs=target_f,
-            target_mags=target_m,
-            thd_data=rtings_data['thd'] if rtings_data else 0.5,
-            left_mags=mags,
-            right_mags=mags + (rtings_data['matching'] if rtings_data else 0)
-        )
+    sources  = fetch_autoeq_data(headphone_name)
+    category = detect_category(headphone_name)
+    t_f, t_m = get_harman_target(category)
+    rtings   = fetch_rtings_metrics(rtings_slug) if rtings_slug else None
+    prices   = fetch_br_prices_list(headphone_name)
+    price    = clean_price_data(prices, headphone_name)
 
-        print("-" * 30)
-        print(f"RESULTADOS PARA: {headphone_name}")
-        print(f"Nota Técnica: {technical_score:.2f}/10")
-        
-        if price:
-            # Cálculo de Custo-Benefício (Score / log10 do preço)
-            # Fones caros precisam de notas muito altas para manter o CB
-            cb_index = (technical_score**2) / np.log10(price)
-            print(f"Preço Estimado: R$ {price}")
-            print(f"Índice Custo-Benefício: {cb_index:.2f}")
-        else:
-            print("Preço não encontrado para cálculo de Custo-Benefício.")
-        print("-" * 30)
+    result = run_evaluation_pipeline(
+        name=headphone_name,
+        sources_data=sources,
+        target_freqs=t_f,
+        target_mags=t_m,
+        thd_data=rtings['thd'] if rtings else None,
+        price=price,
+    )
+
+    if not result:
+        print("  Sem dados suficientes para avaliação.\n")
+        return
+
+    thd_tag   = "com THD"   if result['thd_available']   else "sem THD"
+    match_tag = "com L/R"   if result['match_available'] else "sem L/R"
+
+    print(f"\n  Categoria      : {category}")
+    print(f"  Fontes AutoEQ  : {result['n_sources']}  ({thd_tag} / {match_tag})")
+    if price:
+        print(f"  Preço (BR)     : R$ {price:.2f}")
+    else:
+        print(f"  Preço          : não encontrado")
+
+    print(f"\n  ── Erros (unidades JND) ──")
+    print(f"  E_FR           : {result['e_fr']:.4f}")
+    print(f"  E_THD          : {result['e_thd']:.4f}")
+    print(f"  E_match        : {result['e_match']:.4f}")
+    print(f"  ─────────────────────────")
+    print(f"  E_total        : {result['e_total']:.4f}")
+    print(f"\n  ── Confiança ──")
+    print(f"  E_unc          : {result['e_unc']:.4f}")
+    print(f"  w_conf         : {result['w_conf']:.4f}")
+
+    if result['score']:
+        print(f"\n  SCORE  =  w_conf / (max(E_total,ε) · P)")
+        print(f"         =  {result['w_conf']:.4f} / (max({result['e_total']:.4f}, 0.1) · {price:.2f})")
+        print(f"         =  {result['score']:.6f}")
+    else:
+        print(f"\n  SCORE  : n/a — preço não disponível no Mercado Livre")
+    print()
+
 
 if __name__ == "__main__":
-    main()
+    evaluate("Sennheiser HD 600", rtings_slug="sennheiser/hd-600")

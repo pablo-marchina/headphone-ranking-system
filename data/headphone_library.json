@@ -1,0 +1,5728 @@
+[
+    {
+        "name": "Apple AirPods (1st generation)",
+        "slug": "apple-airpods-1st-generation",
+        "reviewer": "oratory1990",
+        "rig_folder": "earbud",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony XEA20 Xperia Ear Duo",
+        "slug": "sony-xea20-xperia-ear-duo",
+        "reviewer": "oratory1990",
+        "rig_folder": "earbud",
+        "category": "over-ear"
+    },
+    {
+        "name": "1MORE Quad Driver",
+        "slug": "1more-quad-driver",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "1MORE Single Driver",
+        "slug": "1more-single-driver",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "1MORE Triple Driver LTNG",
+        "slug": "1more-triple-driver-ltng",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "64 Audio A12t (m15 Apex module)",
+        "slug": "64-audio-a12t-m15-apex-module",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "64 Audio A12t (m20 Apex module)",
+        "slug": "64-audio-a12t-m20-apex-module",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "7Hz Salnotes Dioko",
+        "slug": "7hz-salnotes-dioko",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "7Hz Salnotes Zero",
+        "slug": "7hz-salnotes-zero",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "7Hz Timeless",
+        "slug": "7hz-timeless",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "AKG K3003",
+        "slug": "akg-k3003",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "AKG N20",
+        "slug": "akg-n20",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "AKG N400",
+        "slug": "akg-n400",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "AKG N5005",
+        "slug": "akg-n5005",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Akoustyx R-220",
+        "slug": "akoustyx-r-220",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Amazon Echo Buds",
+        "slug": "amazon-echo-buds",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Anker Soundcore Liberty 2 Pro",
+        "slug": "anker-soundcore-liberty-2-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Anker Soundcore Liberty Air 2",
+        "slug": "anker-soundcore-liberty-air-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Apple ME186 In-Ear Headphones",
+        "slug": "apple-me186-in-ear-headphones",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Audeze Euclid",
+        "slug": "audeze-euclid",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Audeze iSINE 10",
+        "slug": "audeze-isine-10",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Audeze iSINE 20",
+        "slug": "audeze-isine-20",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-CKN50",
+        "slug": "audio-technica-ath-ckn50",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "AudioQuest NightHawk (Brainwavz HM5 hybrid earpads)",
+        "slug": "audioquest-nighthawk-brainwavz-hm5-hybrid-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "AudioQuest NightHawk (Shure SRH1540 alcantara earpads)",
+        "slug": "audioquest-nighthawk-shure-srh1540-alcantara-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "BGVP DMG (foam eartips)",
+        "slug": "bgvp-dmg-foam-eartips",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "BGVP DMG",
+        "slug": "bgvp-dmg",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "BLON BL-01",
+        "slug": "blon-bl-01",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "BLON BL-03",
+        "slug": "blon-bl-03",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Beats Powerbeats Pro",
+        "slug": "beats-powerbeats-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Beats Studio Buds",
+        "slug": "beats-studio-buds",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Beyerdynamic Blue Byrd",
+        "slug": "beyerdynamic-blue-byrd",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Beyerdynamic Xelento",
+        "slug": "beyerdynamic-xelento",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Bose Q25 (ANC off)",
+        "slug": "bose-q25-anc-off",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Bose QuietComfort 20 (passive)",
+        "slug": "bose-quietcomfort-20-passive",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Bose QuietComfort 20",
+        "slug": "bose-quietcomfort-20",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Bose SoundSport Free",
+        "slug": "bose-soundsport-free",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Bose SoundSport Wireless",
+        "slug": "bose-soundsport-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Bowers & Wilkins C5 Series 2",
+        "slug": "bowers-&-wilkins-c5-series-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Brainwavz M5",
+        "slug": "brainwavz-m5",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Campfire Audio Andromeda",
+        "slug": "campfire-audio-andromeda",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Campfire Audio Comet",
+        "slug": "campfire-audio-comet",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Campfire Audio Dorado 2020",
+        "slug": "campfire-audio-dorado-2020",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Campfire Audio Holocene",
+        "slug": "campfire-audio-holocene",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Campfire Audio Honeydew",
+        "slug": "campfire-audio-honeydew",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Campfire Audio Polaris",
+        "slug": "campfire-audio-polaris",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Campfire Audio Vega (foam eartips)",
+        "slug": "campfire-audio-vega-foam-eartips",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Cosmic Ears CE6B",
+        "slug": "cosmic-ears-ce6b",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Creative Aurvana Ace",
+        "slug": "creative-aurvana-ace",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "EarFun Free Pro (Oluv Edition)",
+        "slug": "earfun-free-pro-oluv-edition",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Etymotic ER2SE",
+        "slug": "etymotic-er2se",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Etymotic ER2XR",
+        "slug": "etymotic-er2xr",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Etymotic ER3SE",
+        "slug": "etymotic-er3se",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Etymotic ER3XR",
+        "slug": "etymotic-er3xr",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Etymotic ER4SR",
+        "slug": "etymotic-er4sr",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Etymotic ER4XR",
+        "slug": "etymotic-er4xr",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Etymotic EVO",
+        "slug": "etymotic-evo",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Etymotic hf5",
+        "slug": "etymotic-hf5",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "FiiO F3",
+        "slug": "fiio-f3",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "FiiO FA7",
+        "slug": "fiio-fa7",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "FiiO FA9",
+        "slug": "fiio-fa9",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "FiiO FH5",
+        "slug": "fiio-fh5",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "FiiO FH7S",
+        "slug": "fiio-fh7s",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Final Audio A8000",
+        "slug": "final-audio-a8000",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Final Audio Adagio III",
+        "slug": "final-audio-adagio-iii",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Final Audio E1000",
+        "slug": "final-audio-e1000",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Final Audio E3000",
+        "slug": "final-audio-e3000",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Final Audio E4000",
+        "slug": "final-audio-e4000",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Final Audio E500",
+        "slug": "final-audio-e500",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Final Audio E5000",
+        "slug": "final-audio-e5000",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Final Audio F3100",
+        "slug": "final-audio-f3100",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Final Audio Heaven IV",
+        "slug": "final-audio-heaven-iv",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Final Audio Heaven V",
+        "slug": "final-audio-heaven-v",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Grado GT220",
+        "slug": "grado-gt220",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "HIFIMAN RE600S",
+        "slug": "hifiman-re600s",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Hidition Viento (bass)",
+        "slug": "hidition-viento-bass",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Huawei Freebuds 4i",
+        "slug": "huawei-freebuds-4i",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Huawei Freebuds Pro 2",
+        "slug": "huawei-freebuds-pro-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "IKKO OH1",
+        "slug": "ikko-oh1",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "IKKO OH10",
+        "slug": "ikko-oh10",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "InEar ProPhile-8",
+        "slug": "inear-prophile-8",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "JBL Free X",
+        "slug": "jbl-free-x",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "JBL T200A",
+        "slug": "jbl-t200a",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "JVC HA-FW01",
+        "slug": "jvc-ha-fw01",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "JVC HA-FW10000",
+        "slug": "jvc-ha-fw10000",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "JVC HA-FW1800",
+        "slug": "jvc-ha-fw1800",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "JVC HA-FX7",
+        "slug": "jvc-ha-fx7",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Jabra Elite 7 Pro",
+        "slug": "jabra-elite-7-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Jabra Elite 75t",
+        "slug": "jabra-elite-75t",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Jabra Evolve 75e",
+        "slug": "jabra-evolve-75e",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "KZ ATE",
+        "slug": "kz-ate",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "KZ EDSE",
+        "slug": "kz-edse",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "KZ ES4",
+        "slug": "kz-es4",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "KZ ZS10",
+        "slug": "kz-zs10",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "KZ ZSN Pro X",
+        "slug": "kz-zsn-pro-x",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "KZ ZST",
+        "slug": "kz-zst",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Kiwi Ears Orchestra Lite",
+        "slug": "kiwi-ears-orchestra-lite",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "LZ Hi-Fi Audio Z05A",
+        "slug": "lz-hi-fi-audio-z05a",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Light Harmonic Mera",
+        "slug": "light-harmonic-mera",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Mackie MP-360",
+        "slug": "mackie-mp-360",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Massdrop Plus Universal IEM",
+        "slug": "massdrop-plus-universal-iem",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Meze Rai Penta",
+        "slug": "meze-rai-penta",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Meze Rai Solo",
+        "slug": "meze-rai-solo",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Monoprice M350",
+        "slug": "monoprice-m350",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Moondrop Aria",
+        "slug": "moondrop-aria",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Moondrop Blessing 2",
+        "slug": "moondrop-blessing-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Moondrop Blessing",
+        "slug": "moondrop-blessing",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Moondrop Chu",
+        "slug": "moondrop-chu",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Moondrop Crescent",
+        "slug": "moondrop-crescent",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Moondrop Quarks DSP",
+        "slug": "moondrop-quarks-dsp",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Moondrop Quarks",
+        "slug": "moondrop-quarks",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Moondrop Starfield",
+        "slug": "moondrop-starfield",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Moondrop Variations",
+        "slug": "moondrop-variations",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Moondrop x Crinacle Blessing2 Dusk",
+        "slug": "moondrop-x-crinacle-blessing2-dusk",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "NS Audio NS3",
+        "slug": "ns-audio-ns3",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Noble Audio K10 CIEM",
+        "slug": "noble-audio-k10-ciem",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Noble Audio XM-1",
+        "slug": "noble-audio-xm-1",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "NuForce EDC3",
+        "slug": "nuforce-edc3",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "NuForce Stride",
+        "slug": "nuforce-stride",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Oppo Enco X",
+        "slug": "oppo-enco-x",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Oppo Enco X2",
+        "slug": "oppo-enco-x2",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Panasonic RP-HJE120",
+        "slug": "panasonic-rp-hje120",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Periodic Audio Be",
+        "slug": "periodic-audio-be",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Periodic Audio Carbon",
+        "slug": "periodic-audio-carbon",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Philips SHE3855",
+        "slug": "philips-she3855",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Philips SHS8000",
+        "slug": "philips-shs8000",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "QKZ VK4",
+        "slug": "qkz-vk4",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Qudelix Qx-over",
+        "slug": "qudelix-qx-over",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Raptgo Hook-X",
+        "slug": "raptgo-hook-x",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Rock Zircon",
+        "slug": "rock-zircon",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Samsung AKG EO-IG955",
+        "slug": "samsung-akg-eo-ig955",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Samsung EO-IC500 ANC Type-C",
+        "slug": "samsung-eo-ic500-anc-type-c",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Samsung Galaxy Buds Pro",
+        "slug": "samsung-galaxy-buds-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Samsung Galaxy Buds",
+        "slug": "samsung-galaxy-buds",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Samsung Galaxy Buds2 Pro",
+        "slug": "samsung-galaxy-buds2-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Samsung Galaxy Buds2",
+        "slug": "samsung-galaxy-buds2",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser CX 2.00",
+        "slug": "sennheiser-cx-2.00",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser CX 3.00",
+        "slug": "sennheiser-cx-3.00",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser CX 400BT",
+        "slug": "sennheiser-cx-400bt",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser IE 200",
+        "slug": "sennheiser-ie-200",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser IE 4",
+        "slug": "sennheiser-ie-4",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser IE 40 Pro",
+        "slug": "sennheiser-ie-40-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser IE 400 Pro",
+        "slug": "sennheiser-ie-400-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser IE 600",
+        "slug": "sennheiser-ie-600",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser IE 80 S",
+        "slug": "sennheiser-ie-80-s",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser IE 800 S",
+        "slug": "sennheiser-ie-800-s",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser IE 800",
+        "slug": "sennheiser-ie-800",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser IE 900",
+        "slug": "sennheiser-ie-900",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser MOMENTUM True Wireless 4",
+        "slug": "sennheiser-momentum-true-wireless-4",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser Momentum In-Ear",
+        "slug": "sennheiser-momentum-in-ear",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser Momentum True Wireless 2",
+        "slug": "sennheiser-momentum-true-wireless-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser Momentum True Wireless 3",
+        "slug": "sennheiser-momentum-true-wireless-3",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser Momentum True Wireless",
+        "slug": "sennheiser-momentum-true-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sennheiser OCX 685",
+        "slug": "sennheiser-ocx-685",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Shuoer S12 Pro",
+        "slug": "shuoer-s12-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Shuoer S12",
+        "slug": "shuoer-s12",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Shuoer Tape",
+        "slug": "shuoer-tape",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Shure KSE1200",
+        "slug": "shure-kse1200",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Shure KSE1500",
+        "slug": "shure-kse1500",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Shure SE112",
+        "slug": "shure-se112",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Shure SE215",
+        "slug": "shure-se215",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Shure SE535",
+        "slug": "shure-se535",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Shure SE846 (white)",
+        "slug": "shure-se846-white",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Shure SE846",
+        "slug": "shure-se846",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Simgot Audio EW100P",
+        "slug": "simgot-audio-ew100p",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony IER-M7",
+        "slug": "sony-ier-m7",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony IER-M9",
+        "slug": "sony-ier-m9",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony IER-Z1R",
+        "slug": "sony-ier-z1r",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony MDR-7550",
+        "slug": "sony-mdr-7550",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony MDR-EX10",
+        "slug": "sony-mdr-ex10",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony MDR-EX15LP",
+        "slug": "sony-mdr-ex15lp",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony MDR-XB50",
+        "slug": "sony-mdr-xb50",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony MDR-XB80BS",
+        "slug": "sony-mdr-xb80bs",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony MH1",
+        "slug": "sony-mh1",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony MH750",
+        "slug": "sony-mh750",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony MH755",
+        "slug": "sony-mh755",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony PULSE Explore",
+        "slug": "sony-pulse-explore",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony WF-1000X",
+        "slug": "sony-wf-1000x",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony WF-1000XM3",
+        "slug": "sony-wf-1000xm3",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony WF-1000XM4",
+        "slug": "sony-wf-1000xm4",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony WF-1000XM5",
+        "slug": "sony-wf-1000xm5",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony WF-C500",
+        "slug": "sony-wf-c500",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony WF-XB700",
+        "slug": "sony-wf-xb700",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony WI-1000X",
+        "slug": "sony-wi-1000x",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony XBA-H3",
+        "slug": "sony-xba-h3",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony XBA-N1",
+        "slug": "sony-xba-n1",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Sony XBA-N3",
+        "slug": "sony-xba-n3",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "SoundMAGIC E50C",
+        "slug": "soundmagic-e50c",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Spiral Ear SE 5-Way Ultimate",
+        "slug": "spiral-ear-se-5-way-ultimate",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Stax SR-003MK2 (CES-A1)",
+        "slug": "stax-sr-003mk2-ces-a1",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Stax SR-003MK2",
+        "slug": "stax-sr-003mk2",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "TFZ T2 Galaxy",
+        "slug": "tfz-t2-galaxy",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "ThieAudio Monarch",
+        "slug": "thieaudio-monarch",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Tin HiFi P1",
+        "slug": "tin-hifi-p1",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Tin HiFi T2 (foam eartips)",
+        "slug": "tin-hifi-t2-foam-eartips",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Tin HiFi T2 (front vent mod)",
+        "slug": "tin-hifi-t2-front-vent-mod",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Tin HiFi T2 Plus",
+        "slug": "tin-hifi-t2-plus",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Tin HiFi T2",
+        "slug": "tin-hifi-t2",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Tin HiFi T3",
+        "slug": "tin-hifi-t3",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Tripowin Olina",
+        "slug": "tripowin-olina",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Truthear Gate",
+        "slug": "truthear-gate",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Truthear Hexa",
+        "slug": "truthear-hexa",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Truthear Nova",
+        "slug": "truthear-nova",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Truthear x Crinacle Zero RED",
+        "slug": "truthear-x-crinacle-zero-red",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Truthear x Crinacle Zero",
+        "slug": "truthear-x-crinacle-zero",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Ultimate Ears Reference Monitor",
+        "slug": "ultimate-ears-reference-monitor",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "V-MODA Zn",
+        "slug": "v-moda-zn",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "VSonic VS7",
+        "slug": "vsonic-vs7",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Vision Ears Elysium",
+        "slug": "vision-ears-elysium",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Vision Ears Erlkönig",
+        "slug": "vision-ears-erlkönig",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Vivo XE800",
+        "slug": "vivo-xe800",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Westone UM3X",
+        "slug": "westone-um3x",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Westone W10",
+        "slug": "westone-w10",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "Xiaomi Mi ANC",
+        "slug": "xiaomi-mi-anc",
+        "reviewer": "oratory1990",
+        "rig_folder": "in-ear",
+        "category": "in-ear"
+    },
+    {
+        "name": "1MORE SonoFlow",
+        "slug": "1more-sonoflow",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "1MORE Triple Driver Over Ear",
+        "slug": "1more-triple-driver-over-ear",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K240 MKII",
+        "slug": "akg-k240-mkii",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K240 Sextett (Dekoni Choice Leather DT earpads)",
+        "slug": "akg-k240-sextett-dekoni-choice-leather-dt-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K240 Sextett",
+        "slug": "akg-k240-sextett",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K240 Studio",
+        "slug": "akg-k240-studio",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K250",
+        "slug": "akg-k250",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K267",
+        "slug": "akg-k267",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K271 MKII",
+        "slug": "akg-k271-mkii",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K280 Parabolic",
+        "slug": "akg-k280-parabolic",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K361",
+        "slug": "akg-k361",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K371 (Brainwavz oval earpads)",
+        "slug": "akg-k371-brainwavz-oval-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K371",
+        "slug": "akg-k371",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K52",
+        "slug": "akg-k52",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K553",
+        "slug": "akg-k553",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K601 (Dekoni sheepskin earpads)",
+        "slug": "akg-k601-dekoni-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K601 (K701 earpads)",
+        "slug": "akg-k601-k701-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K601",
+        "slug": "akg-k601",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K612",
+        "slug": "akg-k612",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K701",
+        "slug": "akg-k701",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K702 (Brainwavz XL earpads)",
+        "slug": "akg-k702-brainwavz-xl-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K702 (Geekria earpads)",
+        "slug": "akg-k702-geekria-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K702 65th Anniversary Edition",
+        "slug": "akg-k702-65th-anniversary-edition",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K702",
+        "slug": "akg-k702",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K712 (Dekoni sheepskin Earpads)",
+        "slug": "akg-k712-dekoni-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K712",
+        "slug": "akg-k712",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K72",
+        "slug": "akg-k72",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K7XX",
+        "slug": "akg-k7xx",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K812",
+        "slug": "akg-k812",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K872",
+        "slug": "akg-k872",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG K92",
+        "slug": "akg-k92",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG N60 NC Wireless",
+        "slug": "akg-n60-nc-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG N700NC M2",
+        "slug": "akg-n700nc-m2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG Q701",
+        "slug": "akg-q701",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AKG Y50BT",
+        "slug": "akg-y50bt",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AUNE AR5000",
+        "slug": "aune-ar5000",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Abyss AB1-266 Phi TC",
+        "slug": "abyss-ab1-266-phi-tc",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Adam SP-5",
+        "slug": "adam-sp-5",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Advanced GT-R",
+        "slug": "advanced-gt-r",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Aiaiai TMA-2 HD Wireless",
+        "slug": "aiaiai-tma-2-hd-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Allen & Heath XD-53",
+        "slug": "allen-&-heath-xd-53",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Andover Audio PM-50 (medium squared earpads)",
+        "slug": "andover-audio-pm-50-medium-squared-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Andover Audio PM-50 (small rounded earpads)",
+        "slug": "andover-audio-pm-50-small-rounded-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Anker Soundcore Life Q30 (ANC off)",
+        "slug": "anker-soundcore-life-q30-anc-off",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Anker Soundcore Life Q30 (ANC on)",
+        "slug": "anker-soundcore-life-q30-anc-on",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Anker Soundcore Life Q35 (ANC off)",
+        "slug": "anker-soundcore-life-q35-anc-off",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Anker Soundcore Life Q35 (ANC on)",
+        "slug": "anker-soundcore-life-q35-anc-on",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Anker Soundcore Life Q35 (wired, passive)",
+        "slug": "anker-soundcore-life-q35-wired,-passive",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Anker Soundcore Space One",
+        "slug": "anker-soundcore-space-one",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Anker Soundcore Space Q45 (ANC on)",
+        "slug": "anker-soundcore-space-q45-anc-on",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Anker Soundcore Space Q45 (wired, passive)",
+        "slug": "anker-soundcore-space-q45-wired,-passive",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Apple AirPods Max (3rd party pleather earpads)",
+        "slug": "apple-airpods-max-3rd-party-pleather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Apple AirPods Max",
+        "slug": "apple-airpods-max",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze CRBN",
+        "slug": "audeze-crbn",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-1",
+        "slug": "audeze-lcd-1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-2 (Fazor)",
+        "slug": "audeze-lcd-2-fazor",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-2 (pre-2017)",
+        "slug": "audeze-lcd-2-pre-2017",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-2 Classic",
+        "slug": "audeze-lcd-2-classic",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-2 Closed Back",
+        "slug": "audeze-lcd-2-closed-back",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-2",
+        "slug": "audeze-lcd-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-24",
+        "slug": "audeze-lcd-24",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-3",
+        "slug": "audeze-lcd-3",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-4",
+        "slug": "audeze-lcd-4",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-4z",
+        "slug": "audeze-lcd-4z",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-5",
+        "slug": "audeze-lcd-5",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-GX",
+        "slug": "audeze-lcd-gx",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-MX4",
+        "slug": "audeze-lcd-mx4",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-R",
+        "slug": "audeze-lcd-r",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-X (2021)",
+        "slug": "audeze-lcd-x-2021",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-X (Dekoni sheepskin Earpads)",
+        "slug": "audeze-lcd-x-dekoni-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-X (pre-2021)",
+        "slug": "audeze-lcd-x-pre-2021",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-XC (pre-2021)",
+        "slug": "audeze-lcd-xc-pre-2021",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze LCD-XC",
+        "slug": "audeze-lcd-xc",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze MM-100",
+        "slug": "audeze-mm-100",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze MM-500",
+        "slug": "audeze-mm-500",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze Mobius (default preset)",
+        "slug": "audeze-mobius-default-preset",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze SINE (Cipher cable)",
+        "slug": "audeze-sine-cipher-cable",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze SINE (MSR-7 earpads)",
+        "slug": "audeze-sine-msr-7-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audeze SINE",
+        "slug": "audeze-sine",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio Zenith PMx2 (v1)",
+        "slug": "audio-zenith-pmx2-v1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio Zenith PMx2 (v2)",
+        "slug": "audio-zenith-pmx2-v2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-A2000Z",
+        "slug": "audio-technica-ath-a2000z",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-AD500X",
+        "slug": "audio-technica-ath-ad500x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-AD700X",
+        "slug": "audio-technica-ath-ad700x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-ADX5000",
+        "slug": "audio-technica-ath-adx5000",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-AWKT",
+        "slug": "audio-technica-ath-awkt",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-M20x",
+        "slug": "audio-technica-ath-m20x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-M40x",
+        "slug": "audio-technica-ath-m40x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-M50x (Dekoni sheepskin earpads)",
+        "slug": "audio-technica-ath-m50x-dekoni-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-M50x (Massdrop velours earpads)",
+        "slug": "audio-technica-ath-m50x-massdrop-velours-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-M50x",
+        "slug": "audio-technica-ath-m50x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-M60x",
+        "slug": "audio-technica-ath-m60x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-M70x",
+        "slug": "audio-technica-ath-m70x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-MSR7b",
+        "slug": "audio-technica-ath-msr7b",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-R50x",
+        "slug": "audio-technica-ath-r50x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-R70x",
+        "slug": "audio-technica-ath-r70x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-R70xa",
+        "slug": "audio-technica-ath-r70xa",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AudioQuest NightHawk",
+        "slug": "audioquest-nighthawk",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "AudioQuest NightOwl",
+        "slug": "audioquest-nightowl",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Aurorus Borealis",
+        "slug": "aurorus-borealis",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Austrian Audio Hi-X15",
+        "slug": "austrian-audio-hi-x15",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Austrian Audio Hi-X55",
+        "slug": "austrian-audio-hi-x55",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Austrian Audio Hi-X60",
+        "slug": "austrian-audio-hi-x60",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Austrian Audio Hi-X65",
+        "slug": "austrian-audio-hi-x65",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Austrian Audio The Composer (minimal setting)",
+        "slug": "austrian-audio-the-composer-minimal-setting",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Austrian Audio The Composer (standard setting)",
+        "slug": "austrian-audio-the-composer-standard-setting",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Avantone Planar",
+        "slug": "avantone-planar",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bang & Olufsen Beoplay H9",
+        "slug": "bang-&-olufsen-beoplay-h9",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bang & Olufsen Beoplay H95",
+        "slug": "bang-&-olufsen-beoplay-h95",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bang & Olufsen Beoplay H9i",
+        "slug": "bang-&-olufsen-beoplay-h9i",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beats Pro",
+        "slug": "beats-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beats Solo Pro",
+        "slug": "beats-solo-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beats Studio3 Wireless",
+        "slug": "beats-studio3-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic Amiron Home",
+        "slug": "beyerdynamic-amiron-home",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic Amiron Wireless (Bluetooth)",
+        "slug": "beyerdynamic-amiron-wireless-bluetooth",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic Amiron Wireless (wired)",
+        "slug": "beyerdynamic-amiron-wireless-wired",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic Aventho Wireless",
+        "slug": "beyerdynamic-aventho-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic Custom One Pro Plus (step 3)",
+        "slug": "beyerdynamic-custom-one-pro-plus-step-3",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 1770 (leatherette earpads)",
+        "slug": "beyerdynamic-dt-1770-leatherette-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 1770 (velour earpads)",
+        "slug": "beyerdynamic-dt-1770-velour-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 177X Go (leather earpads)",
+        "slug": "beyerdynamic-dt-177x-go-leather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 177X Go (velour earpads)",
+        "slug": "beyerdynamic-dt-177x-go-velour-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 1990 (analytic earpads)",
+        "slug": "beyerdynamic-dt-1990-analytic-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 1990 (balanced earpads)",
+        "slug": "beyerdynamic-dt-1990-balanced-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 240",
+        "slug": "beyerdynamic-dt-240",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 250 (250 Ohm)",
+        "slug": "beyerdynamic-dt-250-250-ohm",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 250 (80 Ohm)",
+        "slug": "beyerdynamic-dt-250-80-ohm",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 700 Pro X",
+        "slug": "beyerdynamic-dt-700-pro-x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 770 (Alpha earpads)",
+        "slug": "beyerdynamic-dt-770-alpha-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 770 M",
+        "slug": "beyerdynamic-dt-770-m",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 770 Pro (Dekoni hybrid earpads)",
+        "slug": "beyerdynamic-dt-770-pro-dekoni-hybrid-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 770 Pro (worn earpads)",
+        "slug": "beyerdynamic-dt-770-pro-worn-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 770 Pro",
+        "slug": "beyerdynamic-dt-770-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 880 (worn earpads)",
+        "slug": "beyerdynamic-dt-880-worn-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 880 2003 Edition",
+        "slug": "beyerdynamic-dt-880-2003-edition",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 880 Black Edition",
+        "slug": "beyerdynamic-dt-880-black-edition",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 880 Edition (600 Ohm)",
+        "slug": "beyerdynamic-dt-880-edition-600-ohm",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 880",
+        "slug": "beyerdynamic-dt-880",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 900 Pro X",
+        "slug": "beyerdynamic-dt-900-pro-x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 990 (fresh earpads)",
+        "slug": "beyerdynamic-dt-990-fresh-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 990 (worn earpads)",
+        "slug": "beyerdynamic-dt-990-worn-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT 990 Pro",
+        "slug": "beyerdynamic-dt-990-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT1990 (Dekoni Elite velour earpads)",
+        "slug": "beyerdynamic-dt1990-dekoni-elite-velour-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DT770 Pro X Limited Edition",
+        "slug": "beyerdynamic-dt770-pro-x-limited-edition",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic DTX 350p",
+        "slug": "beyerdynamic-dtx-350p",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic ET1000",
+        "slug": "beyerdynamic-et1000",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic Lagoon",
+        "slug": "beyerdynamic-lagoon",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic MMX 300 (Dekoni Choice leather earpads)",
+        "slug": "beyerdynamic-mmx-300-dekoni-choice-leather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic MMX 300",
+        "slug": "beyerdynamic-mmx-300",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic MMX100",
+        "slug": "beyerdynamic-mmx100",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic MMX150",
+        "slug": "beyerdynamic-mmx150",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic T1 (2nd Gen)",
+        "slug": "beyerdynamic-t1-2nd-gen",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic T1 (3rd Gen)",
+        "slug": "beyerdynamic-t1-3rd-gen",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic T5 (3rd Gen)",
+        "slug": "beyerdynamic-t5-3rd-gen",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic T70",
+        "slug": "beyerdynamic-t70",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beyerdynamic TYGR 300",
+        "slug": "beyerdynamic-tygr-300",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bose Noise Cancelling Headphones 700",
+        "slug": "bose-noise-cancelling-headphones-700",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bose QuietComfort 25",
+        "slug": "bose-quietcomfort-25",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bose QuietComfort 45",
+        "slug": "bose-quietcomfort-45",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bowers & Wilkins P5",
+        "slug": "bowers-&-wilkins-p5",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bowers & Wilkins Px7 S2",
+        "slug": "bowers-&-wilkins-px7-s2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bowers & Wilkins Px7 S2e",
+        "slug": "bowers-&-wilkins-px7-s2e",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bowers & Wilkins Px8",
+        "slug": "bowers-&-wilkins-px8",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Cleer Next",
+        "slug": "cleer-next",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Cooler Master MH752",
+        "slug": "cooler-master-mh752",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Creative Aurvana Live! 2",
+        "slug": "creative-aurvana-live!-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Creative Aurvana Live!",
+        "slug": "creative-aurvana-live!",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Creative Sound Blasterx H6 (analog input)",
+        "slug": "creative-sound-blasterx-h6-analog-input",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dali IO-4",
+        "slug": "dali-io-4",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dali IO-6",
+        "slug": "dali-io-6",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Aeon 2 Closed (perforated earpads)",
+        "slug": "dan-clark-audio-aeon-2-closed-perforated-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Aeon 2 Closed",
+        "slug": "dan-clark-audio-aeon-2-closed",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Aeon 2 Noire",
+        "slug": "dan-clark-audio-aeon-2-noire",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Aeon 2 Open",
+        "slug": "dan-clark-audio-aeon-2-open",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Aeon Closed RT",
+        "slug": "dan-clark-audio-aeon-closed-rt",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Aeon Flow Closed",
+        "slug": "dan-clark-audio-aeon-flow-closed",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Aeon Open",
+        "slug": "dan-clark-audio-aeon-open",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Aeon X Closed",
+        "slug": "dan-clark-audio-aeon-x-closed",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Aeon X Open",
+        "slug": "dan-clark-audio-aeon-x-open",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio E3",
+        "slug": "dan-clark-audio-e3",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio EXPANSE",
+        "slug": "dan-clark-audio-expanse",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Ether 2",
+        "slug": "dan-clark-audio-ether-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Ether C Flow 1.1",
+        "slug": "dan-clark-audio-ether-c-flow-1.1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Ether C Flow",
+        "slug": "dan-clark-audio-ether-c-flow",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Ether C",
+        "slug": "dan-clark-audio-ether-c",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Ether CX",
+        "slug": "dan-clark-audio-ether-cx",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Ether Flow 1.1",
+        "slug": "dan-clark-audio-ether-flow-1.1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Ether Flow",
+        "slug": "dan-clark-audio-ether-flow",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Noire X",
+        "slug": "dan-clark-audio-noire-x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dan Clark Audio Stealth",
+        "slug": "dan-clark-audio-stealth",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Denon AH-D5200",
+        "slug": "denon-ah-d5200",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Denon AH-D7200",
+        "slug": "denon-ah-d7200",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Denon AH-D9200",
+        "slug": "denon-ah-d9200",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Dyson Zone",
+        "slug": "dyson-zone",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "E-Mu Teak",
+        "slug": "e-mu-teak",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "ETA Mini Closed",
+        "slug": "eta-mini-closed",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "ETA Mini Semi-Closed (with ring dampeners installed)",
+        "slug": "eta-mini-semi-closed-with-ring-dampeners-installed",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "ETA Mini Semi-Closed",
+        "slug": "eta-mini-semi-closed",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "EarFun Wave",
+        "slug": "earfun-wave",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Emotiva Airmotiv GR1",
+        "slug": "emotiva-airmotiv-gr1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Fairphone Fairbuds XL",
+        "slug": "fairphone-fairbuds-xl",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "FiiO FT1 Pro",
+        "slug": "fiio-ft1-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "FiiO FT1",
+        "slug": "fiio-ft1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "FiiO FT3 (pleather earpads)",
+        "slug": "fiio-ft3-pleather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "FiiO FT3 (suede earpads)",
+        "slug": "fiio-ft3-suede-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "FiiO FT5 (pleather earpads)",
+        "slug": "fiio-ft5-pleather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "FiiO FT5 (suede earpads)",
+        "slug": "fiio-ft5-suede-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Final Audio D8000 Pro Edition",
+        "slug": "final-audio-d8000-pro-edition",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Final Audio Sonorous IV (A-type earpads)",
+        "slug": "final-audio-sonorous-iv-a-type-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Final Audio UX3000 (Bluetooth, ANC on)",
+        "slug": "final-audio-ux3000-bluetooth,-anc-on",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Azurys",
+        "slug": "focal-azurys",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Bathys",
+        "slug": "focal-bathys",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Celestee",
+        "slug": "focal-celestee",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Clear Mg",
+        "slug": "focal-clear-mg",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Clear",
+        "slug": "focal-clear",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Elear",
+        "slug": "focal-elear",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Elegia",
+        "slug": "focal-elegia",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Elex",
+        "slug": "focal-elex",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Hadenys",
+        "slug": "focal-hadenys",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Radiance",
+        "slug": "focal-radiance",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Spirit Classic",
+        "slug": "focal-spirit-classic",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Stellia",
+        "slug": "focal-stellia",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Utopia (Dekoni fenestrated Sheepskin Earpads)",
+        "slug": "focal-utopia-dekoni-fenestrated-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Utopia (Dekoni sheepskin Earpads)",
+        "slug": "focal-utopia-dekoni-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Utopia 2022",
+        "slug": "focal-utopia-2022",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focal Utopia",
+        "slug": "focal-utopia",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Focusrite HP60 (Scarlett Studio)",
+        "slug": "focusrite-hp60-scarlett-studio",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Fostex T-X0",
+        "slug": "fostex-t-x0",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Fostex T40RP Mk3",
+        "slug": "fostex-t40rp-mk3",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Fostex TH-X00 (ebony)",
+        "slug": "fostex-th-x00-ebony",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Fostex TH-X00 (mahogany)",
+        "slug": "fostex-th-x00-mahogany",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Fostex TH-X00 (purpleheart)",
+        "slug": "fostex-th-x00-purpleheart",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Fostex TH500RP",
+        "slug": "fostex-th500rp",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Fostex TH610 (Dekoni fenestrated Sheepskin Earpads)",
+        "slug": "fostex-th610-dekoni-fenestrated-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Fostex TH900mk2 (anniversary tuning)",
+        "slug": "fostex-th900mk2-anniversary-tuning",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Fostex TH900mk2",
+        "slug": "fostex-th900mk2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Fostex TH909",
+        "slug": "fostex-th909",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Gold Planar GL2000",
+        "slug": "gold-planar-gl2000",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Grado GW100",
+        "slug": "grado-gw100",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Grado Hemp",
+        "slug": "grado-hemp",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Grado SR325x",
+        "slug": "grado-sr325x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Grado SR60e",
+        "slug": "grado-sr60e",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Grado SR60x",
+        "slug": "grado-sr60x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HEDD HEDDphone",
+        "slug": "hedd-heddphone",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HEDD Heddphone 2",
+        "slug": "hedd-heddphone-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Ananda Nano",
+        "slug": "hifiman-ananda-nano",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Ananda Stealth",
+        "slug": "hifiman-ananda-stealth",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Ananda",
+        "slug": "hifiman-ananda",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Arya Organic",
+        "slug": "hifiman-arya-organic",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Arya Stealth Magnet Version",
+        "slug": "hifiman-arya-stealth-magnet-version",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Arya",
+        "slug": "hifiman-arya",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Audivina",
+        "slug": "hifiman-audivina",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Deva (wired)",
+        "slug": "hifiman-deva-wired",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Deva (wireless)",
+        "slug": "hifiman-deva-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Deva Pro",
+        "slug": "hifiman-deva-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Edition S (closed back)",
+        "slug": "hifiman-edition-s-closed-back",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Edition S (open back)",
+        "slug": "hifiman-edition-s-open-back",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Edition X V2",
+        "slug": "hifiman-edition-x-v2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Edition X",
+        "slug": "hifiman-edition-x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Edition XS",
+        "slug": "hifiman-edition-xs",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Edition XX",
+        "slug": "hifiman-edition-xx",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE-R9",
+        "slug": "hifiman-he-r9",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE-X4",
+        "slug": "hifiman-he-x4",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE1000 Stealth",
+        "slug": "hifiman-he1000-stealth",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE1000 V2",
+        "slug": "hifiman-he1000-v2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE1000se",
+        "slug": "hifiman-he1000se",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE350",
+        "slug": "hifiman-he350",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE35X",
+        "slug": "hifiman-he35x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE400i (2016)",
+        "slug": "hifiman-he400i-2016",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE400i (2020)",
+        "slug": "hifiman-he400i-2020",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE400se",
+        "slug": "hifiman-he400se",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE4XX",
+        "slug": "hifiman-he4xx",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE560",
+        "slug": "hifiman-he560",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE5XX",
+        "slug": "hifiman-he5xx",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE6",
+        "slug": "hifiman-he6",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE6se V2",
+        "slug": "hifiman-he6se-v2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN HE6se",
+        "slug": "hifiman-he6se",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Jade II",
+        "slug": "hifiman-jade-ii",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Shangri-La Jr",
+        "slug": "hifiman-shangri-la-jr",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Shangri-La",
+        "slug": "hifiman-shangri-la",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Sundara (Dekoni sheepskin Earpads)",
+        "slug": "hifiman-sundara-dekoni-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Sundara (post-2020 earpads)",
+        "slug": "hifiman-sundara-post-2020-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Sundara (pre-2020 earpads)",
+        "slug": "hifiman-sundara-pre-2020-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HIFIMAN Sundara Closed-Back",
+        "slug": "hifiman-sundara-closed-back",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HarmonicDyne G200 (velour earpads)",
+        "slug": "harmonicdyne-g200-velour-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HarmonicDyne Zeus",
+        "slug": "harmonicdyne-zeus",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "House of Marley Positive Vibration 2",
+        "slug": "house-of-marley-positive-vibration-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HyperX Cloud Alpha",
+        "slug": "hyperx-cloud-alpha",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "HyperX Cloud II",
+        "slug": "hyperx-cloud-ii",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "JBL Duet NC (ANC Off)",
+        "slug": "jbl-duet-nc-anc-off",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "JBL Duet NC (ANC On)",
+        "slug": "jbl-duet-nc-anc-on",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "JBL T450BT",
+        "slug": "jbl-t450bt",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Jabra Evolve 40",
+        "slug": "jabra-evolve-40",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "KLH Ultimate One",
+        "slug": "klh-ultimate-one",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Kennerton Magister",
+        "slug": "kennerton-magister",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Kingsound KS-H04",
+        "slug": "kingsound-ks-h04",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Koss ESP95X",
+        "slug": "koss-esp95x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Koss KPH30i (Grado GS1000 earpads)",
+        "slug": "koss-kph30i-grado-gs1000-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Koss KPH30i",
+        "slug": "koss-kph30i",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Koss KPH40",
+        "slug": "koss-kph40",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Koss KSC75",
+        "slug": "koss-ksc75",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Koss KSC75X (Yaxi earpads)",
+        "slug": "koss-ksc75x-yaxi-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Koss Porta Pro (Yaxi earpads)",
+        "slug": "koss-porta-pro-yaxi-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Koss Porta Pro",
+        "slug": "koss-porta-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Lindy HF-100",
+        "slug": "lindy-hf-100",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Lioncast X55",
+        "slug": "lioncast-x55",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Logitech G433",
+        "slug": "logitech-g433",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Logitech G930",
+        "slug": "logitech-g930",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Mackie MC-250",
+        "slug": "mackie-mc-250",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Mark Levinson No 5909",
+        "slug": "mark-levinson-no-5909",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Massdrop Panda",
+        "slug": "massdrop-panda",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Master & Dynamic MH40",
+        "slug": "master-&-dynamic-mh40",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze 105 Aer",
+        "slug": "meze-105-aer",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze 109 Pro",
+        "slug": "meze-109-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze 99 Classics (Brainwavz memory foam hybrid earpads)",
+        "slug": "meze-99-classics-brainwavz-memory-foam-hybrid-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze 99 Classics",
+        "slug": "meze-99-classics",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze 99 Neo",
+        "slug": "meze-99-neo",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze 99 Noir",
+        "slug": "meze-99-noir",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze Elite (alcantara earpads)",
+        "slug": "meze-elite-alcantara-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze Elite (hybrid earpads)",
+        "slug": "meze-elite-hybrid-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze Empyrean (alcantara earpads)",
+        "slug": "meze-empyrean-alcantara-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze Empyrean (leather earpads)",
+        "slug": "meze-empyrean-leather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze Empyrean 2 (Duo earpads)",
+        "slug": "meze-empyrean-2-duo-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze Liric 2",
+        "slug": "meze-liric-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Meze Liric",
+        "slug": "meze-liric",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Microsoft Surface Headphones",
+        "slug": "microsoft-surface-headphones",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Modhouse Audio Tungsten (hybrid earpads)",
+        "slug": "modhouse-audio-tungsten-hybrid-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Modhouse Audio Tungsten (perforated earpads)",
+        "slug": "modhouse-audio-tungsten-perforated-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Monoprice M1060",
+        "slug": "monoprice-m1060",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Monoprice M1570 (leather earpads)",
+        "slug": "monoprice-m1570-leather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Monoprice M1570 (velour earpads)",
+        "slug": "monoprice-m1570-velour-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Monoprice M1570C (leather earpads)",
+        "slug": "monoprice-m1570c-leather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Monoprice M1570C (velours earpads)",
+        "slug": "monoprice-m1570c-velours-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Monoprice M650",
+        "slug": "monoprice-m650",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Monoprice Modern Retro (Dekoni elite hybrid earpads)",
+        "slug": "monoprice-modern-retro-dekoni-elite-hybrid-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Monoprice Modern Retro",
+        "slug": "monoprice-modern-retro",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Moondrop Para",
+        "slug": "moondrop-para",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Moondrop Venus",
+        "slug": "moondrop-venus",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "NAD VISO HP50",
+        "slug": "nad-viso-hp50",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Nectar Hive",
+        "slug": "nectar-hive",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Neumann NDH20",
+        "slug": "neumann-ndh20",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Neumann NDH30",
+        "slug": "neumann-ndh30",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "OLLO S4R 1.1",
+        "slug": "ollo-s4r-1.1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "OLLO S4R",
+        "slug": "ollo-s4r",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "ORA GrapheneQ",
+        "slug": "ora-grapheneq",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Onkyo A800",
+        "slug": "onkyo-a800",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Oppo PM2",
+        "slug": "oppo-pm2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Oppo PM3 (Aliexpress earpads)",
+        "slug": "oppo-pm3-aliexpress-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Oppo PM3 (Aliexpress leather earpads)",
+        "slug": "oppo-pm3-aliexpress-leather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Oppo PM3",
+        "slug": "oppo-pm3",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "PSB M4U 8",
+        "slug": "psb-m4u-8",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Peerless MB PMB 85 Double Action",
+        "slug": "peerless-mb-pmb-85-double-action",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Philips Fidelio L2",
+        "slug": "philips-fidelio-l2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Philips Fidelio M1",
+        "slug": "philips-fidelio-m1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Philips Fidelio M2L",
+        "slug": "philips-fidelio-m2l",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Philips Fidelio NC1",
+        "slug": "philips-fidelio-nc1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Philips Fidelio X2HR",
+        "slug": "philips-fidelio-x2hr",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Philips Fidelio X3",
+        "slug": "philips-fidelio-x3",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Philips SHP9500",
+        "slug": "philips-shp9500",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Plantronics 325T",
+        "slug": "plantronics-325t",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Ploopy Ploopy Headphones",
+        "slug": "ploopy-ploopy-headphones",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "QUAD Era-1",
+        "slug": "quad-era-1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "RAAL CA1a (open earpads)",
+        "slug": "raal-ca1a-open-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "RAAL SR1a",
+        "slug": "raal-sr1a",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Ritmix RH-508",
+        "slug": "ritmix-rh-508",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Rosson Audio Design RAD-0",
+        "slug": "rosson-audio-design-rad-0",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "RØDE NTH-100",
+        "slug": "røde-nth-100",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sash Tres 45 (closed back, leather earpads)",
+        "slug": "sash-tres-45-closed-back,-leather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sash Tres 45 (open back, leather earpads)",
+        "slug": "sash-tres-45-open-back,-leather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sash Tres 45 (perforated leather earpads)",
+        "slug": "sash-tres-45-perforated-leather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sash Tres 45 (velour earpads)",
+        "slug": "sash-tres-45-velour-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sendy Aiva",
+        "slug": "sendy-aiva",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sendy Peacock",
+        "slug": "sendy-peacock",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser ACCENTUM Plus",
+        "slug": "sennheiser-accentum-plus",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser ACCENTUM",
+        "slug": "sennheiser-accentum",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser GAME ONE",
+        "slug": "sennheiser-game-one",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 280 Pro",
+        "slug": "sennheiser-hd-280-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 4.50 BTNC",
+        "slug": "sennheiser-hd-4.50-btnc",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 450BT",
+        "slug": "sennheiser-hd-450bt",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 505",
+        "slug": "sennheiser-hd-505",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 515",
+        "slug": "sennheiser-hd-515",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 518",
+        "slug": "sennheiser-hd-518",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 540 reference-II",
+        "slug": "sennheiser-hd-540-reference-ii",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 550",
+        "slug": "sennheiser-hd-550",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 555",
+        "slug": "sennheiser-hd-555",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 559",
+        "slug": "sennheiser-hd-559",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 560S",
+        "slug": "sennheiser-hd-560s",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 569",
+        "slug": "sennheiser-hd-569",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 580 precision",
+        "slug": "sennheiser-hd-580-precision",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 58X (Brainwavz microsuede oval earpads)",
+        "slug": "sennheiser-hd-58x-brainwavz-microsuede-oval-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 58X",
+        "slug": "sennheiser-hd-58x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 598 CS",
+        "slug": "sennheiser-hd-598-cs",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 598",
+        "slug": "sennheiser-hd-598",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 599",
+        "slug": "sennheiser-hd-599",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 600",
+        "slug": "sennheiser-hd-600",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 620S",
+        "slug": "sennheiser-hd-620s",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 630VB",
+        "slug": "sennheiser-hd-630vb",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 650",
+        "slug": "sennheiser-hd-650",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 660 S",
+        "slug": "sennheiser-hd-660-s",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 660S (Dekoni Fenestrated Sheepskin Earpads)",
+        "slug": "sennheiser-hd-660s-dekoni-fenestrated-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 660S2",
+        "slug": "sennheiser-hd-660s2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 6XX",
+        "slug": "sennheiser-hd-6xx",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 700 (Dekoni elite velours earpads)",
+        "slug": "sennheiser-hd-700-dekoni-elite-velours-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 700",
+        "slug": "sennheiser-hd-700",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 800 (SDR mod)",
+        "slug": "sennheiser-hd-800-sdr-mod",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 800 (SDR mod, Dekoni fenestrated sheepskin earpads)",
+        "slug": "sennheiser-hd-800-sdr-mod,-dekoni-fenestrated-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 800 S (Dekoni fenestrated sheepskin earpads)",
+        "slug": "sennheiser-hd-800-s-dekoni-fenestrated-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 800 S (ZMF sheepskin earpads)",
+        "slug": "sennheiser-hd-800-s-zmf-sheepskin-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 800 S",
+        "slug": "sennheiser-hd-800-s",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 800",
+        "slug": "sennheiser-hd-800",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 820",
+        "slug": "sennheiser-hd-820",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD 8XX",
+        "slug": "sennheiser-hd-8xx",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD25-1 II (bad seal)",
+        "slug": "sennheiser-hd25-1-ii-bad-seal",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD25-1 II",
+        "slug": "sennheiser-hd25-1-ii",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD490 Pro (mixing earpads)",
+        "slug": "sennheiser-hd490-pro-mixing-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD490 Pro (producing earpads)",
+        "slug": "sennheiser-hd490-pro-producing-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HE 1 Orpheus 2",
+        "slug": "sennheiser-he-1-orpheus-2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HE 90 Orpheus",
+        "slug": "sennheiser-he-90-orpheus",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser Momentum 2.0 (wireless)",
+        "slug": "sennheiser-momentum-2.0-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser Momentum 3 Wireless",
+        "slug": "sennheiser-momentum-3-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser Momentum 4 Wireless",
+        "slug": "sennheiser-momentum-4-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser PC 373D",
+        "slug": "sennheiser-pc-373d",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser PC37X",
+        "slug": "sennheiser-pc37x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser PC38X (velour earpads)",
+        "slug": "sennheiser-pc38x-velour-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser PC38X",
+        "slug": "sennheiser-pc38x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser PX 100 II",
+        "slug": "sennheiser-px-100-ii",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser PXC 550-II Wireless",
+        "slug": "sennheiser-pxc-550-ii-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Shure AONIC 50",
+        "slug": "shure-aonic-50",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Shure SRH1540",
+        "slug": "shure-srh1540",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Shure SRH1840",
+        "slug": "shure-srh1840",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Shure SRH440",
+        "slug": "shure-srh440",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Shure SRH440A",
+        "slug": "shure-srh440a",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Shure SRH840",
+        "slug": "shure-srh840",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Shure SRH840A",
+        "slug": "shure-srh840a",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sivga Audio Phoenix",
+        "slug": "sivga-audio-phoenix",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sivga Audio Robin",
+        "slug": "sivga-audio-robin",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sivga Luan",
+        "slug": "sivga-luan",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sivga Oriole",
+        "slug": "sivga-oriole",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Skullcandy Grind Wireless",
+        "slug": "skullcandy-grind-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-1000X",
+        "slug": "sony-mdr-1000x",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-7506",
+        "slug": "sony-mdr-7506",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-CD900ST",
+        "slug": "sony-mdr-cd900st",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-F1",
+        "slug": "sony-mdr-f1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-MA900",
+        "slug": "sony-mdr-ma900",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-MV1",
+        "slug": "sony-mdr-mv1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-R10",
+        "slug": "sony-mdr-r10",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-Z1R",
+        "slug": "sony-mdr-z1r",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-Z7",
+        "slug": "sony-mdr-z7",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-Z7M2",
+        "slug": "sony-mdr-z7m2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-ZX310",
+        "slug": "sony-mdr-zx310",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony PULSE 3D",
+        "slug": "sony-pulse-3d",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony Pulse Elite",
+        "slug": "sony-pulse-elite",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony WH-1000XM2",
+        "slug": "sony-wh-1000xm2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony WH-1000XM3",
+        "slug": "sony-wh-1000xm3",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony WH-1000XM4",
+        "slug": "sony-wh-1000xm4",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony WH-1000XM5",
+        "slug": "sony-wh-1000xm5",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony WH-CH510",
+        "slug": "sony-wh-ch510",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony WH-H900N",
+        "slug": "sony-wh-h900n",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Status Audio BT One (wired)",
+        "slug": "status-audio-bt-one-wired",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Status Audio BT One (wireless)",
+        "slug": "status-audio-bt-one-wireless",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax Lambda Nova Basic",
+        "slug": "stax-lambda-nova-basic",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR Lambda Pro Classic (bad seal)",
+        "slug": "stax-sr-lambda-pro-classic-bad-seal",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-007",
+        "slug": "stax-sr-007",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-007A v2.9 (blu-tac mod)",
+        "slug": "stax-sr-007a-v2.9-blu-tac-mod",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-007A v2.9",
+        "slug": "stax-sr-007a-v2.9",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-009",
+        "slug": "stax-sr-009",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-009S",
+        "slug": "stax-sr-009s",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-404 (with perfect seal)",
+        "slug": "stax-sr-404-with-perfect-seal",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-404",
+        "slug": "stax-sr-404",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-404LE (with perfect seal)",
+        "slug": "stax-sr-404le-with-perfect-seal",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-404LE",
+        "slug": "stax-sr-404le",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-5 Gold",
+        "slug": "stax-sr-5-gold",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-L300 LTD (L700 earpads)",
+        "slug": "stax-sr-l300-ltd-l700-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-L300 LTD",
+        "slug": "stax-sr-l300-ltd",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-L500 (Vesper earpads)",
+        "slug": "stax-sr-l500-vesper-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-L500 (blu-tac mod)",
+        "slug": "stax-sr-l500-blu-tac-mod",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-L500",
+        "slug": "stax-sr-l500",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-L700 (blu-tac mod)",
+        "slug": "stax-sr-l700-blu-tac-mod",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-L700",
+        "slug": "stax-sr-l700",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-Lambda Pro Classic",
+        "slug": "stax-sr-lambda-pro-classic",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-Lambda Pro",
+        "slug": "stax-sr-lambda-pro",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-X1",
+        "slug": "stax-sr-x1",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Stax SR-X9000",
+        "slug": "stax-sr-x9000",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "SteelSeries Arctis Nova Pro Wireless (Bluetooth, ANC off)",
+        "slug": "steelseries-arctis-nova-pro-wireless-bluetooth,-anc-off",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "SteelSeries Arctis Nova Pro Wireless (Bluetooth, ANC on)",
+        "slug": "steelseries-arctis-nova-pro-wireless-bluetooth,-anc-on",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "SteelSeries Arctis Nova Pro Wireless (wired)",
+        "slug": "steelseries-arctis-nova-pro-wireless-wired",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Steven Slate Audio VSX (passive plugin inactive))",
+        "slug": "steven-slate-audio-vsx-passive-plugin-inactive",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux HD 651",
+        "slug": "superlux-hd-651",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux HD 660 Pro 150 Ohm",
+        "slug": "superlux-hd-660-pro-150-ohm",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux HD 660",
+        "slug": "superlux-hd-660",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux HD 662F (Brainwavz round XL pleather earpads)",
+        "slug": "superlux-hd-662f-brainwavz-round-xl-pleather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux HD 662F",
+        "slug": "superlux-hd-662f",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux HD 668B (velour earpads)",
+        "slug": "superlux-hd-668b-velour-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux HD 668B",
+        "slug": "superlux-hd-668b",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux HD 681 (velour earpads)",
+        "slug": "superlux-hd-681-velour-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux HD 681",
+        "slug": "superlux-hd-681",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux HD 681B (pleather earpads)",
+        "slug": "superlux-hd-681b-pleather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux HD 681B (velour earpads)",
+        "slug": "superlux-hd-681b-velour-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Superlux Hd 681B (Brainwavz round hybrid earpads)",
+        "slug": "superlux-hd-681b-brainwavz-round-hybrid-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "T+A Solitaire P",
+        "slug": "t+a-solitaire-p",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "T+A Solitaire PSE",
+        "slug": "t+a-solitaire-pse",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Takstar Pro 82",
+        "slug": "takstar-pro-82",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Teufel Real Z",
+        "slug": "teufel-real-z",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "ThieAudio ghost",
+        "slug": "thieaudio-ghost",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Thinksound ov21",
+        "slug": "thinksound-ov21",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Ultrasone Tribute 7",
+        "slug": "ultrasone-tribute-7",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "V-MODA Crossfade LP2",
+        "slug": "v-moda-crossfade-lp2",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "V-MODA M-200",
+        "slug": "v-moda-m-200",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Valco VMK20",
+        "slug": "valco-vmk20",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Verum One (ZMF Ori earpads)",
+        "slug": "verum-one-zmf-ori-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Verum One (leather earpads)",
+        "slug": "verum-one-leather-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Verum One",
+        "slug": "verum-one",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Warwick Acoustics Aperio",
+        "slug": "warwick-acoustics-aperio",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Warwick Acoustics Bravura",
+        "slug": "warwick-acoustics-bravura",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Warwick Acoustics Sonoma Model One",
+        "slug": "warwick-acoustics-sonoma-model-one",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Yamaha HPH-200",
+        "slug": "yamaha-hph-200",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Yamaha RH5Ma",
+        "slug": "yamaha-rh5ma",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Yamaha YH-5000SE",
+        "slug": "yamaha-yh-5000se",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Yamaha YH-E700A (ANC on)",
+        "slug": "yamaha-yh-e700a-anc-on",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "ZMF Atticus",
+        "slug": "zmf-atticus",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "ZMF Eikon (Protein earpads)",
+        "slug": "zmf-eikon-protein-earpads",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "ZMF Verite",
+        "slug": "zmf-verite",
+        "reviewer": "oratory1990",
+        "rig_folder": "over-ear",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bang & Olufsen Beoplay Earset 3i",
+        "slug": "bang-&-olufsen-beoplay-earset-3i",
+        "reviewer": "Rtings",
+        "rig_folder": "earbud/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bose Sport Open Earbuds",
+        "slug": "bose-sport-open-earbuds",
+        "reviewer": "Rtings",
+        "rig_folder": "earbud/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Jabra Steel",
+        "slug": "jabra-steel",
+        "reviewer": "Rtings",
+        "rig_folder": "earbud/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Plantronics Voyager 3200",
+        "slug": "plantronics-voyager-3200",
+        "reviewer": "Rtings",
+        "rig_folder": "earbud/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Shokz OpenRun Pro",
+        "slug": "shokz-openrun-pro",
+        "reviewer": "Rtings",
+        "rig_folder": "earbud/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony LinkBuds",
+        "slug": "sony-linkbuds",
+        "reviewer": "Rtings",
+        "rig_folder": "earbud/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "JBL Vibe Beam",
+        "slug": "jbl-vibe-beam",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/Bruel & Kjaer 5128",
+        "category": "over-ear"
+    },
+    {
+        "name": "Jabra Elite 8 Active",
+        "slug": "jabra-elite-8-active",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/Bruel & Kjaer 5128",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beats Flex",
+        "slug": "beats-flex",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beats Powerbeats3 Wireless",
+        "slug": "beats-powerbeats3-wireless",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Beats urBeats",
+        "slug": "beats-urbeats",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Cambridge Audio Melomania 1",
+        "slug": "cambridge-audio-melomania-1",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "EarFun Air Pro",
+        "slug": "earfun-air-pro",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Google Pixel Buds (2017)",
+        "slug": "google-pixel-buds-2017",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "JBL Live Free NC+ TWS",
+        "slug": "jbl-live-free-nc+-tws",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "JBL Live Pro+ TWS",
+        "slug": "jbl-live-pro+-tws",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "JBL Tune 130NC TWS",
+        "slug": "jbl-tune-130nc-tws",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "JLab Audio GO Air POP",
+        "slug": "jlab-audio-go-air-pop",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Jabra Elite 25e",
+        "slug": "jabra-elite-25e",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Jabra Elite 85t",
+        "slug": "jabra-elite-85t",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Jaybird X3",
+        "slug": "jaybird-x3",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "MEE Audio X6 Plus",
+        "slug": "mee-audio-x6-plus",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "OnePlus Buds Z",
+        "slug": "oneplus-buds-z",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "RHA TrueConnect",
+        "slug": "rha-trueconnect",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "SENSO ActivBuds S-250",
+        "slug": "senso-activbuds-s-250",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Samsung U Flex",
+        "slug": "samsung-u-flex",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser CX Plus True Wireless",
+        "slug": "sennheiser-cx-plus-true-wireless",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Skullcandy Jib",
+        "slug": "skullcandy-jib",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony WF-SP700N",
+        "slug": "sony-wf-sp700n",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony WI-XB400",
+        "slug": "sony-wi-xb400",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Symphonized NRG 3.0",
+        "slug": "symphonized-nrg-3.0",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Tranya T10",
+        "slug": "tranya-t10",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Ultimate Ears FITS",
+        "slug": "ultimate-ears-fits",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Wyze Buds Pro",
+        "slug": "wyze-buds-pro",
+        "reviewer": "Rtings",
+        "rig_folder": "in-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "HyperX Cloud III Wireless",
+        "slug": "hyperx-cloud-iii-wireless",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/Bruel & Kjaer 5128",
+        "category": "over-ear"
+    },
+    {
+        "name": "JBL Live 670NC",
+        "slug": "jbl-live-670nc",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/Bruel & Kjaer 5128",
+        "category": "over-ear"
+    },
+    {
+        "name": "Razer BlackShark V2 HyperSpeed",
+        "slug": "razer-blackshark-v2-hyperspeed",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/Bruel & Kjaer 5128",
+        "category": "over-ear"
+    },
+    {
+        "name": "SteelSeries Arctis Nova Pro",
+        "slug": "steelseries-arctis-nova-pro",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/Bruel & Kjaer 5128",
+        "category": "over-ear"
+    },
+    {
+        "name": "Turtle Beach Stealth 500",
+        "slug": "turtle-beach-stealth-500",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/Bruel & Kjaer 5128",
+        "category": "over-ear"
+    },
+    {
+        "name": "Audio-Technica ATH-DSR9BT",
+        "slug": "audio-technica-ath-dsr9bt",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "BlueParrott B450-XT",
+        "slug": "blueparrott-b450-xt",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bluedio T4 Turbine",
+        "slug": "bluedio-t4-turbine",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bose QuietComfort 35",
+        "slug": "bose-quietcomfort-35",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bose SoundTrue Around-Ear II",
+        "slug": "bose-soundtrue-around-ear-ii",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Bowers & Wilkins PX5",
+        "slug": "bowers-&-wilkins-px5",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Brainwavz HM5",
+        "slug": "brainwavz-hm5",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Corsair HS70 Wireless",
+        "slug": "corsair-hs70-wireless",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Corsair Void PRO RGB",
+        "slug": "corsair-void-pro-rgb",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Cowin E8",
+        "slug": "cowin-e8",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Creative Sound Blaster EVO ZxR",
+        "slug": "creative-sound-blaster-evo-zxr",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Diskin DH3",
+        "slug": "diskin-dh3",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "JBL E55BT",
+        "slug": "jbl-e55bt",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "JBL Quantum 400",
+        "slug": "jbl-quantum-400",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "JBL Quantum ONE",
+        "slug": "jbl-quantum-one",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Koss Porta Pro KTC",
+        "slug": "koss-porta-pro-ktc",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Koss QZPro",
+        "slug": "koss-qzpro",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Logitech G PRO X LIGHTSPEED",
+        "slug": "logitech-g-pro-x-lightspeed",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Logitech G430",
+        "slug": "logitech-g430",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Logitech G432",
+        "slug": "logitech-g432",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Logitech G933",
+        "slug": "logitech-g933",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Logitech Zone Wired",
+        "slug": "logitech-zone-wired",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Mpow 059",
+        "slug": "mpow-059",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Mpow CH6",
+        "slug": "mpow-ch6",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Philips SHP9600",
+        "slug": "philips-shp9600",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Razer Barracuda",
+        "slug": "razer-barracuda",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Razer Kraken Ultimate",
+        "slug": "razer-kraken-ultimate",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Razer Man O'War",
+        "slug": "razer-man-o'war",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Samsung Level On Wireless",
+        "slug": "samsung-level-on-wireless",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Samsung Level Over Wireless",
+        "slug": "samsung-level-over-wireless",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser HD1 Over-Ear",
+        "slug": "sennheiser-hd1-over-ear",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sennheiser PXC 250 II",
+        "slug": "sennheiser-pxc-250-ii",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Shure AONIC 50 Gen 2",
+        "slug": "shure-aonic-50-gen-2",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Skullcandy Crusher 360",
+        "slug": "skullcandy-crusher-360",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Skullcandy Riff Wireless 2",
+        "slug": "skullcandy-riff-wireless-2",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony MDR-XB950N1",
+        "slug": "sony-mdr-xb950n1",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Sony h.ear on",
+        "slug": "sony-h.ear-on",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "SteelSeries Arctis 7+",
+        "slug": "steelseries-arctis-7+",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "SteelSeries Arctis Nova 3",
+        "slug": "steelseries-arctis-nova-3",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Turtle Beach Recon 500",
+        "slug": "turtle-beach-recon-500",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Turtle Beach Stealth 700 Gen 2",
+        "slug": "turtle-beach-stealth-700-gen-2",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Turtle Beach Stealth Pro",
+        "slug": "turtle-beach-stealth-pro",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    },
+    {
+        "name": "Xbox Stereo Headset",
+        "slug": "xbox-stereo-headset",
+        "reviewer": "Rtings",
+        "rig_folder": "over-ear/HMS II.3",
+        "category": "over-ear"
+    }
+]

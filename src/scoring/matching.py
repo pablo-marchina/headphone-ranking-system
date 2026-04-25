@@ -1,34 +1,30 @@
 import numpy as np
-from src.constants import JND_MATCH
+from src.constants import JND_MATCH, EPSILON
 
-def calculate_matching_error(left_mags, right_mags):
-    """
-    Calcula o erro de matching entre os canais Esquerdo e Direito.
-    
-    Parâmetros:
-    - left_mags: Resposta de frequência do canal esquerdo (suavizada/ERB).
-    - right_mags: Resposta de frequência do canal direito (suavizada/ERB).
-    
-    Retorna:
-    - Escalar do erro de matching. 0 é o equilíbrio perfeito.
-    """
-    if len(left_mags) != len(right_mags):
-        raise ValueError("Os canais L e R devem ter o mesmo número de pontos.")
 
-    # Diferença absoluta entre os canais em cada ponto da escala ERB
+def calculate_matching_error(left_mags, right_mags, fr_mags):
+    """
+    E_match(h) = Σ_e |L_h(e) − R_h(e)| · E_rel+(e) / JND_match · Δe
+
+    E_rel+(e) = max(0, FR(e) − mean(FR))
+        Energy weighting: L/R imbalances are perceptually more salient where
+        there is more signal (above the curve mean).
+        Normalised to [0, 1] so the weight bonus doesn't inflate the scale.
+
+    Δe constant on uniform ERB grid → absorbed into mean().
+
+    Parameters
+    ----------
+    left_mags, right_mags : 1-D arrays — ERB-interpolated, smoothed channel FRs
+    fr_mags               : 1-D array  — mean (L+R)/2 reference curve
+    """
     diff = np.abs(left_mags - right_mags)
-    
-    # Normaliza pelo JND de matching
-    perceptual_diff = diff / JND_MATCH
-    
-    # Retorna a média do erro
-    return np.mean(perceptual_diff)
 
-if __name__ == "__main__":
-    # Teste: Um lado está 1dB acima do outro em todo o espectro
-    L = np.array([11, 11, 11])
-    R = np.array([10, 10, 10])
-    
-    erro = calculate_matching_error(L, R)
-    print(f"Erro de Matching (E_match): {erro:.2f}")
-    # Com JND=0.5, o resultado esperado é 2.0 (pois 1.0dB é o dobro do limiar)
+    # Regions energetically above the mean carry extra perceptual weight
+    e_rel_plus = np.maximum(0.0, fr_mags - np.mean(fr_mags))
+    max_val    = np.max(e_rel_plus)
+    e_rel_norm = e_rel_plus / max_val if max_val > 0 else np.zeros_like(e_rel_plus)
+
+    # Weight = 1 (baseline everywhere) + [0,1] bonus in energetic bands
+    weighted = diff * (1.0 + e_rel_norm)
+    return float(np.mean(weighted / JND_MATCH))

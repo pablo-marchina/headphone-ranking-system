@@ -2,13 +2,14 @@ import os
 import json
 import time
 import pandas as pd
-import numpy as np
 from pipeline import run_evaluation_pipeline
-from src.collectors.autoeq import fetch_autoeq_data
-from src.collectors.targets import get_harman_target
-from src.collectors.rtings import fetch_rtings_metrics
+from src.collectors.autoeq       import fetch_autoeq_data
+from src.collectors.targets      import get_harman_target, detect_category
+from src.collectors.rtings       import fetch_rtings_metrics
 from src.collectors.mercadolivre import fetch_br_prices_list
 from src.preprocessing.price_cleaner import clean_price_data
+from src.scoring.final_score     import rank_scores
+
 
 def load_mapping():
     path = "data/name_mapping.json"
@@ -17,60 +18,83 @@ def load_mapping():
             return json.load(f)
     return {}
 
-def build_huge_dataset(limit=None):
-    # Carregar dados
-    with open("data/headphone_library.json", "r", encoding="utf-8") as f:
-        full_library = json.load(f)
-    
-    name_map = load_mapping()
-    target_f, target_m = get_harman_target()
-    results = []
 
-    to_process = full_library[:limit] if limit else full_library
-    print(f"Iniciando Dataset para {len(to_process)} fones...")
+def build_dataset(limit=None):
+    with open("data/headphone_library.json", "r", encoding="utf-8") as f:
+        library = json.load(f)
+
+    name_map   = load_mapping()
+    results    = []
+    to_process = library[:limit] if limit else library
+
+    print(f"Iniciando dataset para {len(to_process)} fones...\n")
 
     for i, item in enumerate(to_process):
         name = item['name']
-        slug = name_map.get(name) or item['slug'] # Usa o mapa ou o slug padrão
-        
-        print(f"[{i+1}/{len(to_process)}] Processando: {name}")
-        
-        try:
-            # 1. Dados Técnicos
-            freqs, mags = fetch_autoeq_data(name)
-            if freqs is None: continue
-            
-            rtings = fetch_rtings_metrics(slug)
-            
-            # 2. Preço Limpo
-            raw_prices = fetch_br_prices_list(name)
-            price = clean_price_data(raw_prices, name)
+        slug = name_map.get(name) or item.get('slug', '')
+        print(f"[{i+1}/{len(to_process)}] {name}")
 
-            # 3. Score via Pipeline
-            score = run_evaluation_pipeline(
-                name=name, raw_freqs=freqs, raw_mags=mags,
-                target_freqs=target_f, target_mags=target_m,
-                thd_data=rtings['thd'] if rtings else 0.5
+        try:
+            # 1. Acoustic data — use exact rig_folder from library
+            sources = fetch_autoeq_data(name, library_entry=item)
+            if not sources:
+                print("  Sem dados acústicos — pulando.\n")
+                continue
+
+            # 2. Category-appropriate Harman target
+            category = detect_category(name)
+            t_f, t_m = get_harman_target(category)
+
+            # 3. THD from RTINGS (optional)
+            rtings = fetch_rtings_metrics(slug) if slug else None
+            thd    = rtings['thd'] if rtings else None
+
+            # 4. Price from Mercado Livre API
+            raw_prices = fetch_br_prices_list(name)
+            price      = clean_price_data(raw_prices, name)
+
+            # 5. Full pipeline
+            result = run_evaluation_pipeline(
+                name=name,
+                sources_data=sources,
+                target_freqs=t_f,
+                target_mags=t_m,
+                thd_data=thd,
+                price=price,
             )
 
-            # 4. Salvar resultado
-            results.append({
-                "Modelo": name,
-                "Nota_Tecnica": round(score, 2),
-                "Preco_BRL": round(price, 2) if price else None,
-                "Custo_Beneficio": round((score**2 / np.log10(price)), 2) if price else None
-            })
-            
-            time.sleep(2) # Pausa ética
+            if result:
+                result['category'] = category
+                results.append(result)
+                score_str = f"{result['score']}" if result['score'] else "N/A (sem preço)"
+                print(f"  ✓ Score={score_str} | E_total={result['e_total']} "
+                      f"| w_conf={result['w_conf']} | P=R${price}\n")
 
         except Exception as e:
-            print(f"Erro em {name}: {e}")
+            print(f"  ✗ Erro: {e}\n")
 
-    df = pd.DataFrame(results).sort_values(by="Nota_Tecnica", ascending=False)
-    if not os.path.exists('output'): os.makedirs('output')
-    df.to_csv("output/dataset_final.csv", index=False, encoding='utf-8-sig')
-    print("Dataset concluído em output/dataset_final.csv")
+        time.sleep(1.5)   # responsible rate limiting
+
+    # --- Rank and export ---
+    ranked = rank_scores(results)
+
+    # Column order for the CSV
+    cols = [
+        'rank', 'name', 'category', 'score', 'percentile',
+        'e_total', 'e_fr', 'e_thd', 'e_match',
+        'e_unc', 'w_conf', 'price_brl',
+        'n_sources', 'thd_available', 'match_available',
+    ]
+    df = pd.DataFrame(ranked)
+    # Keep only columns that exist
+    df = df[[c for c in cols if c in df.columns]]
+
+    os.makedirs('output', exist_ok=True)
+    df.to_csv("output/ranking.csv", index=False, encoding='utf-8-sig')
+    print(f"\nDataset concluído: {len(ranked)} fones rankeados → output/ranking.csv")
+    return df
+
 
 if __name__ == "__main__":
-    # Teste com 10 fones primeiro
-    build_huge_dataset(limit=10)
+    # Smoke-test with 10 headphones first
+    build_dataset(limit=10)

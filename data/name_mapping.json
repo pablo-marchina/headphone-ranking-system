@@ -1,0 +1,1630 @@
+[
+    {
+        "autoeq_name": "1MORE Piston Classic",
+        "rtings_slug": "1more/piston-classic"
+    },
+    {
+        "autoeq_name": "1MORE Piston Fit",
+        "rtings_slug": "1more/piston-fit"
+    },
+    {
+        "autoeq_name": "1MORE Quad Driver",
+        "rtings_slug": "1more/quad-driver"
+    },
+    {
+        "autoeq_name": "1MORE Triple Driver",
+        "rtings_slug": "1more/triple-driver"
+    },
+    {
+        "autoeq_name": "1MORE Triple Driver Over Ear",
+        "rtings_slug": "1more/triple-driver"
+    },
+    {
+        "autoeq_name": "7Hz Timeless",
+        "rtings_slug": "7hz/timeless"
+    },
+    {
+        "autoeq_name": "7Hz Timeless AE",
+        "rtings_slug": "7hz/timeless"
+    },
+    {
+        "autoeq_name": "7Hz Timeless II",
+        "rtings_slug": "7hz/timeless"
+    },
+    {
+        "autoeq_name": "7Hz Timeless II (bullet gold nozzle)",
+        "rtings_slug": "7hz/timeless"
+    },
+    {
+        "autoeq_name": "7Hz Timeless II (bullet silver nozzle)",
+        "rtings_slug": "7hz/timeless"
+    },
+    {
+        "autoeq_name": "7Hz Timeless II (flat gold nozzle)",
+        "rtings_slug": "7hz/timeless"
+    },
+    {
+        "autoeq_name": "7Hz Timeless II (flat silver nozzle)",
+        "rtings_slug": "7hz/timeless"
+    },
+    {
+        "autoeq_name": "AKG K240 MKII",
+        "rtings_slug": "akg/k240-mkii"
+    },
+    {
+        "autoeq_name": "AKG K361",
+        "rtings_slug": "akg/k361"
+    },
+    {
+        "autoeq_name": "AKG K371",
+        "rtings_slug": "akg/k371"
+    },
+    {
+        "autoeq_name": "AKG K44",
+        "rtings_slug": "akg/k44"
+    },
+    {
+        "autoeq_name": "AKG K701",
+        "rtings_slug": "akg/k701"
+    },
+    {
+        "autoeq_name": "AKG K701 (sample A)",
+        "rtings_slug": "akg/k701"
+    },
+    {
+        "autoeq_name": "AKG K701 (sample B)",
+        "rtings_slug": "akg/k701"
+    },
+    {
+        "autoeq_name": "AKG K702",
+        "rtings_slug": "akg/k702"
+    },
+    {
+        "autoeq_name": "AKG K702 65th Anniversary Edition",
+        "rtings_slug": "akg/k702"
+    },
+    {
+        "autoeq_name": "AKG K712 PRO",
+        "rtings_slug": "akg/k712-pro"
+    },
+    {
+        "autoeq_name": "AKG N60 NC Wireless",
+        "rtings_slug": "akg/n60nc-wireless"
+    },
+    {
+        "autoeq_name": "AKG Q701",
+        "rtings_slug": "akg/q701"
+    },
+    {
+        "autoeq_name": "AKG Q701 Quincy Jones",
+        "rtings_slug": "akg/q701"
+    },
+    {
+        "autoeq_name": "ASTRO Gaming A10",
+        "rtings_slug": "astro/a10"
+    },
+    {
+        "autoeq_name": "ASTRO Gaming A10 (Gen 2)",
+        "rtings_slug": "astro/a10"
+    },
+    {
+        "autoeq_name": "ASUS ROG Cetra True Wireless SpeedNova",
+        "rtings_slug": "asus/rog-cetra-true-wireless-speednova"
+    },
+    {
+        "autoeq_name": "Aiaiai TMA-2 DJ",
+        "rtings_slug": "aiaiai/tma-2-dj"
+    },
+    {
+        "autoeq_name": "AmazonBasics Lightweight On Ear",
+        "rtings_slug": "amazonbasics/lightweight-on-ear"
+    },
+    {
+        "autoeq_name": "Anker SoundBuds Curve Upgraded 2019",
+        "rtings_slug": "anker/soundbuds-curve-upgraded-2019"
+    },
+    {
+        "autoeq_name": "Apple EarPods",
+        "rtings_slug": "apple/earpods"
+    },
+    {
+        "autoeq_name": "Audeze LCD-1",
+        "rtings_slug": "audeze/lcd-1"
+    },
+    {
+        "autoeq_name": "Audeze LCD-1 (2009)",
+        "rtings_slug": "audeze/lcd-1"
+    },
+    {
+        "autoeq_name": "Audeze LCD-X",
+        "rtings_slug": "audeze/lcd-x"
+    },
+    {
+        "autoeq_name": "Audeze LCD-X (sample 3)",
+        "rtings_slug": "audeze/lcd-x"
+    },
+    {
+        "autoeq_name": "Audeze LCD-X (serial number 7454971)",
+        "rtings_slug": "audeze/lcd-x"
+    },
+    {
+        "autoeq_name": "Audeze LCD-X (serial number 7456406)",
+        "rtings_slug": "audeze/lcd-x"
+    },
+    {
+        "autoeq_name": "Audeze LCD-XC",
+        "rtings_slug": "audeze/lcd-x"
+    },
+    {
+        "autoeq_name": "Audeze LCD-XC (sample 1)",
+        "rtings_slug": "audeze/lcd-x"
+    },
+    {
+        "autoeq_name": "Audeze LCD-XC (sample 2)",
+        "rtings_slug": "audeze/lcd-x"
+    },
+    {
+        "autoeq_name": "Audeze MM-100",
+        "rtings_slug": "audeze/mm-100"
+    },
+    {
+        "autoeq_name": "Audeze MM-500",
+        "rtings_slug": "audeze/mm-500"
+    },
+    {
+        "autoeq_name": "Audeze Mobius",
+        "rtings_slug": "audeze/mobius"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-ADX3000",
+        "rtings_slug": "audio-technica/ath-adx3000"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-ANC23",
+        "rtings_slug": "audio-technica/ath-anc23"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-ANC33iS",
+        "rtings_slug": "audio-technica/ath-anc33is"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-ANC70",
+        "rtings_slug": "audio-technica/ath-anc70"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-ANC7B",
+        "rtings_slug": "audio-technica/ath-anc7b"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-ANC7b",
+        "rtings_slug": "audio-technica/ath-anc7b"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-ANC9",
+        "rtings_slug": "audio-technica/ath-anc9"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-M20x",
+        "rtings_slug": "audio-technica/ath-m20x"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-M30x",
+        "rtings_slug": "audio-technica/ath-m30x"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-M40x",
+        "rtings_slug": "audio-technica/ath-m40x"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-M50x",
+        "rtings_slug": "audio-technica/ath-m50x"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-M50xBT",
+        "rtings_slug": "audio-technica/ath-m50x"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-M50xBT2",
+        "rtings_slug": "audio-technica/ath-m50x"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-M60x",
+        "rtings_slug": "audio-technica/ath-m60x"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-M70x",
+        "rtings_slug": "audio-technica/ath-m70x"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-MSR7NC",
+        "rtings_slug": "audio-technica/ath-msr7nc"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-MSR7NC (ANC on)",
+        "rtings_slug": "audio-technica/ath-msr7nc"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-MSR7NC (passive)",
+        "rtings_slug": "audio-technica/ath-msr7nc"
+    },
+    {
+        "autoeq_name": "Audio-Technica ATH-R70x",
+        "rtings_slug": "audio-technica/ath-r70x"
+    },
+    {
+        "autoeq_name": "BGVP DM6",
+        "rtings_slug": "bgvp/dm6"
+    },
+    {
+        "autoeq_name": "Bang & Olufsen Beoplay Earset 3i",
+        "rtings_slug": "bang-olufsen/earset-3i"
+    },
+    {
+        "autoeq_name": "Bang & Olufsen Beoplay Earset Wireless",
+        "rtings_slug": "bang-olufsen/earset-wireless"
+    },
+    {
+        "autoeq_name": "Bang & Olufsen Beoplay H6",
+        "rtings_slug": "bang-olufsen/beoplay-h6"
+    },
+    {
+        "autoeq_name": "Bang & Olufsen Beoplay H6 (2nd Gen)",
+        "rtings_slug": "bang-olufsen/beoplay-h6"
+    },
+    {
+        "autoeq_name": "Bang & Olufsen Beoplay Portal",
+        "rtings_slug": "bang-olufsen/beoplay-portal"
+    },
+    {
+        "autoeq_name": "Beats PowerBeats Pro 2",
+        "rtings_slug": "beats/powerbeats-pro-2"
+    },
+    {
+        "autoeq_name": "Beats Powerbeats 2 Wireless",
+        "rtings_slug": "beats/powerbeats2-wireless"
+    },
+    {
+        "autoeq_name": "Beats Powerbeats3 Wireless",
+        "rtings_slug": "beats/powerbeats3-wireless"
+    },
+    {
+        "autoeq_name": "Beats Studio Wireless",
+        "rtings_slug": "beats/studio-wireless"
+    },
+    {
+        "autoeq_name": "Beats Studio3 Wireless",
+        "rtings_slug": "beats/studio3-wireless"
+    },
+    {
+        "autoeq_name": "Betron YSM1000",
+        "rtings_slug": "betron/ysm1000"
+    },
+    {
+        "autoeq_name": "Beyerdynamic Amiron Wireless",
+        "rtings_slug": "beyerdynamic/amiron-wireless"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 1990 Pro MKII",
+        "rtings_slug": "beyerdynamic/dt-1990-pro-mkii"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 700 Pro X",
+        "rtings_slug": "beyerdynamic/dt-700-pro-x"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 770 Pro",
+        "rtings_slug": "beyerdynamic/dt-770-pro"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 770 Pro (250 Ohm)",
+        "rtings_slug": "beyerdynamic/dt-770-pro"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 770 Pro (32 Ohm)",
+        "rtings_slug": "beyerdynamic/dt-770-pro"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 770 Pro (32 ohm Limited Edition, pleather earpads)",
+        "rtings_slug": "beyerdynamic/dt-770-pro"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 770 Pro (600 Ohm)",
+        "rtings_slug": "beyerdynamic/dt-770-pro"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 770 Pro (80 Ohm)",
+        "rtings_slug": "beyerdynamic/dt-770-pro"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 880",
+        "rtings_slug": "beyerdynamic/dt-880"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 880 (250 Ohm)",
+        "rtings_slug": "beyerdynamic/dt-880"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 880 (32 Ohm)",
+        "rtings_slug": "beyerdynamic/dt-880"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 880 (600 Ohm)",
+        "rtings_slug": "beyerdynamic/dt-880"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 900 Pro X",
+        "rtings_slug": "beyerdynamic/dt-900-pro-x"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 990 Pro",
+        "rtings_slug": "beyerdynamic/dt-990-pro"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 990 Pro (250 Ohm)",
+        "rtings_slug": "beyerdynamic/dt-990-pro"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT 990 Pro Black Edition",
+        "rtings_slug": "beyerdynamic/dt-990-pro"
+    },
+    {
+        "autoeq_name": "Beyerdynamic DT770 Pro X Limited Edition",
+        "rtings_slug": "beyerdynamic/dt-770-pro"
+    },
+    {
+        "autoeq_name": "Bose QuietComfort 35 II Gaming Headset​",
+        "rtings_slug": "bose/quietcomfort-35-ii-gaming-headset"
+    },
+    {
+        "autoeq_name": "Bose SoundSport In-Ear",
+        "rtings_slug": "bose/soundsport-in-ear"
+    },
+    {
+        "autoeq_name": "Bose SoundSport Wireless",
+        "rtings_slug": "bose/soundsport-wireless"
+    },
+    {
+        "autoeq_name": "Bose SoundTrue Around-Ear II",
+        "rtings_slug": "bose/soundtrue-around-ear-ii"
+    },
+    {
+        "autoeq_name": "Bose SoundTrue Ultra In-Ear",
+        "rtings_slug": "bose/soundtrue-ultra-in-ear"
+    },
+    {
+        "autoeq_name": "Bowers & Wilkins P5 Series 2",
+        "rtings_slug": "bowers-wilkins/p5-series-2"
+    },
+    {
+        "autoeq_name": "Bowers & Wilkins P5 Wireless",
+        "rtings_slug": "bowers-wilkins/p5-wireless"
+    },
+    {
+        "autoeq_name": "Bowers & Wilkins PX7 S3 (ANC off, position1)",
+        "rtings_slug": "bowers-wilkins/px7-s3"
+    },
+    {
+        "autoeq_name": "Bowers & Wilkins PX7 S3 (ANC on, position 1)",
+        "rtings_slug": "bowers-wilkins/px7-s3"
+    },
+    {
+        "autoeq_name": "Bowers & Wilkins PX7 S3 (ANC on, position 2)",
+        "rtings_slug": "bowers-wilkins/px7-s3"
+    },
+    {
+        "autoeq_name": "Bowers & Wilkins PX7 S3 (ANC on, position 3)",
+        "rtings_slug": "bowers-wilkins/px7-s3"
+    },
+    {
+        "autoeq_name": "Bowers & Wilkins PX7 S3 (ANC on, position 4)",
+        "rtings_slug": "bowers-wilkins/px7-s3"
+    },
+    {
+        "autoeq_name": "Brainwavz HM5",
+        "rtings_slug": "brainwavz/hm5"
+    },
+    {
+        "autoeq_name": "CMF by Nothing Buds Pro 2",
+        "rtings_slug": "cmf/buds-pro-2"
+    },
+    {
+        "autoeq_name": "Cooler Master MH630",
+        "rtings_slug": "cooler-master/mh630"
+    },
+    {
+        "autoeq_name": "Cooler Master MH751",
+        "rtings_slug": "cooler-master/mh751"
+    },
+    {
+        "autoeq_name": "Corsair HS35",
+        "rtings_slug": "corsair/hs35"
+    },
+    {
+        "autoeq_name": "Corsair HS50",
+        "rtings_slug": "corsair/hs50"
+    },
+    {
+        "autoeq_name": "Corsair HS60",
+        "rtings_slug": "corsair/hs60"
+    },
+    {
+        "autoeq_name": "Corsair HS60 HAPTIC",
+        "rtings_slug": "corsair/hs60"
+    },
+    {
+        "autoeq_name": "Corsair HS60 PRO SURROUND",
+        "rtings_slug": "corsair/hs60"
+    },
+    {
+        "autoeq_name": "Corsair HS70 Bluetooth",
+        "rtings_slug": "corsair/hs70-bluetooth"
+    },
+    {
+        "autoeq_name": "Corsair HS70 Wireless",
+        "rtings_slug": "corsair/hs70-wireless"
+    },
+    {
+        "autoeq_name": "Corsair HS75 XB WIRELESS",
+        "rtings_slug": "corsair/hs75-xb-wireless"
+    },
+    {
+        "autoeq_name": "Corsair HS80 MAX WIRELESS",
+        "rtings_slug": "corsair/hs80-max-wireless"
+    },
+    {
+        "autoeq_name": "Corsair HS80 RGB WIRELESS",
+        "rtings_slug": "corsair/hs80-rgb-wireless"
+    },
+    {
+        "autoeq_name": "Corsair VIRTUOSO PRO",
+        "rtings_slug": "corsair/virtuoso-pro"
+    },
+    {
+        "autoeq_name": "Corsair VIRTUOSO RGB Wireless XT",
+        "rtings_slug": "corsair/virtuoso-rgb-wireless-xt"
+    },
+    {
+        "autoeq_name": "Corsair Virtuoso RGB Wireless SE",
+        "rtings_slug": "corsair/virtuoso-rgb-wireless-se"
+    },
+    {
+        "autoeq_name": "Corsair Void Elite",
+        "rtings_slug": "corsair/void-elite"
+    },
+    {
+        "autoeq_name": "Cougar Immersa",
+        "rtings_slug": "cougar/immersa"
+    },
+    {
+        "autoeq_name": "Creative Sound BlasterX H5",
+        "rtings_slug": "creative/sound-blasterx-h5"
+    },
+    {
+        "autoeq_name": "CrinEar Daybreak",
+        "rtings_slug": "crinear/daybreak"
+    },
+    {
+        "autoeq_name": "EPOS Sennheiser GSP 600",
+        "rtings_slug": "epos/sennheiser-gsp-600"
+    },
+    {
+        "autoeq_name": "Etymotic ER4XR",
+        "rtings_slug": "etymotic/er4xr"
+    },
+    {
+        "autoeq_name": "Etymotic ER4XR (2-flange eartips)",
+        "rtings_slug": "etymotic/er4xr"
+    },
+    {
+        "autoeq_name": "Etymotic ER4XR (3-flange eartips)",
+        "rtings_slug": "etymotic/er4xr"
+    },
+    {
+        "autoeq_name": "Etymotic ER4XR (foam eartips)",
+        "rtings_slug": "etymotic/er4xr"
+    },
+    {
+        "autoeq_name": "FiiO FT1 Pro",
+        "rtings_slug": "fiio/ft1-pro"
+    },
+    {
+        "autoeq_name": "Focal Azurys",
+        "rtings_slug": "focal/azurys"
+    },
+    {
+        "autoeq_name": "Focal Celestee",
+        "rtings_slug": "focal/celestee"
+    },
+    {
+        "autoeq_name": "Focal Clear Mg",
+        "rtings_slug": "focal/clear-mg"
+    },
+    {
+        "autoeq_name": "Focal Elear",
+        "rtings_slug": "focal/elear"
+    },
+    {
+        "autoeq_name": "Focal Elear (Utopia earpads)",
+        "rtings_slug": "focal/elear"
+    },
+    {
+        "autoeq_name": "Focal Elegia",
+        "rtings_slug": "focal/elegia"
+    },
+    {
+        "autoeq_name": "Focal Stellia",
+        "rtings_slug": "focal/stellia"
+    },
+    {
+        "autoeq_name": "Google Pixel USB-C Earbuds",
+        "rtings_slug": "google/pixel-usb-c-earbuds"
+    },
+    {
+        "autoeq_name": "Grado The Hemp Headphone",
+        "rtings_slug": "grado/the-hemp-headphone"
+    },
+    {
+        "autoeq_name": "HIFIMAN Ananda",
+        "rtings_slug": "hifiman/ananda"
+    },
+    {
+        "autoeq_name": "HIFIMAN Ananda BT",
+        "rtings_slug": "hifiman/ananda"
+    },
+    {
+        "autoeq_name": "HIFIMAN Ananda Nano",
+        "rtings_slug": "hifiman/ananda"
+    },
+    {
+        "autoeq_name": "HIFIMAN Arya",
+        "rtings_slug": "hifiman/arya"
+    },
+    {
+        "autoeq_name": "HIFIMAN Arya Organic",
+        "rtings_slug": "hifiman/arya"
+    },
+    {
+        "autoeq_name": "HIFIMAN Arya Stealth Magnet Version",
+        "rtings_slug": "hifiman/arya"
+    },
+    {
+        "autoeq_name": "HIFIMAN Arya Unveiled",
+        "rtings_slug": "hifiman/arya"
+    },
+    {
+        "autoeq_name": "HIFIMAN Edition X",
+        "rtings_slug": "hifiman/edition-x"
+    },
+    {
+        "autoeq_name": "HIFIMAN Edition X V2",
+        "rtings_slug": "hifiman/edition-x"
+    },
+    {
+        "autoeq_name": "HIFIMAN Edition XS",
+        "rtings_slug": "hifiman/edition-xs"
+    },
+    {
+        "autoeq_name": "HIFIMAN HE400i",
+        "rtings_slug": "hifiman/he-400i"
+    },
+    {
+        "autoeq_name": "HIFIMAN HE400se",
+        "rtings_slug": "hifiman/he400se"
+    },
+    {
+        "autoeq_name": "HIFIMAN HE400se (non-stealth magnet)",
+        "rtings_slug": "hifiman/he400se"
+    },
+    {
+        "autoeq_name": "HIFIMAN HE400se (stealth magnet)",
+        "rtings_slug": "hifiman/he400se"
+    },
+    {
+        "autoeq_name": "HyperX Cloud Alpha",
+        "rtings_slug": "hyperx/cloud-alpha"
+    },
+    {
+        "autoeq_name": "HyperX Cloud Alpha S",
+        "rtings_slug": "hyperx/cloud-alpha"
+    },
+    {
+        "autoeq_name": "HyperX Cloud Alpha Wireless",
+        "rtings_slug": "hyperx/cloud-alpha"
+    },
+    {
+        "autoeq_name": "HyperX Cloud Core",
+        "rtings_slug": "hyperx/cloud-core"
+    },
+    {
+        "autoeq_name": "HyperX Cloud Flight",
+        "rtings_slug": "hyperx/cloud-flight"
+    },
+    {
+        "autoeq_name": "HyperX Cloud Flight S",
+        "rtings_slug": "hyperx/cloud-flight"
+    },
+    {
+        "autoeq_name": "HyperX Cloud III",
+        "rtings_slug": "hyperx/cloud-iii"
+    },
+    {
+        "autoeq_name": "HyperX Cloud III Wireless",
+        "rtings_slug": "hyperx/cloud-iii"
+    },
+    {
+        "autoeq_name": "HyperX Cloud Revolver",
+        "rtings_slug": "hyperx/cloud-revolver"
+    },
+    {
+        "autoeq_name": "HyperX Cloud Revolver + 7.1",
+        "rtings_slug": "hyperx/cloud-revolver"
+    },
+    {
+        "autoeq_name": "HyperX Cloud Stinger",
+        "rtings_slug": "hyperx/cloud-stinger"
+    },
+    {
+        "autoeq_name": "HyperX Cloud Stinger 2",
+        "rtings_slug": "hyperx/cloud-stinger"
+    },
+    {
+        "autoeq_name": "HyperX Cloud Stinger S",
+        "rtings_slug": "hyperx/cloud-stinger-s"
+    },
+    {
+        "autoeq_name": "Insignia Digital Wireless Headphones",
+        "rtings_slug": "insignia/digital-wireless-headphones"
+    },
+    {
+        "autoeq_name": "JBL Quantum 100",
+        "rtings_slug": "jbl/quantum-100"
+    },
+    {
+        "autoeq_name": "JBL Quantum 400",
+        "rtings_slug": "jbl/quantum-400"
+    },
+    {
+        "autoeq_name": "JBL Quantum ONE",
+        "rtings_slug": "jbl/quantum-one"
+    },
+    {
+        "autoeq_name": "KZ AS10",
+        "rtings_slug": "kz/as10"
+    },
+    {
+        "autoeq_name": "KZ ZS10",
+        "rtings_slug": "kz/zs10"
+    },
+    {
+        "autoeq_name": "KZ ZS10 Pro",
+        "rtings_slug": "kz/zs10"
+    },
+    {
+        "autoeq_name": "KZ ZS10 Pro 2 (off-off-off-off)",
+        "rtings_slug": "kz/zs10"
+    },
+    {
+        "autoeq_name": "KZ ZS10 Pro 2 (off-off-off-on)",
+        "rtings_slug": "kz/zs10"
+    },
+    {
+        "autoeq_name": "KZ ZS10 Pro 2 (on-off-off-off)",
+        "rtings_slug": "kz/zs10"
+    },
+    {
+        "autoeq_name": "KZ ZS10 Pro 2 (on-on-off-off)",
+        "rtings_slug": "kz/zs10"
+    },
+    {
+        "autoeq_name": "KZ ZS10 Pro 2 (on-on-on-off)",
+        "rtings_slug": "kz/zs10"
+    },
+    {
+        "autoeq_name": "KZ ZS10 Pro 2 (on-on-on-on)",
+        "rtings_slug": "kz/zs10"
+    },
+    {
+        "autoeq_name": "KZ ZS10 Pro X",
+        "rtings_slug": "kz/zs10"
+    },
+    {
+        "autoeq_name": "KZ ZSN",
+        "rtings_slug": "kz/zsn"
+    },
+    {
+        "autoeq_name": "KZ ZSN Pro",
+        "rtings_slug": "kz/zsn"
+    },
+    {
+        "autoeq_name": "KZ ZST",
+        "rtings_slug": "kz/zst"
+    },
+    {
+        "autoeq_name": "Klipsch T5 II True Wireless ANC",
+        "rtings_slug": "klipsch/t5-ii-true-wireless-anc"
+    },
+    {
+        "autoeq_name": "Klipsch T5 II True Wireless Sport",
+        "rtings_slug": "klipsch/t5-ii-true-wireless-sport"
+    },
+    {
+        "autoeq_name": "Klipsch T5 True Wireless",
+        "rtings_slug": "klipsch/t5-true-wireless"
+    },
+    {
+        "autoeq_name": "Koss KSC75",
+        "rtings_slug": "koss/ksc75"
+    },
+    {
+        "autoeq_name": "Koss KSC75 (Venture Electronics earpads)",
+        "rtings_slug": "koss/ksc75"
+    },
+    {
+        "autoeq_name": "Koss Porta Pro KTC",
+        "rtings_slug": "koss/porta-pro-ktc"
+    },
+    {
+        "autoeq_name": "Koss Porta Pro Wireless",
+        "rtings_slug": "koss/porta-pro-wireless"
+    },
+    {
+        "autoeq_name": "Koss QZPro",
+        "rtings_slug": "koss/qzpro"
+    },
+    {
+        "autoeq_name": "Koss UR 20",
+        "rtings_slug": "koss/ur20"
+    },
+    {
+        "autoeq_name": "Koss UR20",
+        "rtings_slug": "koss/ur20"
+    },
+    {
+        "autoeq_name": "Logitech G Pro Gaming Headset",
+        "rtings_slug": "logitech/g-pro-gaming-headset"
+    },
+    {
+        "autoeq_name": "Logitech G Pro X Gaming Headset",
+        "rtings_slug": "logitech/g-pro-x-gaming-headset"
+    },
+    {
+        "autoeq_name": "Logitech G333",
+        "rtings_slug": "logitech/g333"
+    },
+    {
+        "autoeq_name": "Logitech G335",
+        "rtings_slug": "logitech/g335"
+    },
+    {
+        "autoeq_name": "Logitech G430",
+        "rtings_slug": "logitech/g430"
+    },
+    {
+        "autoeq_name": "Logitech G432",
+        "rtings_slug": "logitech/g432"
+    },
+    {
+        "autoeq_name": "Logitech G433",
+        "rtings_slug": "logitech/g433"
+    },
+    {
+        "autoeq_name": "Logitech G635",
+        "rtings_slug": "logitech/g635"
+    },
+    {
+        "autoeq_name": "Logitech Zone Wired",
+        "rtings_slug": "logitech/zone-wired"
+    },
+    {
+        "autoeq_name": "MEE Audio M6 Pro",
+        "rtings_slug": "mee-audio/m6-pro"
+    },
+    {
+        "autoeq_name": "MEE Audio M6 Pro 2nd Generation",
+        "rtings_slug": "mee-audio/m6-pro"
+    },
+    {
+        "autoeq_name": "MEE Audio Sport-Fi M6",
+        "rtings_slug": "mee-audio/sport-fi-m6"
+    },
+    {
+        "autoeq_name": "Massdrop + Grell OAE1 Signature",
+        "rtings_slug": "drop/grell-oae1"
+    },
+    {
+        "autoeq_name": "Meze Alba",
+        "rtings_slug": "meze/alba"
+    },
+    {
+        "autoeq_name": "Meze Empyrean",
+        "rtings_slug": "meze/empyrean"
+    },
+    {
+        "autoeq_name": "Meze Empyrean (alcantara earpads)",
+        "rtings_slug": "meze/empyrean"
+    },
+    {
+        "autoeq_name": "Meze Empyrean (leather earpads)",
+        "rtings_slug": "meze/empyrean"
+    },
+    {
+        "autoeq_name": "Meze Empyrean 2 (Duo earpads)",
+        "rtings_slug": "meze/empyrean"
+    },
+    {
+        "autoeq_name": "Meze Empyrean II (alcantara earpads)",
+        "rtings_slug": "meze/empyrean"
+    },
+    {
+        "autoeq_name": "Meze Empyrean II (duo earpads)",
+        "rtings_slug": "meze/empyrean"
+    },
+    {
+        "autoeq_name": "Monoprice 110010",
+        "rtings_slug": "monoprice/110010"
+    },
+    {
+        "autoeq_name": "Monster Inspiration",
+        "rtings_slug": "monster/inspiration"
+    },
+    {
+        "autoeq_name": "Moondrop Aria",
+        "rtings_slug": "moondrop/aria"
+    },
+    {
+        "autoeq_name": "Moondrop Aria 2",
+        "rtings_slug": "moondrop/aria"
+    },
+    {
+        "autoeq_name": "Moondrop Aria Elven Maiden",
+        "rtings_slug": "moondrop/aria"
+    },
+    {
+        "autoeq_name": "Moondrop Aria Snow Edition",
+        "rtings_slug": "moondrop/aria"
+    },
+    {
+        "autoeq_name": "Moondrop Blessing 3",
+        "rtings_slug": "moondrop/blessing-3"
+    },
+    {
+        "autoeq_name": "Moondrop KATO",
+        "rtings_slug": "moondrop/kato"
+    },
+    {
+        "autoeq_name": "Moondrop Kato (brass nozzle)",
+        "rtings_slug": "moondrop/kato"
+    },
+    {
+        "autoeq_name": "Moondrop Kato (gold nozzle)",
+        "rtings_slug": "moondrop/kato"
+    },
+    {
+        "autoeq_name": "Moondrop Kato (silver nozzle)",
+        "rtings_slug": "moondrop/kato"
+    },
+    {
+        "autoeq_name": "Moondrop Kato (steel nozzle)",
+        "rtings_slug": "moondrop/kato"
+    },
+    {
+        "autoeq_name": "Moondrop Space Travel 2",
+        "rtings_slug": "moondrop/space-travel-2"
+    },
+    {
+        "autoeq_name": "Moondrop Space Travel 2 (ANC off)",
+        "rtings_slug": "moondrop/space-travel-2"
+    },
+    {
+        "autoeq_name": "Moondrop Space Travel 2 (ANC on)",
+        "rtings_slug": "moondrop/space-travel-2"
+    },
+    {
+        "autoeq_name": "Moondrop Variations",
+        "rtings_slug": "moondrop/aria"
+    },
+    {
+        "autoeq_name": "Moondrop x Crinacle DUSK",
+        "rtings_slug": "moondrop/x-crinacle-dusk"
+    },
+    {
+        "autoeq_name": "Moondrop x Crinacle DUSK (Bass+ DSP)",
+        "rtings_slug": "moondrop/x-crinacle-dusk"
+    },
+    {
+        "autoeq_name": "Moondrop x Crinacle DUSK (Default DSP)",
+        "rtings_slug": "moondrop/x-crinacle-dusk"
+    },
+    {
+        "autoeq_name": "Moondrop x Crinacle DUSK (Diffuse-tilted DSP)",
+        "rtings_slug": "moondrop/x-crinacle-dusk"
+    },
+    {
+        "autoeq_name": "Moondrop x Crinacle DUSK (Harman DSP)",
+        "rtings_slug": "moondrop/x-crinacle-dusk"
+    },
+    {
+        "autoeq_name": "Moondrop x Crinacle DUSK (V DSP)",
+        "rtings_slug": "moondrop/x-crinacle-dusk"
+    },
+    {
+        "autoeq_name": "Moondrop x Crinacle DUSK (analog)",
+        "rtings_slug": "moondrop/x-crinacle-dusk"
+    },
+    {
+        "autoeq_name": "Motorola Squads 200",
+        "rtings_slug": "motorola/squads-200"
+    },
+    {
+        "autoeq_name": "Mpow CH1",
+        "rtings_slug": "mpow/ch1"
+    },
+    {
+        "autoeq_name": "Mpow CH6",
+        "rtings_slug": "mpow/ch6"
+    },
+    {
+        "autoeq_name": "NAD VISO HP50",
+        "rtings_slug": "nad/viso-hp50"
+    },
+    {
+        "autoeq_name": "Noble Audio Fokus Apollo (ANC off)",
+        "rtings_slug": "noble/fokus-apollo"
+    },
+    {
+        "autoeq_name": "Noble Audio Fokus Apollo (ANC on)",
+        "rtings_slug": "noble/fokus-apollo"
+    },
+    {
+        "autoeq_name": "Noble Audio Fokus Apollo (ANC on, review eq)",
+        "rtings_slug": "noble/fokus-apollo"
+    },
+    {
+        "autoeq_name": "Noble Audio Fokus Apollo (passive)",
+        "rtings_slug": "noble/fokus-apollo"
+    },
+    {
+        "autoeq_name": "Oppo PM3",
+        "rtings_slug": "oppo/pm-3"
+    },
+    {
+        "autoeq_name": "Oppo PM3 (sample A)",
+        "rtings_slug": "oppo/pm-3"
+    },
+    {
+        "autoeq_name": "Oppo PM3 (sample C)",
+        "rtings_slug": "oppo/pm-3"
+    },
+    {
+        "autoeq_name": "Panasonic RP-HC101",
+        "rtings_slug": "panasonic/rp-hc101"
+    },
+    {
+        "autoeq_name": "Panasonic RP-HC800",
+        "rtings_slug": "panasonic/rp-hc800"
+    },
+    {
+        "autoeq_name": "Philips Fidelio NC1",
+        "rtings_slug": "philips/fidelio-nc1"
+    },
+    {
+        "autoeq_name": "Philips Fidelio X2HR",
+        "rtings_slug": "philips/fidelio-x2hr"
+    },
+    {
+        "autoeq_name": "Philips Fidelio X3",
+        "rtings_slug": "philips/fidelio-x3"
+    },
+    {
+        "autoeq_name": "Philips SHP9500",
+        "rtings_slug": "philips/shp9500"
+    },
+    {
+        "autoeq_name": "Philips SHP9600",
+        "rtings_slug": "philips/shp9600"
+    },
+    {
+        "autoeq_name": "Polk Audio Buckle",
+        "rtings_slug": "polk-audio/buckle"
+    },
+    {
+        "autoeq_name": "Polk Audio UltraFocus 8000",
+        "rtings_slug": "polk-audio/ultrafocus-8000"
+    },
+    {
+        "autoeq_name": "Polk Audio UltraFocus 8000 NC",
+        "rtings_slug": "polk-audio/ultrafocus-8000"
+    },
+    {
+        "autoeq_name": "RUNMUS RGB K1 Gaming Headset",
+        "rtings_slug": "runmus/rgb-k1-gaming-headset"
+    },
+    {
+        "autoeq_name": "Razer BlackShark V2",
+        "rtings_slug": "razer/blackshark-v2"
+    },
+    {
+        "autoeq_name": "Razer BlackShark V2 HyperSpeed",
+        "rtings_slug": "razer/blackshark-v2"
+    },
+    {
+        "autoeq_name": "Razer BlackShark V2 Pro",
+        "rtings_slug": "razer/blackshark-v2"
+    },
+    {
+        "autoeq_name": "Razer BlackShark V2 Pro 2023",
+        "rtings_slug": "razer/blackshark-v2"
+    },
+    {
+        "autoeq_name": "Razer BlackShark V2 X",
+        "rtings_slug": "razer/blackshark-v2"
+    },
+    {
+        "autoeq_name": "Razer Hammerhead True Wireless Pro",
+        "rtings_slug": "razer/hammerhead-true-wireless-pro"
+    },
+    {
+        "autoeq_name": "Razer Hammerhead USB-C ANC",
+        "rtings_slug": "razer/hammerhead-usb-c-anc"
+    },
+    {
+        "autoeq_name": "Razer Kaira X",
+        "rtings_slug": "razer/kaira-x"
+    },
+    {
+        "autoeq_name": "Razer Kraken Pro V2",
+        "rtings_slug": "razer/kraken-pro-v2"
+    },
+    {
+        "autoeq_name": "Razer Kraken Tournament Edition",
+        "rtings_slug": "razer/kraken-tournament-edition"
+    },
+    {
+        "autoeq_name": "Razer Kraken USB",
+        "rtings_slug": "razer/kraken-usb"
+    },
+    {
+        "autoeq_name": "Razer Kraken Ultimate",
+        "rtings_slug": "razer/kraken-ultimate"
+    },
+    {
+        "autoeq_name": "Razer Kraken V3",
+        "rtings_slug": "razer/kraken-v3"
+    },
+    {
+        "autoeq_name": "Razer Kraken V3 HyperSense",
+        "rtings_slug": "razer/kraken-v3-hypersense"
+    },
+    {
+        "autoeq_name": "Razer Kraken V3 Pro",
+        "rtings_slug": "razer/kraken-v3"
+    },
+    {
+        "autoeq_name": "Razer Kraken V3 X",
+        "rtings_slug": "razer/kraken-v3-x"
+    },
+    {
+        "autoeq_name": "Razer Kraken X",
+        "rtings_slug": "razer/kraken-x"
+    },
+    {
+        "autoeq_name": "Razer Moray",
+        "rtings_slug": "razer/moray"
+    },
+    {
+        "autoeq_name": "SENSO ActivBuds S-250",
+        "rtings_slug": "senso/activbuds-s-250"
+    },
+    {
+        "autoeq_name": "SMS Audio Street by 50 Cent",
+        "rtings_slug": "sms-audio/street-by-50"
+    },
+    {
+        "autoeq_name": "Samson SR850",
+        "rtings_slug": "samson/sr850"
+    },
+    {
+        "autoeq_name": "Samsung Level On Wireless",
+        "rtings_slug": "samsung/level-on-wireless"
+    },
+    {
+        "autoeq_name": "Samsung Level Over Wireless",
+        "rtings_slug": "samsung/level-over-wireless"
+    },
+    {
+        "autoeq_name": "Sennheiser AMBEO Smart Headset",
+        "rtings_slug": "sennheiser/ambeo-smart-headset"
+    },
+    {
+        "autoeq_name": "Sennheiser CX Plus True Wireless",
+        "rtings_slug": "sennheiser/cx-plus-true-wireless"
+    },
+    {
+        "autoeq_name": "Sennheiser CX True Wireless",
+        "rtings_slug": "sennheiser/cx-true-wireless"
+    },
+    {
+        "autoeq_name": "Sennheiser CXC-700",
+        "rtings_slug": "sennheiser/cxc-700"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 201",
+        "rtings_slug": "sennheiser/hd-201"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 25",
+        "rtings_slug": "sennheiser/hd-25"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 25 Aluminum",
+        "rtings_slug": "sennheiser/hd-25"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 25-1",
+        "rtings_slug": "sennheiser/hd-25"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 25-1 II",
+        "rtings_slug": "sennheiser/hd-25"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 25-1 II B (2012)",
+        "rtings_slug": "sennheiser/hd-25"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 25-SP",
+        "rtings_slug": "sennheiser/hd-25"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 250 II",
+        "rtings_slug": "sennheiser/hd-25"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 4.50 BTNC",
+        "rtings_slug": "sennheiser/hd-4-50-btnc"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 490 Pro",
+        "rtings_slug": "sennheiser/hd-490-pro"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 518",
+        "rtings_slug": "sennheiser/hd-518"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 560S",
+        "rtings_slug": "sennheiser/hd-560s"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 560S (worn earpads)",
+        "rtings_slug": "sennheiser/hd-560s"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 598",
+        "rtings_slug": "sennheiser/hd-598"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 598 CS",
+        "rtings_slug": "sennheiser/hd-598"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 599",
+        "rtings_slug": "sennheiser/hd-599"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 600",
+        "rtings_slug": "sennheiser/hd-600"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 600 (2020)",
+        "rtings_slug": "sennheiser/hd-600"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 620S",
+        "rtings_slug": "sennheiser/hd-620s"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 650",
+        "rtings_slug": "sennheiser/hd-650"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 650 (balanced)",
+        "rtings_slug": "sennheiser/hd-650"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 660 S",
+        "rtings_slug": "sennheiser/hd-660-s"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 660S2",
+        "rtings_slug": "sennheiser/hd-660s2"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 6XX",
+        "rtings_slug": "sennheiser/hd-6xx"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 700",
+        "rtings_slug": "sennheiser/hd-700"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 800 S",
+        "rtings_slug": "sennheiser/hd-800-s"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 800 S (sample 1)",
+        "rtings_slug": "sennheiser/hd-800-s"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 800 S (serial number 01067)",
+        "rtings_slug": "sennheiser/hd-800-s"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 800 S (serial number 01070)",
+        "rtings_slug": "sennheiser/hd-800-s"
+    },
+    {
+        "autoeq_name": "Sennheiser HD 820",
+        "rtings_slug": "sennheiser/hd-820"
+    },
+    {
+        "autoeq_name": "Sennheiser HD490 Pro (mixing earpads)",
+        "rtings_slug": "sennheiser/hd-490-pro"
+    },
+    {
+        "autoeq_name": "Sennheiser HD490 Pro (producing earpads)",
+        "rtings_slug": "sennheiser/hd-490-pro"
+    },
+    {
+        "autoeq_name": "Sennheiser IE 200",
+        "rtings_slug": "sennheiser/ie-200"
+    },
+    {
+        "autoeq_name": "Sennheiser IE 200 (AZLA Max eartips)",
+        "rtings_slug": "sennheiser/ie-200"
+    },
+    {
+        "autoeq_name": "Sennheiser IE 200 (JVC Spiral Dot++ eartips)",
+        "rtings_slug": "sennheiser/ie-200"
+    },
+    {
+        "autoeq_name": "Sennheiser IE 200 (SoftEars UC eartips)",
+        "rtings_slug": "sennheiser/ie-200"
+    },
+    {
+        "autoeq_name": "Sennheiser IE 200 (long nozzle)",
+        "rtings_slug": "sennheiser/ie-200"
+    },
+    {
+        "autoeq_name": "Sennheiser IE 200 (short nozzle)",
+        "rtings_slug": "sennheiser/ie-200"
+    },
+    {
+        "autoeq_name": "Sennheiser IE 40 Pro",
+        "rtings_slug": "sennheiser/ie-40-pro"
+    },
+    {
+        "autoeq_name": "Sennheiser MOMENTUM True Wireless 4",
+        "rtings_slug": "sennheiser/momentum-true-wireless-4"
+    },
+    {
+        "autoeq_name": "Sennheiser Momentum 3 Wireless",
+        "rtings_slug": "sennheiser/momentum-3-wireless"
+    },
+    {
+        "autoeq_name": "Sennheiser Momentum 4 Wireless",
+        "rtings_slug": "sennheiser/momentum-4-wireless"
+    },
+    {
+        "autoeq_name": "Sennheiser Momentum 4 Wireless (passive)",
+        "rtings_slug": "sennheiser/momentum-4-wireless"
+    },
+    {
+        "autoeq_name": "Sennheiser Momentum True Wireless",
+        "rtings_slug": "sennheiser/momentum-true-wireless"
+    },
+    {
+        "autoeq_name": "Sennheiser Momentum True Wireless 2",
+        "rtings_slug": "sennheiser/momentum-true-wireless-2"
+    },
+    {
+        "autoeq_name": "Sennheiser Momentum True Wireless 3",
+        "rtings_slug": "sennheiser/momentum-true-wireless-3"
+    },
+    {
+        "autoeq_name": "Sennheiser Momentum True Wireless 3 (ANC off)",
+        "rtings_slug": "sennheiser/momentum-true-wireless-3"
+    },
+    {
+        "autoeq_name": "Sennheiser Momentum True Wireless 3 (ANC on)",
+        "rtings_slug": "sennheiser/momentum-true-wireless-3"
+    },
+    {
+        "autoeq_name": "Sennheiser Momentum True Wireless 4 (ANC Off)",
+        "rtings_slug": "sennheiser/momentum-true-wireless-4"
+    },
+    {
+        "autoeq_name": "Sennheiser Momentum True Wireless 4 (ANC On)",
+        "rtings_slug": "sennheiser/momentum-true-wireless-4"
+    },
+    {
+        "autoeq_name": "Sennheiser PXC 250 II",
+        "rtings_slug": "sennheiser/pxc-250-ii"
+    },
+    {
+        "autoeq_name": "Sennheiser PXC 450",
+        "rtings_slug": "sennheiser/pxc-450"
+    },
+    {
+        "autoeq_name": "Sennheiser PXC 550 Wireless",
+        "rtings_slug": "sennheiser/pxc-550-wireless"
+    },
+    {
+        "autoeq_name": "Sennheiser PXC 550 Wireless (wired, ANC on)",
+        "rtings_slug": "sennheiser/pxc-550-wireless"
+    },
+    {
+        "autoeq_name": "Sennheiser PXC 550 Wireless (wired, power on)",
+        "rtings_slug": "sennheiser/pxc-550-wireless"
+    },
+    {
+        "autoeq_name": "Sennheiser PXC 550 Wireless (wireless, ANC on)",
+        "rtings_slug": "sennheiser/pxc-550-wireless"
+    },
+    {
+        "autoeq_name": "Sennheiser PXC 550-II Wireless",
+        "rtings_slug": "sennheiser/pxc-550-ii-wireless"
+    },
+    {
+        "autoeq_name": "Shokz OpenRun Pro 2 Bone Conduction",
+        "rtings_slug": "shokz/openrun-pro-2-bone-conduction"
+    },
+    {
+        "autoeq_name": "Shure SE215",
+        "rtings_slug": "shure/se215"
+    },
+    {
+        "autoeq_name": "Shure SE315",
+        "rtings_slug": "shure/se315"
+    },
+    {
+        "autoeq_name": "Shure SE425",
+        "rtings_slug": "shure/se425"
+    },
+    {
+        "autoeq_name": "Shure SRH240",
+        "rtings_slug": "shure/srh-240"
+    },
+    {
+        "autoeq_name": "Shure SRH440",
+        "rtings_slug": "shure/srh-440"
+    },
+    {
+        "autoeq_name": "Skullcandy Riff Wireless 2",
+        "rtings_slug": "skullcandy/riff-wireless-2"
+    },
+    {
+        "autoeq_name": "Sony INZONE H3",
+        "rtings_slug": "sony/inzone-h3"
+    },
+    {
+        "autoeq_name": "Sony MDR-1A",
+        "rtings_slug": "sony/mdr-1a"
+    },
+    {
+        "autoeq_name": "Sony MDR-7506",
+        "rtings_slug": "sony/mdr-7506"
+    },
+    {
+        "autoeq_name": "Sony MDR-7520",
+        "rtings_slug": "sony/mdr-7520"
+    },
+    {
+        "autoeq_name": "Sony MDR-MV1",
+        "rtings_slug": "sony/mdr-mv1"
+    },
+    {
+        "autoeq_name": "Sony MDR-ZX110NC",
+        "rtings_slug": "sony/mdr-zx110nc"
+    },
+    {
+        "autoeq_name": "Sony MH755",
+        "rtings_slug": "sony/mh755"
+    },
+    {
+        "autoeq_name": "Sony WH-1000XM6",
+        "rtings_slug": "sony/wh-1000xm6"
+    },
+    {
+        "autoeq_name": "Sound Intone CX-05",
+        "rtings_slug": "sound-intone/cx-05"
+    },
+    {
+        "autoeq_name": "Stax SR-L300",
+        "rtings_slug": "stax/sr-l300"
+    },
+    {
+        "autoeq_name": "SteelSeries Arctis 1",
+        "rtings_slug": "steelseries/arctis-1"
+    },
+    {
+        "autoeq_name": "SteelSeries Arctis 1 Wireless",
+        "rtings_slug": "steelseries/arctis-1"
+    },
+    {
+        "autoeq_name": "SteelSeries Arctis 5 2019 Edition",
+        "rtings_slug": "steelseries/arctis-5-2019-edition"
+    },
+    {
+        "autoeq_name": "SteelSeries Arctis 7 Wireless 2017",
+        "rtings_slug": "steelseries/arctis-7-wireless-2017"
+    },
+    {
+        "autoeq_name": "SteelSeries Arctis Nova 1",
+        "rtings_slug": "steelseries/arctis-nova-1"
+    },
+    {
+        "autoeq_name": "SteelSeries Arctis Nova 3",
+        "rtings_slug": "steelseries/arctis-nova-3"
+    },
+    {
+        "autoeq_name": "SteelSeries Arctis Nova Pro",
+        "rtings_slug": "steelseries/arctis-nova-pro"
+    },
+    {
+        "autoeq_name": "SteelSeries Arctis Nova Pro Wireless",
+        "rtings_slug": "steelseries/arctis-nova-pro"
+    },
+    {
+        "autoeq_name": "SteelSeries Arctis Prime",
+        "rtings_slug": "steelseries/arctis-prime"
+    },
+    {
+        "autoeq_name": "SteelSeries Arctis Pro GameDAC",
+        "rtings_slug": "steelseries/arctis-pro-gamedac"
+    },
+    {
+        "autoeq_name": "SteelSeries Siberia 200",
+        "rtings_slug": "steelseries/siberia-200"
+    },
+    {
+        "autoeq_name": "SteelSeries Tusq",
+        "rtings_slug": "steelseries/tusq"
+    },
+    {
+        "autoeq_name": "Superlux HD 668B",
+        "rtings_slug": "superlux/hd-668b"
+    },
+    {
+        "autoeq_name": "Superlux HD 681",
+        "rtings_slug": "superlux/hd-681"
+    },
+    {
+        "autoeq_name": "Superlux HD 681 EVO",
+        "rtings_slug": "superlux/hd-681"
+    },
+    {
+        "autoeq_name": "Swimbuds Waterproof Headphones",
+        "rtings_slug": "swimbuds/waterproof-headphones"
+    },
+    {
+        "autoeq_name": "Symphonized NRG 3.0",
+        "rtings_slug": "symphonized/nrg-3-0"
+    },
+    {
+        "autoeq_name": "TaoTronics TT-BH041 Bluetooth Headset",
+        "rtings_slug": "taotronics/tt-bh041-bluetooth-headset"
+    },
+    {
+        "autoeq_name": "Tascam TH-02",
+        "rtings_slug": "tascam/th-02"
+    },
+    {
+        "autoeq_name": "Technics EAH-AZ100",
+        "rtings_slug": "technics/eah-az100"
+    },
+    {
+        "autoeq_name": "ThieAudio Monarch MKIII",
+        "rtings_slug": "thieaudio/monarch-mkiii"
+    },
+    {
+        "autoeq_name": "Truthear Hexa",
+        "rtings_slug": "truthear/hexa"
+    },
+    {
+        "autoeq_name": "Truthear x Crinacle Zero",
+        "rtings_slug": "truthear/x-crinacle-zero"
+    },
+    {
+        "autoeq_name": "Truthear x Crinacle Zero Blue 2",
+        "rtings_slug": "truthear/x-crinacle-zero"
+    },
+    {
+        "autoeq_name": "Truthear x Crinacle Zero Blue 2 (ohm adapter)",
+        "rtings_slug": "truthear/x-crinacle-zero"
+    },
+    {
+        "autoeq_name": "Truthear x Crinacle Zero RED",
+        "rtings_slug": "truthear/x-crinacle-zero-red"
+    },
+    {
+        "autoeq_name": "Truthear x Crinacle Zero RED (Bass+)",
+        "rtings_slug": "truthear/x-crinacle-zero-red"
+    },
+    {
+        "autoeq_name": "Turtle Beach Battle Buds",
+        "rtings_slug": "turtle-beach/battle-buds"
+    },
+    {
+        "autoeq_name": "Turtle Beach Elite Atlas",
+        "rtings_slug": "turtle-beach/elite-atlas"
+    },
+    {
+        "autoeq_name": "Turtle Beach Elite Atlas Aero",
+        "rtings_slug": "turtle-beach/elite-atlas"
+    },
+    {
+        "autoeq_name": "Turtle Beach Elite Pro 2 SuperAmp",
+        "rtings_slug": "turtle-beach/elite-pro-2-superamp"
+    },
+    {
+        "autoeq_name": "Turtle Beach Recon 200",
+        "rtings_slug": "turtle-beach/recon-200"
+    },
+    {
+        "autoeq_name": "Turtle Beach Recon 200 Gen 2",
+        "rtings_slug": "turtle-beach/recon-200-gen-2"
+    },
+    {
+        "autoeq_name": "Turtle Beach Recon 500",
+        "rtings_slug": "turtle-beach/recon-500"
+    },
+    {
+        "autoeq_name": "Turtle Beach Recon 70",
+        "rtings_slug": "turtle-beach/recon-70"
+    },
+    {
+        "autoeq_name": "Turtle Beach Stealth 300",
+        "rtings_slug": "turtle-beach/stealth-300"
+    },
+    {
+        "autoeq_name": "V-MODA BassFit Wireless",
+        "rtings_slug": "v-moda/bassfit-wireless"
+    },
+    {
+        "autoeq_name": "V-MODA Crossfade 2 Wireless",
+        "rtings_slug": "v-moda/crossfade-2-wireless"
+    },
+    {
+        "autoeq_name": "V-MODA Crossfade 3 Wireless",
+        "rtings_slug": "v-moda/crossfade-3-wireless"
+    },
+    {
+        "autoeq_name": "V-MODA Crossfade M-100",
+        "rtings_slug": "v-moda/crossfade-m-100"
+    },
+    {
+        "autoeq_name": "Westone W40",
+        "rtings_slug": "westone/w40"
+    },
+    {
+        "autoeq_name": "Wyze Wireless Gaming Headset",
+        "rtings_slug": "wyze/wireless-gaming-headset"
+    },
+    {
+        "autoeq_name": "Xbox Stereo Headset",
+        "rtings_slug": "xbox/stereo-headset"
+    },
+    {
+        "autoeq_name": "Xbox Wireless Headset",
+        "rtings_slug": "xbox/wireless-headset"
+    },
+    {
+        "autoeq_name": "Ylife True Wireless Earbuds",
+        "rtings_slug": "ylife/true-wireless-earbuds"
+    },
+    {
+        "autoeq_name": "iClever Boostcare",
+        "rtings_slug": "iclever/boostcare"
+    }
+]
