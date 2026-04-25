@@ -1,149 +1,136 @@
 import os
-import requests
 import json
 
-REVIEWERS = ["oratory1990", "crinacle", "Rtings"]
+REPO_MEASUREMENTS = os.path.normpath(os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "autoeq_repo", "measurements"
+))
 
-API_BASE = "https://api.github.com/repos/jaakkopasanen/AutoEq/contents/measurements"
-
-
-def _auth_headers():
-    token = os.environ.get("GITHUB_TOKEN")
-    if token:
-        return {"Authorization": f"token {token}"}
-    return {}
-
-
-def api_get(url):
-    r = requests.get(url, headers=_auth_headers(), timeout=15)
-    if r.status_code == 403:
-        print("  Rate limit. Defina GITHUB_TOKEN.")
-        return None
-    return r.json() if r.status_code == 200 else None
+# crinacle only has a name_index.tsv — no actual measurement CSVs
+SKIP_REVIEWERS = {"crinacle"}
 
 
 def detect_category(folder_name):
-    name = folder_name.lower()
-    if "in-ear" in name or "iem" in name:
-        return "in-ear"
-    if "on-ear" in name:
-        return "on-ear"
+    n = folder_name.lower()
+    if "in-ear" in n or "iem" in n: return "in-ear"
+    if "on-ear" in n:               return "on-ear"
     return "over-ear"
 
 
-def extract_csvs(items, reviewer, rig_folder, category):
-    """Pull headphone entries from a list of GitHub API items."""
-    result = []
-    for item in items:
-        if item['type'] == 'file' and item['name'].endswith('.csv'):
-            name = item['name'][:-4]
-            slug = name.lower().replace(" ", "-").replace("(", "").replace(")", "")
-            result.append({
-                "name":       name,
-                "slug":       slug,
-                "reviewer":   reviewer,
-                "rig_folder": rig_folder,
-                "category":   category,
-            })
-    return result
+def make_entry(name, reviewer, path_prefix, nested, category):
+    slug = name.lower().replace(" ", "-").replace("(", "").replace(")", "")
+    return {"name": name, "slug": slug, "reviewer": reviewer,
+            "path_prefix": path_prefix, "nested": nested, "category": category}
 
 
-def scan_folder(url, reviewer, rig_folder, category, depth=0):
+def scan_for_csvs(abs_folder, reviewer, path_prefix, category):
     """
-    Recursively scan a folder up to depth 1.
-    - If it contains CSV files directly → return them.
-    - If it contains subdirs (rig variants) → scan each subdir for CSVs.
+    Returns headphone entries from a folder.
+    - Flat: CSVs live directly here  → nested=False
+    - Nested: each headphone has its own subfolder → nested=True
     """
-    items = api_get(url)
-    if not items:
+    if not os.path.isdir(abs_folder):
         return []
+    entries   = os.listdir(abs_folder)
+    csv_files = [e for e in entries if e.endswith('.csv')]
+    sub_dirs  = [e for e in entries if os.path.isdir(os.path.join(abs_folder, e))]
 
-    csvs = extract_csvs(items, reviewer, rig_folder, category)
-    if csvs:
-        return csvs
-
-    # No CSVs at this level — go one level deeper (rig subdirectories)
-    if depth == 0:
-        all_results = []
-        for item in items:
-            if item['type'] == 'dir':
-                sub_rig = f"{rig_folder}/{item['name']}" if rig_folder else item['name']
-                sub_cat = detect_category(item['name'])
-                sub_results = scan_folder(
-                    item['url'], reviewer, sub_rig, sub_cat, depth=1
-                )
-                if sub_results:
-                    print(f"    [{reviewer}/{sub_rig}] {len(sub_results)} fones")
-                all_results.extend(sub_results)
-        return all_results
-
+    if csv_files:
+        return [make_entry(f[:-4], reviewer, path_prefix, False, category)
+                for f in csv_files]
+    if sub_dirs:
+        return [make_entry(d, reviewer, path_prefix, True, category)
+                for d in sub_dirs
+                if any(f.endswith('.csv')
+                       for f in os.listdir(os.path.join(abs_folder, d)))]
     return []
 
 
 def discover_reviewer(reviewer):
     """
-    Auto-discover the right base path for a reviewer.
-    Tries /data/ first (oratory1990 style), then root level (crinacle/Rtings style).
+    Handles three common layouts:
+
+    Layout A — /data/{category}/*.csv          (oratory1990, most reviewers)
+    Layout B — /data/{category}/{rig}/*.csv    (Rtings — extra rig subfolder)
+    Layout C — /{category}/*.csv               (Headphone.com Legacy, Innerfidelity)
     """
-    # Strategy 1: measurements/{reviewer}/data/
-    data_url = f"{API_BASE}/{reviewer}/data"
-    subfolders = api_get(data_url)
+    reviewer_root = os.path.join(REPO_MEASUREMENTS, reviewer)
+    all_hp = []
 
-    if subfolders and isinstance(subfolders, list):
-        dirs = [i for i in subfolders if i['type'] == 'dir']
-        if dirs:
-            print(f"  [{reviewer}] Encontrado /data/ com {len(dirs)} subpasta(s)")
-            all_headphones = []
-            for sf in dirs:
-                cat = detect_category(sf['name'])
-                results = scan_folder(sf['url'], reviewer, sf['name'], cat)
-                if results:
-                    print(f"  [{reviewer}/{sf['name']}] {len(results)} fones")
-                all_headphones.extend(results)
-            return all_headphones
+    # --- Try /data/ subfolder first (Layouts A & B) ---
+    data_dir = os.path.join(reviewer_root, "data")
+    if os.path.isdir(data_dir):
+        for cat_folder in sorted(os.listdir(data_dir)):
+            cat_path = os.path.join(data_dir, cat_folder)
+            if not os.path.isdir(cat_path):
+                continue
+            category    = detect_category(cat_folder)
+            sub_entries = os.listdir(cat_path)
+            has_csv  = any(e.endswith('.csv') for e in sub_entries)
+            has_dirs = any(os.path.isdir(os.path.join(cat_path, e)) for e in sub_entries)
 
-    # Strategy 2: measurements/{reviewer}/ directly (no /data/ subfolder)
-    root_url = f"{API_BASE}/{reviewer}"
-    root_items = api_get(root_url)
-    if not root_items:
-        print(f"  [{reviewer}] Sem acesso.")
-        return []
+            if has_csv:
+                # Layout A — flat
+                prefix = f"{reviewer}/data/{cat_folder}"
+                hp = scan_for_csvs(cat_path, reviewer, prefix, category)
+                if hp: print(f"  [{prefix}] {len(hp)} fones")
+                all_hp.extend(hp)
+            elif has_dirs:
+                # Layout B — rig subfolder
+                for rig in sorted(sub_entries):
+                    rig_path = os.path.join(cat_path, rig)
+                    if not os.path.isdir(rig_path):
+                        continue
+                    prefix = f"{reviewer}/data/{cat_folder}/{rig}"
+                    hp = scan_for_csvs(rig_path, reviewer, prefix, category)
+                    if hp: print(f"  [{prefix}] {len(hp)} fones")
+                    all_hp.extend(hp)
+        if all_hp:
+            return all_hp
 
-    dirs = [i for i in root_items if i['type'] == 'dir'
-            and i['name'] not in ('raw_data', 'resources', 'data')]
+    # --- Fallback: scan root directly (Layout C) ---
+    skip = {'data', 'raw_data', 'resources', '.git', '__pycache__'}
+    for folder in sorted(os.listdir(reviewer_root)):
+        folder_path = os.path.join(reviewer_root, folder)
+        if not os.path.isdir(folder_path) or folder in skip:
+            continue
+        category = detect_category(folder)
+        prefix   = f"{reviewer}/{folder}"
+        hp = scan_for_csvs(folder_path, reviewer, prefix, category)
+        if hp: print(f"  [{prefix}] {len(hp)} fones")
+        all_hp.extend(hp)
 
-    if not dirs:
-        print(f"  [{reviewer}] Nenhuma pasta de categoria encontrada.")
-        return []
-
-    print(f"  [{reviewer}] Sem /data/, escaneando raiz ({len(dirs)} pastas)...")
-    all_headphones = []
-    for sf in dirs:
-        cat = detect_category(sf['name'])
-        results = scan_folder(sf['url'], reviewer, sf['name'], cat)
-        if results:
-            print(f"  [{reviewer}/{sf['name']}] {len(results)} fones")
-        all_headphones.extend(results)
-    return all_headphones
+    return all_hp
 
 
 def build_library():
-    all_headphones = []
-    seen = set()
+    if not os.path.isdir(REPO_MEASUREMENTS):
+        print("ERRO: autoeq_repo/measurements nao encontrado.")
+        print("Execute: git clone https://github.com/jaakkopasanen/AutoEq autoeq_repo --depth 1")
+        return []
 
-    for reviewer in REVIEWERS:
-        print(f"\nIndexando {reviewer}...")
+    # Auto-discover all reviewer folders
+    all_reviewers = sorted(
+        d for d in os.listdir(REPO_MEASUREMENTS)
+        if os.path.isdir(os.path.join(REPO_MEASUREMENTS, d))
+        and d not in SKIP_REVIEWERS
+    )
+    print(f"Reviewers encontrados: {len(all_reviewers)}\n")
+
+    all_hp, seen = [], set()
+    for reviewer in all_reviewers:
+        print(f"Indexando {reviewer}...")
         for h in discover_reviewer(reviewer):
             if h['name'] not in seen:
-                all_headphones.append(h)
+                all_hp.append(h)
                 seen.add(h['name'])
 
     os.makedirs('data', exist_ok=True)
     with open("data/headphone_library.json", "w", encoding="utf-8") as f:
-        json.dump(all_headphones, f, indent=4, ensure_ascii=False)
+        json.dump(all_hp, f, indent=2, ensure_ascii=False)
 
-    print(f"\nTotal: {len(all_headphones)} fones unicos -> data/headphone_library.json")
-    return all_headphones
+    print(f"\nTotal: {len(all_hp)} fones unicos -> data/headphone_library.json")
+    return all_hp
 
 
 if __name__ == "__main__":
