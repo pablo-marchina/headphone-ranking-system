@@ -1,1 +1,8 @@
-﻿
+﻿rank,name,category,score,percentile,e_total,e_fr,e_thd,e_match,e_unc,w_conf,price_brl,n_sources,thd_available,match_available
+1,7Hz Salnotes Zero,in-ear,0.000514,100.0,3.3286,3.3286,0.0,0.0,1.25,0.4444,260.0,1,False,False
+2,Final Audio E1000,in-ear,0.000414,85.7,3.2305,3.2305,0.0,0.0,1.25,0.4444,332.0,1,False,False
+3,EPZ Q5,in-ear,0.000189,71.4,4.7125,4.7125,0.0,0.0,1.25,0.4444,499.0,1,False,False
+4,Kiwi Ears KE4,in-ear,0.000173,57.1,3.4702,3.4702,0.0,0.0,1.25,0.4444,741.0,1,False,False
+5,Moondrop Aria Snow Edition,in-ear,0.00015,42.9,3.8029,2.4566,1.3464,0.0,0.95,0.5128,899.0,1,True,False
+6,DUNU Titan S,in-ear,0.000125,28.6,3.5856,3.5856,0.0,0.0,1.25,0.4444,993.0,1,False,False
+7,Etymotic ER2SE,in-ear,6.4e-05,14.3,5.3661,4.0199,1.3462,0.0,0.95,0.5128,1500.0,1,True,False

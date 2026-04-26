@@ -30,7 +30,8 @@ def load_mapping():
 
 def get_price(name, cache):
     """Return cached price or fetch fresh from ML API."""
-    if name in cache:
+    # If previous runs cached None, allow refetch after collector fixes.
+    if name in cache and cache[name] is not None:
         return cache[name]
     raw    = fetch_br_prices_list(name)
     price  = clean_price_data(raw, name)
