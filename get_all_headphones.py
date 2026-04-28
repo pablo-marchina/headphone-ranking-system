@@ -1,49 +1,135 @@
 import os
 import json
+from collections import OrderedDict
 
 REPO_MEASUREMENTS = os.path.normpath(os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
     "autoeq_repo", "measurements"
 ))
 
-# crinacle only has a name_index.tsv — no actual measurement CSVs
-SKIP_REVIEWERS = {"crinacle"}
+# Crinacle is handled separately through its TSV index.
+SKIP_REVIEWERS = set()
 
 
 def detect_category(folder_name):
     n = folder_name.lower()
-    if "in-ear" in n or "iem" in n: return "in-ear"
-    if "on-ear" in n:               return "on-ear"
+    if "in-ear" in n or "iem" in n:
+        return "in-ear"
+    if "on-ear" in n:
+        return "on-ear"
     return "over-ear"
 
 
-def make_entry(name, reviewer, path_prefix, nested, category):
+def make_source(name, reviewer, path_prefix, nested, category, rig=None):
     slug = name.lower().replace(" ", "-").replace("(", "").replace(")", "")
-    return {"name": name, "slug": slug, "reviewer": reviewer,
-            "path_prefix": path_prefix, "nested": nested, "category": category}
+    source = {
+        "name": name,
+        "slug": slug,
+        "reviewer": reviewer,
+        "path_prefix": path_prefix,
+        "nested": nested,
+        "category": category,
+    }
+    if rig:
+        source["rig"] = rig
+    return source
 
 
-def scan_for_csvs(abs_folder, reviewer, path_prefix, category):
+def scan_for_csvs(abs_folder, reviewer, path_prefix, category, rig=None):
     """
-    Returns headphone entries from a folder.
+    Returns headphone source records from a folder.
     - Flat: CSVs live directly here  → nested=False
     - Nested: each headphone has its own subfolder → nested=True
     """
     if not os.path.isdir(abs_folder):
         return []
-    entries   = os.listdir(abs_folder)
+    entries = os.listdir(abs_folder)
     csv_files = [e for e in entries if e.endswith('.csv')]
-    sub_dirs  = [e for e in entries if os.path.isdir(os.path.join(abs_folder, e))]
+    sub_dirs = [e for e in entries if os.path.isdir(os.path.join(abs_folder, e))]
 
     if csv_files:
-        return [make_entry(f[:-4], reviewer, path_prefix, False, category)
+        return [make_source(f[:-4], reviewer, path_prefix, False, category, rig=rig)
                 for f in csv_files]
     if sub_dirs:
-        return [make_entry(d, reviewer, path_prefix, True, category)
+        return [make_source(d, reviewer, path_prefix, True, category, rig=rig)
                 for d in sub_dirs
                 if any(f.endswith('.csv')
                        for f in os.listdir(os.path.join(abs_folder, d)))]
     return []
+
+
+def _normalize_bool(value):
+    if value is None:
+        return None
+    if isinstance(value, bool):
+        return value
+    v = str(value).strip().lower()
+    if v in {"1", "true", "yes", "y"}:
+        return True
+    if v in {"0", "false", "no", "n"}:
+        return False
+    return None
+
+
+def _parse_crinacle_tsv(tsv_path, reviewer):
+    """Parse Crinacle's TSV index and preserve rig as part of the source identity."""
+    sources = []
+    if not os.path.isfile(tsv_path):
+        return sources
+
+    with open(tsv_path, encoding='utf-8-sig') as f:
+        lines = [line.rstrip("\n") for line in f if line.strip()]
+
+    if not lines:
+        return sources
+
+    header = [h.strip().lower() for h in lines[0].split('\t')]
+    rows = [line.split('\t') for line in lines[1:]] if len(lines) > 1 else []
+
+    def get_row_value(row_dict, *candidates):
+        for key in candidates:
+            if key in row_dict and row_dict[key].strip():
+                return row_dict[key].strip()
+        return ""
+
+    for row in rows:
+        row = row + [""] * max(0, len(header) - len(row))
+        row_dict = {
+            header[i]: row[i].strip() if i < len(row) else ""
+            for i in range(len(header))
+        }
+
+        name = get_row_value(row_dict, 'name', 'title', 'headphone', 'item')
+        if not name:
+            continue
+
+        rig = get_row_value(row_dict, 'rig', 'measurement_rig', 'measure_rig', 'fixture', 'coupler')
+        category = get_row_value(row_dict, 'category', 'type', 'form_factor') or 'over-ear'
+        category = detect_category(category)
+
+        path_prefix = get_row_value(row_dict, 'path_prefix', 'path', 'folder', 'directory', 'csv', 'file')
+        nested_raw = get_row_value(row_dict, 'nested')
+        nested = _normalize_bool(nested_raw)
+
+        if not path_prefix:
+            base = f"{reviewer}/data"
+            if category == 'in-ear':
+                base = f"{base}/in-ear"
+            elif category == 'on-ear':
+                base = f"{base}/on-ear"
+            else:
+                base = f"{base}/over-ear"
+            if rig:
+                path_prefix = f"{base}/{rig}"
+            else:
+                path_prefix = base
+
+        if nested is None:
+            nested = bool(rig)
+
+        sources.append(make_source(name, reviewer, path_prefix, nested, category, rig=rig or None))
+
+    return sources
 
 
 def discover_reviewer(reviewer):
@@ -51,11 +137,24 @@ def discover_reviewer(reviewer):
     Handles three common layouts:
 
     Layout A — /data/{category}/*.csv          (oratory1990, most reviewers)
-    Layout B — /data/{category}/{rig}/*.csv    (Rtings — extra rig subfolder)
+    Layout B — /data/{category}/{rig}/*.csv    (extra rig subfolder)
     Layout C — /{category}/*.csv               (Headphone.com Legacy, Innerfidelity)
     """
     reviewer_root = os.path.join(REPO_MEASUREMENTS, reviewer)
     all_hp = []
+
+    if reviewer.lower() == 'crinacle':
+        candidates = []
+        for root, _, files in os.walk(reviewer_root):
+            for file in files:
+                if file.lower() == 'name_index.tsv':
+                    candidates.append(os.path.join(root, file))
+        for tsv_path in sorted(candidates):
+            hp = _parse_crinacle_tsv(tsv_path, reviewer)
+            if hp:
+                print(f"  [{os.path.relpath(tsv_path, reviewer_root)}] {len(hp)} fones")
+                all_hp.extend(hp)
+        return all_hp
 
     # --- Try /data/ subfolder first (Layouts A & B) ---
     data_dir = os.path.join(reviewer_root, "data")
@@ -64,16 +163,17 @@ def discover_reviewer(reviewer):
             cat_path = os.path.join(data_dir, cat_folder)
             if not os.path.isdir(cat_path):
                 continue
-            category    = detect_category(cat_folder)
+            category = detect_category(cat_folder)
             sub_entries = os.listdir(cat_path)
-            has_csv  = any(e.endswith('.csv') for e in sub_entries)
+            has_csv = any(e.endswith('.csv') for e in sub_entries)
             has_dirs = any(os.path.isdir(os.path.join(cat_path, e)) for e in sub_entries)
 
             if has_csv:
                 # Layout A — flat
                 prefix = f"{reviewer}/data/{cat_folder}"
                 hp = scan_for_csvs(cat_path, reviewer, prefix, category)
-                if hp: print(f"  [{prefix}] {len(hp)} fones")
+                if hp:
+                    print(f"  [{prefix}] {len(hp)} fones")
                 all_hp.extend(hp)
             elif has_dirs:
                 # Layout B — rig subfolder
@@ -82,8 +182,9 @@ def discover_reviewer(reviewer):
                     if not os.path.isdir(rig_path):
                         continue
                     prefix = f"{reviewer}/data/{cat_folder}/{rig}"
-                    hp = scan_for_csvs(rig_path, reviewer, prefix, category)
-                    if hp: print(f"  [{prefix}] {len(hp)} fones")
+                    hp = scan_for_csvs(rig_path, reviewer, prefix, category, rig=rig)
+                    if hp:
+                        print(f"  [{prefix}] {len(hp)} fones")
                     all_hp.extend(hp)
         if all_hp:
             return all_hp
@@ -95,12 +196,22 @@ def discover_reviewer(reviewer):
         if not os.path.isdir(folder_path) or folder in skip:
             continue
         category = detect_category(folder)
-        prefix   = f"{reviewer}/{folder}"
+        prefix = f"{reviewer}/{folder}"
         hp = scan_for_csvs(folder_path, reviewer, prefix, category)
-        if hp: print(f"  [{prefix}] {len(hp)} fones")
+        if hp:
+            print(f"  [{prefix}] {len(hp)} fones")
         all_hp.extend(hp)
 
     return all_hp
+
+
+def _source_signature(source):
+    return (
+        source.get('reviewer'),
+        source.get('path_prefix'),
+        bool(source.get('nested')),
+        source.get('rig') or None,
+    )
 
 
 def build_library():
@@ -113,17 +224,44 @@ def build_library():
     all_reviewers = sorted(
         d for d in os.listdir(REPO_MEASUREMENTS)
         if os.path.isdir(os.path.join(REPO_MEASUREMENTS, d))
-        and d not in SKIP_REVIEWERS
     )
     print(f"Reviewers encontrados: {len(all_reviewers)}\n")
 
-    all_hp, seen = [], set()
+    # Group by headphone name while preserving every source entry.
+    library = OrderedDict()
     for reviewer in all_reviewers:
         print(f"Indexando {reviewer}...")
-        for h in discover_reviewer(reviewer):
-            if h['name'] not in seen:
-                all_hp.append(h)
-                seen.add(h['name'])
+        for source in discover_reviewer(reviewer):
+            name = source['name']
+            if name not in library:
+                library[name] = {
+                    'name': name,
+                    'slug': source['slug'],
+                    'category': source['category'],
+                    'reviewer': source['reviewer'],
+                    'path_prefix': source['path_prefix'],
+                    'nested': source['nested'],
+                    'sources': [],
+                }
+                if source.get('rig'):
+                    library[name]['rig'] = source['rig']
+
+            signature = _source_signature(source)
+            existing = {
+                _source_signature(s)
+                for s in library[name]['sources']
+            }
+            if signature not in existing:
+                source_entry = {
+                    'reviewer': source['reviewer'],
+                    'path_prefix': source['path_prefix'],
+                    'nested': source['nested'],
+                }
+                if source.get('rig'):
+                    source_entry['rig'] = source['rig']
+                library[name]['sources'].append(source_entry)
+
+    all_hp = list(library.values())
 
     os.makedirs('data', exist_ok=True)
     with open("data/headphone_library.json", "w", encoding="utf-8") as f:
