@@ -1,3 +1,7 @@
+from src.env_loader import load_local_env
+
+load_local_env()
+
 from src.collectors.autoeq            import fetch_autoeq_data
 from src.collectors.targets           import get_harman_target, detect_category
 from src.collectors.rtings            import fetch_rtings_metrics

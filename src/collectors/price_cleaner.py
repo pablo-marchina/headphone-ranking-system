@@ -14,13 +14,13 @@ import numpy as np
 
 SOURCE_PRIORITY = {
     "zoom": 0,
-    "jacotei": 0,
+    "buscape": 0,
     "zoom_jacotei": 0,
+    "kabum": 0,
     "shopee": 1,
     "mercadolivre": 1,
     "amazon_br": 2,
     "amazon": 2,
-    "msrp_proxy": 99,
 }
 
 

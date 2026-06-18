@@ -7,20 +7,18 @@ lowest trustworthy BRL price.
 
 from __future__ import annotations
 
-from collections.abc import Iterable
 from typing import Any, Optional
 
-import numpy as np
+from src.pricing import resolve_price
 
 SOURCE_PRIORITY = {
     "zoom": 0,
-    "jacotei": 0,
+    "buscape": 0,
     "zoom_jacotei": 0,
     "shopee": 1,
     "mercadolivre": 1,
     "amazon_br": 2,
     "amazon": 2,
-    "msrp_proxy": 99,
 }
 
 
@@ -89,7 +87,12 @@ def _normalize_inputs(payload: Any) -> list[dict[str, Any]]:
     return items
 
 
-def clean_prices(*payloads: Any, require_direct_source: bool = True) -> Optional[float]:
+def clean_prices(
+    *payloads: Any,
+    require_direct_source: bool = True,
+    min_price_brl: float = 35.0,
+    single_source_floor: float = 80.0,
+) -> Optional[float]:
     """Return the lowest trustworthy price in BRL.
 
     Parameters
@@ -100,34 +103,33 @@ def clean_prices(*payloads: Any, require_direct_source: bool = True) -> Optional
     require_direct_source:
         When True, MSRP proxy entries are ignored if any direct market source is
         present.
+    min_price_brl:
+        Floor applied when 2+ independent sources agree on a price range.
+        Defaults to R$35.
+    single_source_floor:
+        Stricter floor applied when only 1 source found a price.  A single
+        low-price listing is likely an accessory or wrong product.
+        Defaults to R$80.
     """
 
-    candidates: list[dict[str, Any]] = []
-    for payload in payloads:
-        candidates.extend(_normalize_inputs(payload))
+    resolution = resolve_price("unknown", *payloads, require_direct_source=require_direct_source)
+    return resolution.get("price_brl_real") or resolution.get("price_brl_estimated")
 
-    candidates = [c for c in candidates if c.get("price_brl") is not None and float(c["price_brl"]) > 0]
-    if not candidates:
-        return None
 
-    direct = [c for c in candidates if _source_rank(str(c.get("source", ""))) < 99]
-    pool = direct if (require_direct_source and direct) else candidates
-
-    values = np.asarray([float(c["price_brl"]) for c in pool], dtype=float)
-    if values.size == 0:
-        return None
-
-    if values.size >= 4:
-        q1, q3 = np.percentile(values, [25, 75])
-        iqr = float(q3 - q1)
-        lower = max(0.0, float(q1 - 1.5 * iqr))
-        upper = float(q3 + 1.5 * iqr)
-        filtered = [c for c in pool if lower <= float(c["price_brl"]) <= upper]
-        if filtered:
-            pool = filtered
-
-    pool.sort(key=lambda c: (_source_rank(str(c.get("source", ""))), float(c["price_brl"])))
-    return float(pool[0]["price_brl"])
+def resolve_prices_for_headphone(
+    headphone_name: str,
+    *payloads: Any,
+    require_direct_source: bool = True,
+    query_used: Optional[str] = None,
+    query_strategy: Optional[str] = None,
+) -> dict[str, Any]:
+    return resolve_price(
+        headphone_name,
+        *payloads,
+        require_direct_source=require_direct_source,
+        query_used=query_used,
+        query_strategy=query_strategy,
+    )
 
 
 # Backward-compatible alias for older call sites.

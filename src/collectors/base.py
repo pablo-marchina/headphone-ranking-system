@@ -9,8 +9,10 @@ from __future__ import annotations
 import csv
 import io
 import json
+import logging
 import math
 import re
+import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from typing import Any, Iterable, Optional
@@ -18,14 +20,19 @@ from typing import Any, Iterable, Optional
 import numpy as np
 import requests
 
+from .product_matcher import match_product
+
+log = logging.getLogger(__name__)
+
 DEFAULT_TIMEOUT = 20
 DEFAULT_HEADERS = {
     "User-Agent": (
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     ),
     "Accept": "text/html,application/json;q=0.9,*/*;q=0.8",
 }
+RETRY_BACKOFF = [1, 3, 7]  # seconds between retries
 
 
 @dataclass(frozen=True)
@@ -71,17 +78,32 @@ class BaseCollector(ABC):
     # Network helpers
     # ------------------------------------------------------------------
     def _request(self, url: str, *, method: str = "GET", **kwargs) -> Optional[requests.Response]:
-        try:
-            request_kwargs = {
-                "timeout": kwargs.pop("timeout", self.timeout),
-                "headers": {**DEFAULT_HEADERS, **kwargs.pop("headers", {})},
-                **kwargs,
-            }
-            response = self.session.request(method, url, **request_kwargs)
-            response.raise_for_status()
-            return response
-        except Exception:
-            return None
+        request_kwargs = {
+            "timeout": kwargs.pop("timeout", self.timeout),
+            "headers": {**DEFAULT_HEADERS, **kwargs.pop("headers", {})},
+            **kwargs,
+        }
+        last_error: Optional[Exception] = None
+        for attempt, delay in enumerate(RETRY_BACKOFF, 1):
+            try:
+                response = self.session.request(method, url, **request_kwargs)
+                # Don't retry 4xx errors other than 429 (rate limit)
+                if response.status_code in (401, 403, 404):
+                    log.debug("[%s] %s %s -> HTTP %d", self.source_name, method, url, response.status_code)
+                    return response
+                response.raise_for_status()
+                if response.status_code == 429 and attempt < len(RETRY_BACKOFF):
+                    log.debug("[%s] rate limited on %s, retry %d/%d", self.source_name, url, attempt, len(RETRY_BACKOFF))
+                    time.sleep(delay)
+                    continue
+                return response
+            except Exception as exc:
+                last_error = exc
+                if attempt < len(RETRY_BACKOFF):
+                    log.debug("[%s] retry %d/%d on %s: %s", self.source_name, attempt, len(RETRY_BACKOFF), url, exc)
+                    time.sleep(delay)
+        log.debug("[%s] failed after %d attempts on %s: %s", self.source_name, len(RETRY_BACKOFF), url, last_error)
+        return None
 
     def _get_text(self, url: str, **kwargs) -> Optional[str]:
         response = self._request(url, **kwargs)
@@ -244,6 +266,42 @@ class BaseCollector(ABC):
                 deduped.append(url)
                 seen.add(url)
         return deduped
+
+    def build_price_candidate(
+        self,
+        display_name: str,
+        *,
+        price_brl: float,
+        title: str = "",
+        url: str = "",
+        seller: str = "",
+        availability: str = "unknown",
+        condition: str = "unknown",
+        currency: str = "BRL",
+        source_name: Optional[str] = None,
+        source_type: str = "unknown",
+    ) -> dict[str, Any]:
+        match = match_product(display_name, title or display_name)
+        return {
+            "price_brl": float(price_brl),
+            "source": source_name or self.source_name,
+            "source_type": source_type,
+            "title": title,
+            "url": url,
+            "seller": seller,
+            "availability": availability,
+            "condition": condition if condition != "unknown" else match.condition,
+            "currency": currency,
+            "display_name": display_name,
+            "canonical_name": match.canonical_name,
+            "match_score": round(float(match.match_score), 3),
+            "is_accessory": bool(match.is_accessory),
+            "variant_conflict": bool(match.variant_conflict),
+            "brand_conflict": bool(match.brand_conflict),
+            "numeric_conflict": bool(match.numeric_conflict),
+            "variant_group": match.variant_group,
+            "retrieved_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        }
 
     def _coerce_measurement(self, payload: Any, source: str) -> list[dict[str, Any]]:
         """Try to coerce many common payload shapes into the project contract."""

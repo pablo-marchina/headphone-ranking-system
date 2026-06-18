@@ -2,6 +2,8 @@ import os
 import json
 from collections import OrderedDict
 
+from src.collectors.product_matcher import canonicalize_headphone_name
+
 REPO_MEASUREMENTS = os.path.normpath(os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
     "autoeq_repo", "measurements"
@@ -236,6 +238,9 @@ def build_library():
             if name not in library:
                 library[name] = {
                     'name': name,
+                    'display_name': name,
+                    'canonical_name': canonicalize_headphone_name(name),
+                    'canonical_members': [name],
                     'slug': source['slug'],
                     'category': source['category'],
                     'reviewer': source['reviewer'],
@@ -260,6 +265,13 @@ def build_library():
                 if source.get('rig'):
                     source_entry['rig'] = source['rig']
                 library[name]['sources'].append(source_entry)
+
+    canonical_groups: dict[str, list[str]] = {}
+    for item in library.values():
+        canonical_groups.setdefault(item['canonical_name'], []).append(item['name'])
+    for item in library.values():
+        item['canonical_members'] = sorted(canonical_groups.get(item['canonical_name'], [item['name']]))
+        item['canonical_member_count'] = len(item['canonical_members'])
 
     all_hp = list(library.values())
 

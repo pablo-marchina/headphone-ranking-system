@@ -19,21 +19,33 @@ def _as_jnd_array(length: int) -> np.ndarray:
 
 
 def calculate_peakiness_metric(magnitudes, freqs=None) -> float:
-    """Measure resonance-like sharpness as the standard deviation of the first derivative."""
+    """
+    Measure narrow-band resonance sharpness as the RMS deviation from a smoothed
+    baseline, in dB.
+
+    The smoothed baseline approximates the broad-stroke FR shape (1/3-octave
+    resolution).  The residual captures narrow peaks and dips; the RMS of that
+    residual is an amplitude-independent measure of how "spiky" the curve is.
+
+    Typical ranges:
+        0 – 2 dB  : very smooth (planar, well-damped dynamic)
+        2 – 5 dB  : mild peaks (most consumer headphones)
+        5 – 10 dB : pronounced peaks (notable coloration)
+        > 10 dB   : highly resonant / jagged
+
+    The ``freqs`` argument is accepted for API compatibility but not required.
+    """
+    from scipy.ndimage import uniform_filter1d
+
     mags = np.asarray(magnitudes, dtype=float)
-    if mags.size < 3:
+    if mags.size < 5:
         return 0.0
 
-    if freqs is None:
-        derivative = np.diff(mags)
-    else:
-        freqs = np.asarray(freqs, dtype=float)
-        if freqs.shape != mags.shape:
-            raise ValueError("freqs and magnitudes must have the same length when freqs is provided.")
-        x = np.log10(np.clip(freqs, 1e-12, None))
-        derivative = np.diff(mags) / np.diff(x)
-
-    return float(np.std(derivative))
+    # Window ≈ 12 % of the curve length → roughly 1/3-octave smoothing
+    window = max(5, mags.size // 8)
+    baseline = uniform_filter1d(mags, size=window, mode="nearest")
+    residual = mags - baseline
+    return float(np.sqrt(np.mean(residual ** 2)))
 
 
 # Backward-compatible alias.

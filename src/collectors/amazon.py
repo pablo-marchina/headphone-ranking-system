@@ -29,9 +29,9 @@ class AmazonBrasilCollector(BaseCollector):
         html = self._get_text(url)
         if html is None:
             return None
-        return self._parse_results(html, source=url)
+        return self._parse_results(html, source=url, name=name)
 
-    def _parse_results(self, html: str, *, source: str) -> list[dict[str, Any]]:
+    def _parse_results(self, html: str, *, source: str, name: str) -> list[dict[str, Any]]:
         results: list[dict[str, Any]] = []
         try:
             soup = BeautifulSoup(html, "html.parser")
@@ -39,7 +39,7 @@ class AmazonBrasilCollector(BaseCollector):
             # Structured data
             for script in soup.find_all("script", attrs={"type": re.compile(r"application/(ld\+json|json)", re.I)}):
                 text = script.string or script.get_text(" ", strip=True)
-                results.extend(self._extract_from_blob(text, source=source))
+                results.extend(self._extract_from_blob(text, source=source, name=name))
 
             # Search result cards
             for card in soup.select('div[data-component-type="s-search-result"]'):
@@ -51,19 +51,20 @@ class AmazonBrasilCollector(BaseCollector):
                 price = self._extract_card_price(card)
                 if price is None:
                     continue
-                results.append({
-                    "price_brl": float(price),
-                    "source": self.source_name,
-                    "title": title,
-                    "url": source,
-                })
+                results.append(self.build_price_candidate(
+                    name,
+                    price_brl=float(price),
+                    title=title,
+                    url=source,
+                    source_type="marketplace",
+                ))
 
             if results:
                 return results
 
             # Fallback to regex over the page text
             text = soup.get_text(" ", strip=True)
-            results.extend(self._extract_from_blob(text, source=source))
+            results.extend(self._extract_from_blob(text, source=source, name=name))
         except Exception:
             return []
         return results
@@ -81,7 +82,7 @@ class AmazonBrasilCollector(BaseCollector):
                     return price
         return None
 
-    def _extract_from_blob(self, blob: str, *, source: str) -> list[dict[str, Any]]:
+    def _extract_from_blob(self, blob: str, *, source: str, name: str) -> list[dict[str, Any]]:
         results: list[dict[str, Any]] = []
         if not blob:
             return results
@@ -89,7 +90,7 @@ class AmazonBrasilCollector(BaseCollector):
         for match in re.finditer(r"R\$\s*([0-9]{1,3}(?:\.[0-9]{3})*(?:,[0-9]{2})|[0-9]+(?:[\.,][0-9]{2})?)", blob):
             price = self._parse_brl_text(match.group(0))
             if price is not None:
-                results.append({"price_brl": price, "source": self.source_name, "title": "", "url": source})
+                results.append(self.build_price_candidate(name, price_brl=price, title="", url=source, source_type="marketplace"))
 
         # JSON blobs with offers
         for match in re.finditer(r"\{.*?\}", blob, flags=re.DOTALL):
@@ -97,10 +98,10 @@ class AmazonBrasilCollector(BaseCollector):
                 data = json.loads(match.group(0))
             except Exception:
                 continue
-            results.extend(self._walk_json(data, source=source))
+            results.extend(self._walk_json(data, source=source, name=name))
         return results
 
-    def _walk_json(self, payload: Any, *, source: str) -> list[dict[str, Any]]:
+    def _walk_json(self, payload: Any, *, source: str, name: str) -> list[dict[str, Any]]:
         results: list[dict[str, Any]] = []
 
         def visit(obj: Any) -> None:
@@ -110,7 +111,7 @@ class AmazonBrasilCollector(BaseCollector):
                         if key in obj:
                             price = self._parse_maybe_price(obj.get(key))
                             if price is not None:
-                                results.append({"price_brl": price, "source": self.source_name, "title": "", "url": source})
+                                results.append(self.build_price_candidate(name, price_brl=price, title="", url=source, source_type="marketplace"))
                     if isinstance(obj.get("offers"), dict):
                         visit(obj["offers"])
                 for value in obj.values():
@@ -121,7 +122,7 @@ class AmazonBrasilCollector(BaseCollector):
             elif isinstance(obj, str):
                 price = self._parse_brl_text(obj)
                 if price is not None and "R$" in obj:
-                    results.append({"price_brl": price, "source": self.source_name, "title": "", "url": source})
+                    results.append(self.build_price_candidate(name, price_brl=price, title="", url=source, source_type="marketplace"))
 
         try:
             visit(payload)

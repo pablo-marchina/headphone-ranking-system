@@ -1,213 +1,269 @@
-"""Mercado Livre price collector with quality filters.
+"""Mercado Livre price collector.
 
-Keeps backward-compatible helper functions from the existing standalone module,
-but adds a class-based collector and seller/listing quality rules.
+Uses the official Mercado Livre API (developers.mercadolivre.com.br).
+The collector reads only the fixed environment variables:
+
+- MERCADOLIVRE_ACCESS_TOKEN
+- MERCADOLIVRE_REFRESH_TOKEN
+- MERCADOLIVRE_CLIENT_ID
+- MERCADOLIVRE_CLIENT_SECRET
+
+When an access token is expired, the collector attempts a one-time refresh and
+keeps the renewed token in memory for the current process only.
 """
 
 from __future__ import annotations
 
-import re
-import unicodedata
+import logging
+import os
 from typing import Any, Optional
-from urllib.parse import quote_plus
-
-import requests
-from bs4 import BeautifulSoup
 
 from .base import BaseCollector
 
-BLACKLIST = [
-    "cabo", "case", "almofada", "earpad", "substituição", "usado",
-    "parts", "peça", "adaptador", "espuma", "grip",
-    "protetor", "suporte", "stand", "hanger",
-]
+log = logging.getLogger(__name__)
 
-ML_SEARCH_BASE = "https://lista.mercadolivre.com.br"
-REQUEST_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/123.0.0.0 Safari/537.36"
-    ),
-    "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-}
+ML_API_URL = "https://api.mercadolibre.com/sites/MLB/search"
+ML_TOKEN_URL = "https://api.mercadolibre.com/oauth/token"
 
 
 class MercadoLivrePriceCollector(BaseCollector):
     source_name = "mercadolivre"
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._runtime_access_token: Optional[str] = None
+        self.last_api_status: Optional[int] = None
+        self.last_failure_reason: Optional[str] = None
+        self.last_failure_payload: Optional[str] = None
+        self.last_refresh_status: Optional[str] = None
+
     def is_available(self) -> bool:
         return True
 
-    def fetch(self, name: str, **kwargs) -> list[dict[str, Any]] | None:
-        try:
-            max_items = int(kwargs.get("max_items", 40))
-            min_active_listings = int(kwargs.get("min_active_listings", 5))
-        except Exception:
-            max_items = 40
-            min_active_listings = 5
+    @staticmethod
+    def _env(name: str) -> str:
+        return os.getenv(name, "").strip()
 
-        seller_types = kwargs.get("seller_types")
-        if seller_types is None:
-            seller_types = {"official", "loja oficial", "official_store"}
+    def _credentials(self) -> dict[str, str]:
+        return {
+            "access_token": self._runtime_access_token or self._env("MERCADOLIVRE_ACCESS_TOKEN"),
+            "refresh_token": self._env("MERCADOLIVRE_REFRESH_TOKEN"),
+            "client_id": self._env("MERCADOLIVRE_CLIENT_ID"),
+            "client_secret": self._env("MERCADOLIVRE_CLIENT_SECRET"),
+        }
+
+    def _auth_headers(self) -> dict[str, str]:
+        token = self._credentials()["access_token"]
+        return {"Authorization": f"Bearer {token}"} if token else {}
+
+    def _classify_failure(self, response, payload: Any = None) -> str:
+        if response is None:
+            return "sem_resposta"
+        status = getattr(response, "status_code", None)
+        if status == 401:
+            return "401"
+        if status == 403:
+            return "403"
+        if status == 404:
+            return "404"
+        if payload is None:
+            return "payload_invalido"
+        if not isinstance(payload, dict):
+            return "payload_invalido"
+        if "results" not in payload:
+            return "payload_invalido"
+        return "unknown"
+
+    def _log_failure(self, name: str, reason: str, response=None, payload: Any = None) -> None:
+        self.last_api_status = getattr(response, "status_code", None)
+        self.last_failure_reason = reason
+        if payload is None:
+            self.last_failure_payload = None
         else:
-            seller_types = {str(s).strip().lower() for s in seller_types}
-
-        prices = fetch_br_prices_list(
+            text = str(payload)
+            self.last_failure_payload = text[:500]
+        log.warning(
+            "[mercadolivre] event=fetch_failed query=%s reason=%s status=%s",
             name,
-            max_items=max_items,
-            min_active_listings=min_active_listings,
-            seller_types=seller_types,
+            reason,
+            self.last_api_status,
         )
-        if prices is None:
-            return None
-        return [{"price_brl": float(p), "source": self.source_name, "title": "", "url": ""} for p in prices]
 
+    def _log_attempt(self, name: str, stage: str) -> None:
+        log.debug("[mercadolivre] event=search_attempt query=%s stage=%s", name, stage)
 
-# ---------------------------------------------------------------------------
-# Existing helpers
-# ---------------------------------------------------------------------------
+    def _refresh_access_token(self) -> bool:
+        creds = self._credentials()
+        if not creds["refresh_token"] or not creds["client_id"] or not creds["client_secret"]:
+            self.last_refresh_status = "missing_credentials"
+            log.warning("[mercadolivre] event=token_refresh_failed reason=missing_credentials")
+            return False
 
-def _normalize(text):
-    text = unicodedata.normalize("NFKD", text.lower())
-    text = "".join(ch for ch in text if not unicodedata.combining(ch))
-    return re.sub(r"\s+", " ", text).strip()
+        log.info("[mercadolivre] event=token_refresh_attempt status=start")
+        response = self._request(
+            ML_TOKEN_URL,
+            method="POST",
+            headers={},
+            data={
+                "grant_type": "refresh_token",
+                "client_id": creds["client_id"],
+                "client_secret": creds["client_secret"],
+                "refresh_token": creds["refresh_token"],
+            },
+        )
+        if response is None:
+            self.last_refresh_status = "sem_resposta"
+            log.warning("[mercadolivre] event=token_refresh_failed reason=sem_resposta")
+            return False
 
+        try:
+            payload = response.json()
+        except Exception:
+            self.last_refresh_status = "payload_invalido"
+            log.warning("[mercadolivre] event=token_refresh_failed reason=payload_invalido status=%s", getattr(response, "status_code", None))
+            return False
 
-def generate_queries(name):
-    """
-    Gera múltiplas variações do nome para aumentar chance de encontrar no ML
-    """
-    queries = [
-        name,
-        name.replace("7Hz", "").strip(),
-        name.replace("Salnotes", "").strip(),
-        name.replace("Sennheiser", "").strip(),
-        name.replace("Moondrop", "").strip(),
-    ]
+        access_token = str(payload.get("access_token", "")).strip()
+        if not access_token:
+            self.last_refresh_status = "payload_invalido"
+            log.warning("[mercadolivre] event=token_refresh_failed reason=payload_invalido status=%s", getattr(response, "status_code", None))
+            return False
 
-    # fallback agressivo
-    words = name.split()
-    if len(words) >= 1:
-        queries.append(words[-1])  # última palavra (ex: "Zero", "600")
-
-    # remove duplicados e vazios (preservando ordem)
-    deduped = []
-    seen = set()
-    for q in queries:
-        q = q.strip()
-        if not q or q in seen:
-            continue
-        seen.add(q)
-        deduped.append(q)
-    return deduped
-
-
-def _title_looks_relevant(title, headphone_name):
-    n_title = _normalize(title)
-    n_name = _normalize(headphone_name)
-
-    if any(w in n_title for w in BLACKLIST):
-        return False
-
-    name_tokens = [t for t in n_name.split() if len(t) >= 3]
-    if not name_tokens:
+        self._runtime_access_token = access_token
+        self.last_refresh_status = "refreshed"
+        log.info("[mercadolivre] event=token_refreshed status=success")
         return True
 
-    matches = sum(1 for token in name_tokens if token in n_title)
-    min_matches = 2 if len(name_tokens) >= 2 else 1
-    return matches >= min_matches
+    def _search(self, name: str, limit: int, *, use_auth: bool = True) -> tuple[Optional[list[dict[str, Any]]], Optional[str]]:
+        params = {
+            "q": name,
+            "limit": max(1, min(limit, 50)),
+            "offset": 0,
+        }
+        self._log_attempt(name, "initial")
+        headers = self._auth_headers() if use_auth else {}
+        response = self._request(ML_API_URL, params=params, headers=headers)
+        if response is None:
+            reason = self._classify_failure(None)
+            self._log_failure(name, reason)
+            return None, reason
 
-
-def _extract_seller_type(card_text: str) -> str:
-    text = _normalize(card_text)
-    if "loja oficial" in text or "official store" in text or "mercado l" in text:
-        return "official"
-    if "envio full" in text or "full" in text:
-        return "marketplace"
-    return "unknown"
-
-
-def _parse_price_text(text: str) -> Optional[float]:
-    if not text:
-        return None
-    cleaned = text.strip().replace("R$", "").replace(".", "").replace(",", ".")
-    match = re.search(r"-?\d+(?:\.\d+)?", cleaned)
-    if not match:
-        return None
-    try:
-        value = float(match.group(0))
-        return value if value > 0 else None
-    except Exception:
-        return None
-
-
-def fetch_br_prices_list(headphone_name, max_items=40, debug=False, min_active_listings=5, seller_types=None):
-    """
-    Coleta preços do Mercado Livre via página pública com filtros de qualidade.
-
-    Regras de qualidade:
-    - exige um mínimo de anúncios relevantes antes de aceitar a fonte;
-    - filtra por tipo de vendedor quando essa informação aparece na card/page.
-    """
-    prices = []
-    queries = generate_queries(headphone_name)
-    seller_types = {str(s).strip().lower() for s in (seller_types or {"official"})}
-
-    for q in queries:
-        url = f"{ML_SEARCH_BASE}/{quote_plus(q.replace(' ', '-'))}"
-
-        if debug:
-            print(f"[ML] Tentando: {q}")
-            print(f"[ML] URL: {url}")
-
+        self.last_api_status = response.status_code
         try:
-            resp = requests.get(url, headers=REQUEST_HEADERS, timeout=15)
-            resp.raise_for_status()
-            soup = BeautifulSoup(resp.text, "lxml")
-        except Exception as e:
-            if debug:
-                print(f"[ML] erro API: {e}")
-            continue
+            payload = response.json()
+        except Exception:
+            try:
+                payload = None if not response.text else {"raw": response.text}
+            except Exception:
+                payload = None
 
-        items = soup.select("li.ui-search-layout__item")
-        if debug:
-            print(f"[ML] Itens encontrados: {len(items)}")
+        if not payload or not isinstance(payload, dict) or "results" not in payload:
+            reason = self._classify_failure(response, payload)
+            self._log_failure(name, reason, response=response, payload=payload)
+            return None, reason
 
-        if len(items) < min_active_listings:
-            # Qualidade mínima: não usar uma busca com poucos anúncios.
-            continue
-
-        for item in items[:max_items]:
-            text_blob = item.get_text(" ", strip=True)
-            title_el = item.select_one("h3") or item.select_one("h2")
-            if not title_el:
-                continue
-            title = title_el.get_text(" ", strip=True)
-
-            if not _title_looks_relevant(title, headphone_name):
-                continue
-
-            seller_type = _extract_seller_type(text_blob)
-            if seller_types and seller_type not in seller_types:
-                continue
-
-            price_el = item.select_one("span.andes-money-amount__fraction")
-            if not price_el:
-                # fallback: parse first BRL in the whole card
-                price = _parse_price_text(text_blob)
-            else:
-                price = _parse_price_text(price_el.get_text(strip=True))
-
+        results: list[dict[str, Any]] = []
+        for item in payload.get("results", []):
+            price = self._safe_float(item.get("price"))
             if price is None or price <= 0:
                 continue
+            title = str(item.get("title", ""))
+            results.append(self.build_price_candidate(
+                name,
+                price_brl=float(price),
+                title=title,
+                url=item.get("permalink", ""),
+                seller=str(item.get("seller", {}).get("nickname", "")),
+                availability="available" if item.get("available_quantity", 0) else "unknown",
+                condition=str(item.get("condition", "unknown")),
+                source_name="mercadolivre_api" if use_auth else "mercadolivre_public",
+                source_type="official_api" if use_auth else "structured_search",
+            ))
 
-            prices.append(price)
-            if debug:
-                print(f"  ✔ {title[:60]}... -> R$ {price}")
+        self.last_failure_reason = None
+        self.last_failure_payload = None
+        return results if results else None, None
 
-        # Se já coletou preços suficientes, para cedo.
-        if len(prices) >= 10:
-            break
+    def fetch(self, name: str, **kwargs) -> list[dict[str, Any]] | None:
+        try:
+            limit = int(kwargs.get("limit", 10))
+        except Exception:
+            limit = 10
 
-    return prices
+        self.last_api_status = None
+        self.last_failure_reason = None
+        self.last_failure_payload = None
+        self.last_refresh_status = None
+
+        results, reason = self._search(name, limit, use_auth=True)
+        if results is not None:
+            log.debug("[mercadolivre] %s: %d results", name, len(results))
+            return results
+
+        if reason == "401":
+            log.info("[mercadolivre] event=auth_retry query=%s status=401", name)
+            log.warning("[mercadolivre] event=auth_invalid_or_expired query=%s", name)
+        if reason == "403":
+            log.warning("[mercadolivre] event=auth_blocked query=%s status=403", name)
+            return None
+        if reason == "401" and self._refresh_access_token():
+            self._log_attempt(name, "retry_after_refresh")
+            results, reason = self._search(name, limit, use_auth=True)
+            if results is not None:
+                log.debug("[mercadolivre] %s: %d results after refresh", name, len(results))
+                return results
+            log.warning(
+                "[mercadolivre] event=auth_retry_failed query=%s reason=%s status=%s",
+                name,
+                reason,
+                self.last_api_status,
+            )
+        return None
+
+    def diagnose(self, query: str = "Sennheiser HD 600", limit: int = 5) -> dict[str, Any]:
+        creds = self._credentials()
+        response = self._request(ML_API_URL, params={"q": query, "limit": limit, "offset": 0}, headers=self._auth_headers())
+        status = getattr(response, "status_code", None)
+        snippet = ""
+        search_failure_reason = None
+        if response is not None:
+            try:
+                snippet = response.text[:300]
+            except Exception:
+                snippet = ""
+            try:
+                payload = response.json()
+            except Exception:
+                payload = None
+            if not isinstance(payload, dict) or "results" not in payload:
+                search_failure_reason = self._classify_failure(response, payload)
+        else:
+            search_failure_reason = self._classify_failure(response)
+        refresh_ok = None
+        if creds["refresh_token"] and creds["client_id"] and creds["client_secret"]:
+            refresh_ok = self._refresh_access_token()
+        return {
+            "variables": {
+                "MERCADOLIVRE_ACCESS_TOKEN": bool(creds["access_token"]),
+                "MERCADOLIVRE_REFRESH_TOKEN": bool(creds["refresh_token"]),
+                "MERCADOLIVRE_CLIENT_ID": bool(creds["client_id"]),
+                "MERCADOLIVRE_CLIENT_SECRET": bool(creds["client_secret"]),
+            },
+            "search_status": status,
+            "search_failure_reason": search_failure_reason,
+            "search_snippet": snippet,
+            "refresh_status": self.last_refresh_status if refresh_ok is not None else "missing_credentials",
+            "refresh_ok": refresh_ok,
+        }
+
+
+def fetch_br_prices_list(headphone_name, **kwargs):
+    collector = MercadoLivrePriceCollector()
+    try:
+        data = collector.fetch(headphone_name, **kwargs)
+        if data is None:
+            return None
+        return [float(item["price_brl"]) for item in data]
+    except Exception as exc:
+        log.debug("[mercadolivre] fetch_br_prices_list error for '%s': %s", headphone_name, exc)
+        return None

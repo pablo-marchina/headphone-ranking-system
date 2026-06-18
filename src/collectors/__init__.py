@@ -5,7 +5,7 @@ from .headphonescom import HeadphonesComCollector
 from .independent_reviewers import IndependentReviewerCollector
 from .innerfidelity import InnerFidelityCollector
 from .mercadolivre import MercadoLivrePriceCollector
-from .msrp_proxy import MSRPProxyCollector
+from .kabum import KabumPriceCollector
 from .price_aggregator import ZoomJacoteiCollector
 from .shopee import ShopeeCollector
 from .squig import SquigCollector
@@ -17,9 +17,9 @@ __all__ = [
     "HeadphonesComCollector",
     "ASRCollector",
     "IndependentReviewerCollector",
+    "KabumPriceCollector",
     "ZoomJacoteiCollector",
     "ShopeeCollector",
     "AmazonBrasilCollector",
-    "MSRPProxyCollector",
     "MercadoLivrePriceCollector",
 ]

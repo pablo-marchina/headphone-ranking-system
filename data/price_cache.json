@@ -1,12 +1,3438 @@
 {
-  "7Hz Salnotes Zero": 260.0,
-  "DUNU Titan S": 993.0,
-  "EPZ Q5 Pro": 499.0,
-  "EPZ Q5": 499.0,
-  "Etymotic ER2SE": 1500.0,
-  "Final Audio E1000": 332.0,
-  "Haylou Moripods": 394.0,
-  "Kiwi Ears KE4": 741.0,
-  "KZ ZSN Pro": 266.5,
-  "Moondrop Aria Snow Edition": 899.0
+  "audeze lcd x": {
+    "display_name": "Audeze LCD-X",
+    "canonical_name": "audeze lcd x",
+    "price_brl_real": 14409.99,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 14409.99,
+        "max_price_brl": 14409.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:54:53+00:00",
+    "ttl_until": "2026-06-19T02:54:53+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 14409.99,
+    "query_used": "Audeze LCD-X",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 14409.99,
+    "source_counts": {
+      "zoom_jacotei": 1
+    }
+  },
+  "akg k701": {
+    "display_name": "AKG K701",
+    "canonical_name": "akg k701",
+    "price_brl_real": 2657.73,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 2657.73,
+        "max_price_brl": 2657.73
+      }
+    ],
+    "updated_at": "2026-06-18T02:54:54+00:00",
+    "ttl_until": "2026-06-19T02:54:54+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 2657.73,
+    "query_used": "AKG K701",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 2657.73,
+    "source_counts": {
+      "zoom_jacotei": 1
+    }
+  },
+  "akg k612 pro": {
+    "display_name": "AKG K612 Pro",
+    "canonical_name": "akg k612 pro",
+    "price_brl_real": 1369.45,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 1369.45,
+        "max_price_brl": 1369.45
+      }
+    ],
+    "updated_at": "2026-06-18T02:54:54+00:00",
+    "ttl_until": "2026-06-19T02:54:54+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1369.45,
+    "query_used": "AKG K612 Pro",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 1369.45,
+    "source_counts": {
+      "zoom_jacotei": 1
+    }
+  },
+  "akg k52": {
+    "display_name": "AKG K52",
+    "canonical_name": "akg k52",
+    "price_brl_real": 289.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 8,
+        "min_price_brl": 289.0,
+        "max_price_brl": 657.62
+      }
+    ],
+    "updated_at": "2026-06-18T02:54:54+00:00",
+    "ttl_until": "2026-06-19T02:54:54+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 289.0,
+    "query_used": "AKG K52",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 357.72,
+    "source_counts": {
+      "zoom_jacotei": 8
+    }
+  },
+  "akg k702": {
+    "display_name": "AKG K702",
+    "canonical_name": "akg k702",
+    "price_brl_real": 1019.15,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 2,
+        "min_price_brl": 1019.15,
+        "max_price_brl": 1079.1
+      }
+    ],
+    "updated_at": "2026-06-18T02:54:55+00:00",
+    "ttl_until": "2026-06-19T02:54:55+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1019.15,
+    "query_used": "AKG K702",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 1049.12,
+    "source_counts": {
+      "zoom_jacotei": 2
+    }
+  },
+  "audio technica ath m50x": {
+    "display_name": "Audio-Technica ATH-M50x",
+    "canonical_name": "audio technica ath m50x",
+    "price_brl_real": 1619.1,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 8,
+        "min_price_brl": 1619.1,
+        "max_price_brl": 3182.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:54:55+00:00",
+    "ttl_until": "2026-06-19T02:54:55+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1619.1,
+    "query_used": "Audio-Technica ATH-M50x",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Audio-Technica ATH-M50x",
+        "canonical_name": "audio technica ath m50x",
+        "price_brl_real": 1619.1,
+        "price_brl_estimated": null,
+        "price_source": "zoom_jacotei",
+        "price_confidence": "real_high",
+        "query_strategy": "original_query",
+        "audit_reason": "many_variant_conflicts"
+      }
+    ],
+    "brand_median_price": 1712.0,
+    "source_counts": {
+      "zoom_jacotei": 8
+    }
+  },
+  "audio technica ath m40x": {
+    "display_name": "Audio-Technica ATH-M40x",
+    "canonical_name": "audio technica ath m40x",
+    "price_brl_real": 887.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 4,
+        "min_price_brl": 887.0,
+        "max_price_brl": 2120.8
+      }
+    ],
+    "updated_at": "2026-06-18T02:54:56+00:00",
+    "ttl_until": "2026-06-19T02:54:56+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 887.0,
+    "query_used": "Audio-Technica ATH-M40x",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 1405.26,
+    "source_counts": {
+      "zoom_jacotei": 4
+    }
+  },
+  "beats studio3 wireless": {
+    "display_name": "Beats Studio3 Wireless",
+    "canonical_name": "beats studio3 wireless",
+    "price_brl_real": 2499.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "kabum",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "kabum",
+        "count": 1,
+        "min_price_brl": 2499.0,
+        "max_price_brl": 2499.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:54:59+00:00",
+    "ttl_until": "2026-06-19T02:54:59+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "kabum",
+    "last_success_price": 2499.0,
+    "query_used": "Beats Studio3 Wireless",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 2499.0,
+    "source_counts": {
+      "kabum": 1
+    }
+  },
+  "beyerdynamic dt 770 pro 250 ohm": {
+    "display_name": "Beyerdynamic DT 770 Pro (250 Ohm)",
+    "canonical_name": "beyerdynamic dt 770 pro 250 ohm",
+    "price_brl_real": 2091.67,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 2,
+        "min_price_brl": 2091.67,
+        "max_price_brl": 2187.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:00+00:00",
+    "ttl_until": "2026-06-19T02:55:00+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 2091.67,
+    "query_used": "Beyerdynamic DT 770 Pro (250 Ohm)",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 2139.34,
+    "source_counts": {
+      "zoom_jacotei": 2
+    }
+  },
+  "beyerdynamic dt 770 pro": {
+    "display_name": "Beyerdynamic DT 770 Pro",
+    "canonical_name": "beyerdynamic dt 770 pro",
+    "price_brl_real": 1999.99,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 6,
+        "min_price_brl": 1999.99,
+        "max_price_brl": 3177.34
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:00+00:00",
+    "ttl_until": "2026-06-19T02:55:00+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1999.99,
+    "query_used": "Beyerdynamic DT 770 Pro",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 2109.49,
+    "source_counts": {
+      "zoom_jacotei": 6
+    }
+  },
+  "beyerdynamic dt 880": {
+    "display_name": "Beyerdynamic DT 880",
+    "canonical_name": "beyerdynamic dt 880",
+    "price_brl_real": 3105.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 3105.0,
+        "max_price_brl": 3105.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:01+00:00",
+    "ttl_until": "2026-06-19T02:55:01+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 3105.0,
+    "query_used": "Beyerdynamic DT 880",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 3105.0,
+    "source_counts": {
+      "zoom_jacotei": 1
+    }
+  },
+  "beyerdynamic dt 770 pro 80 ohm": {
+    "display_name": "Beyerdynamic DT 770 Pro (80 Ohm)",
+    "canonical_name": "beyerdynamic dt 770 pro 80 ohm",
+    "price_brl_real": 1999.99,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 2,
+        "min_price_brl": 1999.99,
+        "max_price_brl": 2126.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:02+00:00",
+    "ttl_until": "2026-06-19T02:55:02+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1999.99,
+    "query_used": "Beyerdynamic DT 770 Pro (80 Ohm)",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 2063.49,
+    "source_counts": {
+      "zoom_jacotei": 2
+    }
+  },
+  "beyerdynamic dt 990 pro 250 ohm": {
+    "display_name": "Beyerdynamic DT 990 Pro (250 Ohm)",
+    "canonical_name": "beyerdynamic dt 990 pro 250 ohm",
+    "price_brl_real": 1888.3,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 1888.3,
+        "max_price_brl": 1888.3
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:02+00:00",
+    "ttl_until": "2026-06-19T02:55:02+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1888.3,
+    "query_used": "Beyerdynamic DT 990 Pro (250 Ohm)",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 1888.3,
+    "source_counts": {
+      "zoom_jacotei": 1
+    }
+  },
+  "simgot audio em6l": {
+    "display_name": "Simgot Audio EM6L",
+    "canonical_name": "simgot audio em6l",
+    "price_brl_real": null,
+    "price_brl_estimated": 120.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 15,
+        "min_price_brl": 20.0,
+        "max_price_brl": 700.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:04+00:00",
+    "ttl_until": "2026-06-21T02:55:04+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 120.0,
+    "query_used": "Simgot Audio EM6L",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Simgot Audio EM6L",
+        "canonical_name": "simgot audio em6l",
+        "price_brl_real": null,
+        "price_brl_estimated": 120.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "original_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 120.0,
+    "source_counts": {
+      "amazon_br": 15
+    }
+  },
+  "audient evo sr2000": {
+    "display_name": "Audient EVO SR2000",
+    "canonical_name": "audient evo sr2000",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:06+00:00",
+    "ttl_until": "2026-06-21T02:55:06+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "aune ar5000": {
+    "display_name": "AUNE AR5000",
+    "canonical_name": "aune ar5000",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:07+00:00",
+    "ttl_until": "2026-06-21T02:55:07+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "behringer hc 200": {
+    "display_name": "Behringer HC 200",
+    "canonical_name": "behringer hc 200",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:08+00:00",
+    "ttl_until": "2026-06-21T02:55:08+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "beyerdynamic dt 880 250 ohm": {
+    "display_name": "Beyerdynamic DT 880 (250 Ohm)",
+    "canonical_name": "beyerdynamic dt 880 250 ohm",
+    "price_brl_real": 3105.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 0.825,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 47,
+        "min_price_brl": 125.16,
+        "max_price_brl": 5999.97
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 2,
+        "min_price_brl": 3105.0,
+        "max_price_brl": 3105.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:09+00:00",
+    "ttl_until": "2026-06-19T02:55:09+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 3105.0,
+    "query_used": "beyerdynamic dt 880 250",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "Beyerdynamic DT 880 (250 Ohm)",
+        "canonical_name": "beyerdynamic dt 880 250 ohm",
+        "price_brl_real": 3105.0,
+        "price_brl_estimated": null,
+        "price_source": "zoom_jacotei",
+        "price_confidence": "real_high",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_accessory_discards"
+      }
+    ],
+    "brand_median_price": 2187.0,
+    "source_counts": {
+      "zoom_jacotei": 2,
+      "amazon_br": 47
+    }
+  },
+  "tin hifi t2": {
+    "display_name": "Tin HiFi T2",
+    "canonical_name": "tin hifi t2",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 48,
+        "min_price_brl": 67.2,
+        "max_price_brl": 1644.79
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:09+00:00",
+    "ttl_until": "2026-06-21T02:55:09+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": "Tin HiFi T2",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Tin HiFi T2",
+        "canonical_name": "tin hifi t2",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "original_query",
+        "audit_reason": "many_accessory_discards"
+      }
+    ],
+    "brand_median_price": null,
+    "source_counts": {
+      "amazon_br": 48
+    }
+  },
+  "beyerdynamic dt 990 pro black edition": {
+    "display_name": "Beyerdynamic DT 990 Pro Black Edition",
+    "canonical_name": "beyerdynamic dt 990 pro black edition",
+    "price_brl_real": 1888.3,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 0.88,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 47,
+        "min_price_brl": 92.66,
+        "max_price_brl": 5999.97
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 8,
+        "min_price_brl": 1888.3,
+        "max_price_brl": 2126.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:10+00:00",
+    "ttl_until": "2026-06-19T02:55:10+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1888.3,
+    "query_used": "beyerdynamic dt 990 pro black",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "Beyerdynamic DT 990 Pro Black Edition",
+        "canonical_name": "beyerdynamic dt 990 pro black edition",
+        "price_brl_real": 1888.3,
+        "price_brl_estimated": null,
+        "price_source": "zoom_jacotei",
+        "price_confidence": "real_high",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_accessory_discards"
+      }
+    ],
+    "brand_median_price": 1980.64,
+    "source_counts": {
+      "zoom_jacotei": 8,
+      "amazon_br": 47
+    }
+  },
+  "sony wf 1000xm4": {
+    "display_name": "Sony WF-1000XM4",
+    "canonical_name": "sony wf 1000xm4",
+    "price_brl_real": null,
+    "price_brl_estimated": 80.1,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 47,
+        "min_price_brl": 54.81,
+        "max_price_brl": 3526.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:10+00:00",
+    "ttl_until": "2026-06-21T02:55:10+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 80.1,
+    "query_used": "Sony WF-1000XM4",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Sony WF-1000XM4",
+        "canonical_name": "sony wf 1000xm4",
+        "price_brl_real": null,
+        "price_brl_estimated": 80.1,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "original_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Sony WF-1000XM4",
+        "canonical_name": "sony wf 1000xm4",
+        "price_brl_real": null,
+        "price_brl_estimated": 80.1,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "original_query",
+        "audit_reason": "many_variant_conflicts"
+      },
+      {
+        "display_name": "Sony WF-1000XM4",
+        "canonical_name": "sony wf 1000xm4",
+        "price_brl_real": null,
+        "price_brl_estimated": 80.1,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "original_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 80.1,
+    "source_counts": {
+      "amazon_br": 47
+    }
+  },
+  "beyerdynamic dt 990 pro": {
+    "display_name": "Beyerdynamic DT 990 Pro",
+    "canonical_name": "beyerdynamic dt 990 pro",
+    "price_brl_real": 1888.3,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 3,
+        "min_price_brl": 1888.3,
+        "max_price_brl": 2126.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:10+00:00",
+    "ttl_until": "2026-06-19T02:55:10+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1888.3,
+    "query_used": "Beyerdynamic DT 990 Pro",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 1980.64,
+    "source_counts": {
+      "zoom_jacotei": 3
+    }
+  },
+  "simgot audio ea500 black nozzle": {
+    "display_name": "Simgot Audio EA500 (black nozzle)",
+    "canonical_name": "simgot audio ea500 black nozzle",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:11+00:00",
+    "ttl_until": "2026-06-21T02:55:11+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "fifine ampligame h6 game": {
+    "display_name": "Fifine Ampligame H6 (game)",
+    "canonical_name": "fifine ampligame h6 game",
+    "price_brl_real": 341.99,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "kabum",
+    "price_source_type": "structured_search",
+    "price_match_score": 0.825,
+    "candidates_summary": [
+      {
+        "source": "kabum",
+        "count": 3,
+        "min_price_brl": 179.9,
+        "max_price_brl": 341.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:11+00:00",
+    "ttl_until": "2026-06-19T02:55:11+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "kabum",
+    "last_success_price": 341.99,
+    "query_used": "Fifine Ampligame H6 (game)",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 341.99,
+    "source_counts": {
+      "kabum": 3
+    }
+  },
+  "grado rs1x": {
+    "display_name": "Grado RS1x",
+    "canonical_name": "grado rs1x",
+    "price_brl_real": null,
+    "price_brl_estimated": 20.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 33,
+        "min_price_brl": 20.0,
+        "max_price_brl": 700.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:14+00:00",
+    "ttl_until": "2026-06-21T02:55:14+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 20.0,
+    "query_used": "Grado RS1x",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Grado RS1x",
+        "canonical_name": "grado rs1x",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "original_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 20.0,
+    "source_counts": {
+      "amazon_br": 33
+    }
+  },
+  "audio technica ath r70x": {
+    "display_name": "Audio-Technica ATH-R70x",
+    "canonical_name": "audio technica ath r70x",
+    "price_brl_real": null,
+    "price_brl_estimated": 20.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 93,
+        "min_price_brl": 1.19,
+        "max_price_brl": 8121.17
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 3499.0,
+        "max_price_brl": 3499.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:15+00:00",
+    "ttl_until": "2026-06-21T02:55:15+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 20.0,
+    "query_used": "audio technica r70x",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "Audio-Technica ATH-R70x",
+        "canonical_name": "audio technica ath r70x",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Audio-Technica ATH-R70x",
+        "canonical_name": "audio technica ath r70x",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_variant_conflicts"
+      },
+      {
+        "display_name": "Audio-Technica ATH-R70x",
+        "canonical_name": "audio technica ath r70x",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 20.0,
+    "source_counts": {
+      "zoom_jacotei": 1,
+      "amazon_br": 93
+    }
+  },
+  "fifine ampligame h3": {
+    "display_name": "Fifine Ampligame H3",
+    "canonical_name": "fifine ampligame h3",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:15+00:00",
+    "ttl_until": "2026-06-21T02:55:15+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "truthear x crinacle zero red": {
+    "display_name": "Truthear x Crinacle Zero RED",
+    "canonical_name": "truthear x crinacle zero red",
+    "price_brl_real": null,
+    "price_brl_estimated": 150.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 17,
+        "min_price_brl": 20.0,
+        "max_price_brl": 600.0
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 2,
+        "min_price_brl": 1257.62,
+        "max_price_brl": 1257.62
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:16+00:00",
+    "ttl_until": "2026-06-21T02:55:16+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 150.0,
+    "query_used": "truthear red",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "Truthear x Crinacle Zero RED",
+        "canonical_name": "truthear x crinacle zero red",
+        "price_brl_real": null,
+        "price_brl_estimated": 150.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 150.0,
+    "source_counts": {
+      "zoom_jacotei": 2,
+      "amazon_br": 17
+    }
+  },
+  "fifine ampligame h6 movie": {
+    "display_name": "Fifine Ampligame H6 (movie)",
+    "canonical_name": "fifine ampligame h6 movie",
+    "price_brl_real": 247.35,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 6,
+        "min_price_brl": 179.9,
+        "max_price_brl": 339.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:17+00:00",
+    "ttl_until": "2026-06-19T02:55:17+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 247.35,
+    "query_used": "fifine h6",
+    "query_strategy": "model_core_query",
+    "audit_records": [],
+    "brand_median_price": 293.67,
+    "source_counts": {
+      "zoom_jacotei": 6
+    }
+  },
+  "fifine ampligame h6 music": {
+    "display_name": "Fifine Ampligame H6 (music)",
+    "canonical_name": "fifine ampligame h6 music",
+    "price_brl_real": 247.35,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 6,
+        "min_price_brl": 179.9,
+        "max_price_brl": 339.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:17+00:00",
+    "ttl_until": "2026-06-19T02:55:17+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 247.35,
+    "query_used": "fifine h6",
+    "query_strategy": "model_core_query",
+    "audit_records": [],
+    "brand_median_price": 293.67,
+    "source_counts": {
+      "zoom_jacotei": 6
+    }
+  },
+  "harmonicdyne zeus elite": {
+    "display_name": "HarmonicDyne Zeus Elite",
+    "canonical_name": "harmonicdyne zeus elite",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:18+00:00",
+    "ttl_until": "2026-06-21T02:55:18+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "harmonicdyne black hole": {
+    "display_name": "HarmonicDyne Black Hole",
+    "canonical_name": "harmonicdyne black hole",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 4,
+        "min_price_brl": 185.22,
+        "max_price_brl": 253.08
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:18+00:00",
+    "ttl_until": "2026-06-21T02:55:18+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": "HarmonicDyne Black Hole",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "HarmonicDyne Black Hole",
+        "canonical_name": "harmonicdyne black hole",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "original_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "HarmonicDyne Black Hole",
+        "canonical_name": "harmonicdyne black hole",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "original_query",
+        "audit_reason": "many_variant_conflicts"
+      }
+    ],
+    "brand_median_price": null,
+    "source_counts": {
+      "amazon_br": 4
+    }
+  },
+  "focal listen professional": {
+    "display_name": "Focal Listen Professional",
+    "canonical_name": "focal listen professional",
+    "price_brl_real": null,
+    "price_brl_estimated": 1020.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 10,
+        "min_price_brl": 20.0,
+        "max_price_brl": 2180.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:19+00:00",
+    "ttl_until": "2026-06-21T02:55:19+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 1020.0,
+    "query_used": "Focal Listen Professional",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Focal Listen Professional",
+        "canonical_name": "focal listen professional",
+        "price_brl_real": null,
+        "price_brl_estimated": 1020.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "original_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 1020.0,
+    "source_counts": {
+      "amazon_br": 10
+    }
+  },
+  "grado sr60x": {
+    "display_name": "Grado SR60x",
+    "canonical_name": "grado sr60x",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:19+00:00",
+    "ttl_until": "2026-06-21T02:55:19+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "hifiman he400se": {
+    "display_name": "HIFIMAN HE400se",
+    "canonical_name": "hifiman he400se",
+    "price_brl_real": 1350.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 1350.0,
+        "max_price_brl": 1350.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:19+00:00",
+    "ttl_until": "2026-06-19T02:55:19+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1350.0,
+    "query_used": "HIFIMAN HE400se",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 1350.0,
+    "source_counts": {
+      "zoom_jacotei": 1
+    }
+  },
+  "grado sr325x": {
+    "display_name": "Grado SR325x",
+    "canonical_name": "grado sr325x",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:20+00:00",
+    "ttl_until": "2026-06-21T02:55:20+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "grado sr60e": {
+    "display_name": "Grado SR60e",
+    "canonical_name": "grado sr60e",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:22+00:00",
+    "ttl_until": "2026-06-21T02:55:22+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "hifiman ananda": {
+    "display_name": "HIFIMAN Ananda",
+    "canonical_name": "hifiman ananda",
+    "price_brl_real": 1350.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_medium",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 0.5,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 6,
+        "min_price_brl": 1350.0,
+        "max_price_brl": 30189.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:22+00:00",
+    "ttl_until": "2026-06-19T02:55:22+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1350.0,
+    "query_used": "HIFIMAN Ananda",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 8219.99,
+    "source_counts": {
+      "zoom_jacotei": 6
+    }
+  },
+  "meze 99 neo": {
+    "display_name": "Meze 99 Neo",
+    "canonical_name": "meze 99 neo",
+    "price_brl_real": 2113.6,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 2113.6,
+        "max_price_brl": 2113.6
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:22+00:00",
+    "ttl_until": "2026-06-19T02:55:22+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 2113.6,
+    "query_used": "Meze 99 Neo",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 2113.6,
+    "source_counts": {
+      "zoom_jacotei": 1
+    }
+  },
+  "hedd heddphone": {
+    "display_name": "HEDD HEDDphone",
+    "canonical_name": "hedd heddphone",
+    "price_brl_real": null,
+    "price_brl_estimated": 20.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 57,
+        "min_price_brl": 20.0,
+        "max_price_brl": 300.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:23+00:00",
+    "ttl_until": "2026-06-21T02:55:23+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 20.0,
+    "query_used": "HEDD HEDDphone",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "HEDD HEDDphone",
+        "canonical_name": "hedd heddphone",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "original_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 20.0,
+    "source_counts": {
+      "amazon_br": 57
+    }
+  },
+  "hifiman arya": {
+    "display_name": "HIFIMAN Arya",
+    "canonical_name": "hifiman arya",
+    "price_brl_real": 1350.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_medium",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 0.5,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 6,
+        "min_price_brl": 1350.0,
+        "max_price_brl": 30189.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:23+00:00",
+    "ttl_until": "2026-06-19T02:55:23+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1350.0,
+    "query_used": "HIFIMAN Arya",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 8219.99,
+    "source_counts": {
+      "zoom_jacotei": 6
+    }
+  },
+  "hifiman deva pro": {
+    "display_name": "HIFIMAN Deva Pro",
+    "canonical_name": "hifiman deva pro",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:23+00:00",
+    "ttl_until": "2026-06-21T02:55:23+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "hifiman he r9": {
+    "display_name": "HIFIMAN HE-R9",
+    "canonical_name": "hifiman he r9",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:25+00:00",
+    "ttl_until": "2026-06-21T02:55:25+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "kiwi ears division": {
+    "display_name": "Kiwi Ears Division",
+    "canonical_name": "kiwi ears division",
+    "price_brl_real": 352.87,
+    "price_brl_estimated": null,
+    "price_confidence": "real_medium",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 0.667,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 21,
+        "min_price_brl": 182.68,
+        "max_price_brl": 3214.51
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 2,
+        "min_price_brl": 352.87,
+        "max_price_brl": 2302.91
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:26+00:00",
+    "ttl_until": "2026-06-19T02:55:26+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 352.87,
+    "query_used": "Kiwi Ears Division",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Kiwi Ears Division",
+        "canonical_name": "kiwi ears division",
+        "price_brl_real": 352.87,
+        "price_brl_estimated": null,
+        "price_source": "zoom_jacotei",
+        "price_confidence": "real_medium",
+        "query_strategy": "original_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Kiwi Ears Division",
+        "canonical_name": "kiwi ears division",
+        "price_brl_real": 352.87,
+        "price_brl_estimated": null,
+        "price_source": "zoom_jacotei",
+        "price_confidence": "real_medium",
+        "query_strategy": "original_query",
+        "audit_reason": "many_variant_conflicts"
+      }
+    ],
+    "brand_median_price": 478.97,
+    "source_counts": {
+      "zoom_jacotei": 2,
+      "amazon_br": 21
+    }
+  },
+  "meze 99 classics": {
+    "display_name": "Meze 99 Classics",
+    "canonical_name": "meze 99 classics",
+    "price_brl_real": 2113.6,
+    "price_brl_estimated": null,
+    "price_confidence": "real_medium",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 0.733,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 2113.6,
+        "max_price_brl": 2113.6
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:27+00:00",
+    "ttl_until": "2026-06-19T02:55:27+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 2113.6,
+    "query_used": "Meze 99 Classics",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 2113.6,
+    "source_counts": {
+      "zoom_jacotei": 1
+    }
+  },
+  "philips shp9500": {
+    "display_name": "Philips SHP9500",
+    "canonical_name": "philips shp9500",
+    "price_brl_real": 499.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 499.0,
+        "max_price_brl": 499.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:27+00:00",
+    "ttl_until": "2026-06-19T02:55:27+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 499.0,
+    "query_used": "Philips SHP9500",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 499.0,
+    "source_counts": {
+      "zoom_jacotei": 1
+    }
+  },
+  "neumann ndh30": {
+    "display_name": "Neumann NDH30",
+    "canonical_name": "neumann ndh30",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:30+00:00",
+    "ttl_until": "2026-06-21T02:55:30+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "sendy aiva": {
+    "display_name": "Sendy Aiva",
+    "canonical_name": "sendy aiva",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:30+00:00",
+    "ttl_until": "2026-06-21T02:55:30+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "neumann ndh20": {
+    "display_name": "Neumann NDH20",
+    "canonical_name": "neumann ndh20",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 33,
+        "min_price_brl": 70.29,
+        "max_price_brl": 35456.68
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:31+00:00",
+    "ttl_until": "2026-06-21T02:55:31+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": "Neumann NDH20",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Neumann NDH20",
+        "canonical_name": "neumann ndh20",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "original_query",
+        "audit_reason": "many_accessory_discards"
+      }
+    ],
+    "brand_median_price": null,
+    "source_counts": {
+      "amazon_br": 33
+    }
+  },
+  "philips fidelio x2hr": {
+    "display_name": "Philips Fidelio X2HR",
+    "canonical_name": "philips fidelio x2hr",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:33+00:00",
+    "ttl_until": "2026-06-21T02:55:33+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "sennheiser hd 280 pro": {
+    "display_name": "Sennheiser HD 280 Pro",
+    "canonical_name": "sennheiser hd 280 pro",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:33+00:00",
+    "ttl_until": "2026-06-21T02:55:33+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "sennheiser hd 400 pro": {
+    "display_name": "Sennheiser HD 400 Pro",
+    "canonical_name": "sennheiser hd 400 pro",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:34+00:00",
+    "ttl_until": "2026-06-21T02:55:34+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "hifiman sundara closed back": {
+    "display_name": "HIFIMAN Sundara Closed-Back",
+    "canonical_name": "hifiman sundara closed back",
+    "price_brl_real": null,
+    "price_brl_estimated": 170.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 19,
+        "min_price_brl": 20.0,
+        "max_price_brl": 460.0
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 6,
+        "min_price_brl": 1350.0,
+        "max_price_brl": 30189.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:34+00:00",
+    "ttl_until": "2026-06-21T02:55:34+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 170.0,
+    "query_used": "hifiman",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "HIFIMAN Sundara Closed-Back",
+        "canonical_name": "hifiman sundara closed back",
+        "price_brl_real": null,
+        "price_brl_estimated": 170.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 170.0,
+    "source_counts": {
+      "amazon_br": 19,
+      "zoom_jacotei": 6
+    }
+  },
+  "sennheiser hd 650": {
+    "display_name": "Sennheiser HD 650",
+    "canonical_name": "sennheiser hd 650",
+    "price_brl_real": 2250.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 2250.0,
+        "max_price_brl": 2250.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:34+00:00",
+    "ttl_until": "2026-06-19T02:55:34+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 2250.0,
+    "query_used": "Sennheiser HD 650",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 2250.0,
+    "source_counts": {
+      "zoom_jacotei": 1
+    }
+  },
+  "sennheiser hd 560s": {
+    "display_name": "Sennheiser HD 560S",
+    "canonical_name": "sennheiser hd 560s",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:37+00:00",
+    "ttl_until": "2026-06-21T02:55:37+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "rose technics north forest": {
+    "display_name": "Rose Technics North Forest",
+    "canonical_name": "rose technics north forest",
+    "price_brl_real": null,
+    "price_brl_estimated": 245.29,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 28,
+        "min_price_brl": 44.9,
+        "max_price_brl": 54989.1
+      },
+      {
+        "source": "kabum",
+        "count": 15,
+        "min_price_brl": 30.0,
+        "max_price_brl": 4699.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:37+00:00",
+    "ttl_until": "2026-06-21T02:55:37+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 245.29,
+    "query_used": "rose",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "Rose Technics North Forest",
+        "canonical_name": "rose technics north forest",
+        "price_brl_real": null,
+        "price_brl_estimated": 245.29,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Rose Technics North Forest",
+        "canonical_name": "rose technics north forest",
+        "price_brl_real": null,
+        "price_brl_estimated": 245.29,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_variant_conflicts"
+      },
+      {
+        "display_name": "Rose Technics North Forest",
+        "canonical_name": "rose technics north forest",
+        "price_brl_real": null,
+        "price_brl_estimated": 245.29,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 239.28,
+    "source_counts": {
+      "zoom_jacotei": 28,
+      "kabum": 15
+    }
+  },
+  "sennheiser hd 558": {
+    "display_name": "Sennheiser HD 558",
+    "canonical_name": "sennheiser hd 558",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:38+00:00",
+    "ttl_until": "2026-06-21T02:55:38+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "sennheiser hd 6xx": {
+    "display_name": "Sennheiser HD 6XX",
+    "canonical_name": "sennheiser hd 6xx",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 48,
+        "min_price_brl": 133.68,
+        "max_price_brl": 4409.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:38+00:00",
+    "ttl_until": "2026-06-21T02:55:38+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": "Sennheiser HD 6XX",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Sennheiser HD 6XX",
+        "canonical_name": "sennheiser hd 6xx",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "original_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Sennheiser HD 6XX",
+        "canonical_name": "sennheiser hd 6xx",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "original_query",
+        "audit_reason": "many_variant_conflicts"
+      }
+    ],
+    "brand_median_price": null,
+    "source_counts": {
+      "amazon_br": 48
+    }
+  },
+  "sennheiser hd 58x": {
+    "display_name": "Sennheiser HD 58X",
+    "canonical_name": "sennheiser hd 58x",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:40+00:00",
+    "ttl_until": "2026-06-21T02:55:40+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "sennheiser hd 600": {
+    "display_name": "Sennheiser HD 600",
+    "canonical_name": "sennheiser hd 600",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:40+00:00",
+    "ttl_until": "2026-06-21T02:55:40+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "hifiman sundara post 2020": {
+    "display_name": "HIFIMAN Sundara (post-2020 earpads)",
+    "canonical_name": "hifiman sundara post 2020",
+    "price_brl_real": 1350.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_medium",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 0.5,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 10,
+        "min_price_brl": 899.0,
+        "max_price_brl": 11918.97
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 6,
+        "min_price_brl": 1350.0,
+        "max_price_brl": 30189.99
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:41+00:00",
+    "ttl_until": "2026-06-19T02:55:41+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1350.0,
+    "query_used": "hifiman sundara",
+    "query_strategy": "ultra_commercial_query",
+    "audit_records": [
+      {
+        "display_name": "HIFIMAN Sundara (post-2020 earpads)",
+        "canonical_name": "hifiman sundara post 2020",
+        "price_brl_real": 1350.0,
+        "price_brl_estimated": null,
+        "price_source": "zoom_jacotei",
+        "price_confidence": "real_medium",
+        "query_strategy": "ultra_commercial_query",
+        "audit_reason": "many_accessory_discards"
+      }
+    ],
+    "brand_median_price": 8219.99,
+    "source_counts": {
+      "amazon_br": 10,
+      "zoom_jacotei": 6
+    }
+  },
+  "shure srh1840": {
+    "display_name": "Shure SRH1840",
+    "canonical_name": "shure srh1840",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:42+00:00",
+    "ttl_until": "2026-06-21T02:55:42+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "koss porta pro yaxi": {
+    "display_name": "Koss Porta Pro (Yaxi earpads)",
+    "canonical_name": "koss porta pro yaxi",
+    "price_brl_real": null,
+    "price_brl_estimated": 96.45,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 47,
+        "min_price_brl": 18.9,
+        "max_price_brl": 974.09
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:42+00:00",
+    "ttl_until": "2026-06-21T02:55:42+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 96.45,
+    "query_used": "koss porta pro yaxi",
+    "query_strategy": "commercial_query",
+    "audit_records": [
+      {
+        "display_name": "Koss Porta Pro (Yaxi earpads)",
+        "canonical_name": "koss porta pro yaxi",
+        "price_brl_real": null,
+        "price_brl_estimated": 96.45,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "commercial_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Koss Porta Pro (Yaxi earpads)",
+        "canonical_name": "koss porta pro yaxi",
+        "price_brl_real": null,
+        "price_brl_estimated": 96.45,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "commercial_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 70.5,
+    "source_counts": {
+      "amazon_br": 47
+    }
+  },
+  "sivga audio robin": {
+    "display_name": "Sivga Audio Robin",
+    "canonical_name": "sivga audio robin",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:42+00:00",
+    "ttl_until": "2026-06-21T02:55:42+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "sivga anser": {
+    "display_name": "Sivga Anser",
+    "canonical_name": "sivga anser",
+    "price_brl_real": 1906.0,
+    "price_brl_estimated": null,
+    "price_confidence": "real_medium",
+    "price_source": "amazon_br",
+    "price_source_type": "marketplace",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 10,
+        "min_price_brl": 263.56,
+        "max_price_brl": 1906.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:43+00:00",
+    "ttl_until": "2026-06-18T14:55:43+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "amazon_br",
+    "last_success_price": 1906.0,
+    "query_used": "Sivga Anser",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Sivga Anser",
+        "canonical_name": "sivga anser",
+        "price_brl_real": 1906.0,
+        "price_brl_estimated": null,
+        "price_source": "amazon_br",
+        "price_confidence": "real_medium",
+        "query_strategy": "original_query",
+        "audit_reason": "many_accessory_discards"
+      }
+    ],
+    "brand_median_price": 1623.17,
+    "source_counts": {
+      "amazon_br": 10
+    }
+  },
+  "sony mdr zx110": {
+    "display_name": "Sony MDR-ZX110",
+    "canonical_name": "sony mdr zx110",
+    "price_brl_real": 122.55,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 3,
+        "min_price_brl": 122.55,
+        "max_price_brl": 265.91
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:43+00:00",
+    "ttl_until": "2026-06-19T02:55:43+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 122.55,
+    "query_used": "Sony MDR-ZX110",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 137.0,
+    "source_counts": {
+      "zoom_jacotei": 3
+    }
+  },
+  "sivga oriole": {
+    "display_name": "Sivga Oriole",
+    "canonical_name": "sivga oriole",
+    "price_brl_real": 1846.55,
+    "price_brl_estimated": null,
+    "price_confidence": "real_medium",
+    "price_source": "amazon_br",
+    "price_source_type": "marketplace",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 10,
+        "min_price_brl": 263.56,
+        "max_price_brl": 1906.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:47+00:00",
+    "ttl_until": "2026-06-18T14:55:47+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "amazon_br",
+    "last_success_price": 1846.55,
+    "query_used": "Sivga Oriole",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Sivga Oriole",
+        "canonical_name": "sivga oriole",
+        "price_brl_real": 1846.55,
+        "price_brl_estimated": null,
+        "price_source": "amazon_br",
+        "price_confidence": "real_medium",
+        "query_strategy": "original_query",
+        "audit_reason": "many_accessory_discards"
+      }
+    ],
+    "brand_median_price": 1623.17,
+    "source_counts": {
+      "amazon_br": 10
+    }
+  },
+  "sivga luan": {
+    "display_name": "Sivga Luan",
+    "canonical_name": "sivga luan",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:47+00:00",
+    "ttl_until": "2026-06-21T02:55:47+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "sivga p2 pro": {
+    "display_name": "Sivga P2 Pro",
+    "canonical_name": "sivga p2 pro",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 13,
+        "min_price_brl": 20.55,
+        "max_price_brl": 4699.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:48+00:00",
+    "ttl_until": "2026-06-21T02:55:48+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": "Sivga P2 Pro",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": null,
+    "source_counts": {
+      "zoom_jacotei": 13
+    }
+  },
+  "shure srh440": {
+    "display_name": "Shure SRH440",
+    "canonical_name": "shure srh440",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:48+00:00",
+    "ttl_until": "2026-06-21T02:55:48+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "skullcandy crusher wireless": {
+    "display_name": "Skullcandy Crusher Wireless",
+    "canonical_name": "skullcandy crusher wireless",
+    "price_brl_real": 1652.43,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 48,
+        "min_price_brl": 44.9,
+        "max_price_brl": 2035.35
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 16,
+        "min_price_brl": 1082.53,
+        "max_price_brl": 2825.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:48+00:00",
+    "ttl_until": "2026-06-19T02:55:48+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 1652.43,
+    "query_used": "skullcandy crusher",
+    "query_strategy": "commercial_query",
+    "audit_records": [
+      {
+        "display_name": "Skullcandy Crusher Wireless",
+        "canonical_name": "skullcandy crusher wireless",
+        "price_brl_real": 1652.43,
+        "price_brl_estimated": null,
+        "price_source": "zoom_jacotei",
+        "price_confidence": "real_high",
+        "query_strategy": "commercial_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Skullcandy Crusher Wireless",
+        "canonical_name": "skullcandy crusher wireless",
+        "price_brl_real": 1652.43,
+        "price_brl_estimated": null,
+        "price_source": "zoom_jacotei",
+        "price_confidence": "real_high",
+        "query_strategy": "commercial_query",
+        "audit_reason": "many_variant_conflicts"
+      }
+    ],
+    "brand_median_price": 1652.43,
+    "source_counts": {
+      "zoom_jacotei": 16,
+      "amazon_br": 48
+    }
+  },
+  "thieaudio ghost": {
+    "display_name": "ThieAudio ghost",
+    "canonical_name": "thieaudio ghost",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:51+00:00",
+    "ttl_until": "2026-06-21T02:55:51+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "basn bmaster5": {
+    "display_name": "BASN Bmaster5",
+    "canonical_name": "basn bmaster5",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:51+00:00",
+    "ttl_until": "2026-06-21T02:55:51+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "kiwi ears cadenza": {
+    "display_name": "Kiwi Ears Cadenza",
+    "canonical_name": "kiwi ears cadenza",
+    "price_brl_real": 352.87,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 1,
+        "min_price_brl": 352.87,
+        "max_price_brl": 352.87
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:51+00:00",
+    "ttl_until": "2026-06-19T02:55:51+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 352.87,
+    "query_used": "Kiwi Ears Cadenza",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 352.87,
+    "source_counts": {
+      "zoom_jacotei": 1
+    }
+  },
+  "sennheiser hd 800 s": {
+    "display_name": "Sennheiser HD 800 S",
+    "canonical_name": "sennheiser hd 800 s",
+    "price_brl_real": null,
+    "price_brl_estimated": 20.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 43,
+        "min_price_brl": 20.0,
+        "max_price_brl": 700.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:53+00:00",
+    "ttl_until": "2026-06-21T02:55:53+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 20.0,
+    "query_used": "sennheiser hd 800",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "Sennheiser HD 800 S",
+        "canonical_name": "sennheiser hd 800 s",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 20.0,
+    "source_counts": {
+      "amazon_br": 43
+    }
+  },
+  "juzear 51t": {
+    "display_name": "Juzear 51T",
+    "canonical_name": "juzear 51t",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 3,
+        "min_price_brl": 853.2,
+        "max_price_brl": 1272.87
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:54+00:00",
+    "ttl_until": "2026-06-21T02:55:54+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": "Juzear 51T",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Juzear 51T",
+        "canonical_name": "juzear 51t",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "original_query",
+        "audit_reason": "many_accessory_discards"
+      }
+    ],
+    "brand_median_price": null,
+    "source_counts": {
+      "amazon_br": 3
+    }
+  },
+  "epz q1": {
+    "display_name": "EPZ Q1",
+    "canonical_name": "epz q1",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 4,
+        "min_price_brl": 188.9,
+        "max_price_brl": 188.9
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:54+00:00",
+    "ttl_until": "2026-06-21T02:55:54+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": "EPZ Q1",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": null,
+    "source_counts": {
+      "zoom_jacotei": 4
+    }
+  },
+  "juzear 41t": {
+    "display_name": "Juzear 41T",
+    "canonical_name": "juzear 41t",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:55+00:00",
+    "ttl_until": "2026-06-21T02:55:55+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "dunu sa6 ultra default mode": {
+    "display_name": "DUNU SA6 Ultra (default mode)",
+    "canonical_name": "dunu sa6 ultra default mode",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:55:58+00:00",
+    "ttl_until": "2026-06-21T02:55:58+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "kiwi ears dolce": {
+    "display_name": "Kiwi Ears Dolce",
+    "canonical_name": "kiwi ears dolce",
+    "price_brl_real": 352.87,
+    "price_brl_estimated": null,
+    "price_confidence": "real_medium",
+    "price_source": "zoom_jacotei",
+    "price_source_type": "structured_search",
+    "price_match_score": 0.667,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 2,
+        "min_price_brl": 352.87,
+        "max_price_brl": 2302.91
+      }
+    ],
+    "updated_at": "2026-06-18T02:55:58+00:00",
+    "ttl_until": "2026-06-19T02:55:58+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "zoom_jacotei",
+    "last_success_price": 352.87,
+    "query_used": "Kiwi Ears Dolce",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 352.87,
+    "source_counts": {
+      "zoom_jacotei": 2
+    }
+  },
+  "blon x hbb z300": {
+    "display_name": "BLON x HBB Z300",
+    "canonical_name": "blon x hbb z300",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:56:00+00:00",
+    "ttl_until": "2026-06-21T02:56:00+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "dunu sa6 ultra atmospheric immersion mode": {
+    "display_name": "DUNU SA6 Ultra (atmospheric immersion mode)",
+    "canonical_name": "dunu sa6 ultra atmospheric immersion mode",
+    "price_brl_real": 1622.93,
+    "price_brl_estimated": null,
+    "price_confidence": "real_medium",
+    "price_source": "amazon_br",
+    "price_source_type": "marketplace",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 1,
+        "min_price_brl": 1622.93,
+        "max_price_brl": 1622.93
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:01+00:00",
+    "ttl_until": "2026-06-18T14:56:01+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "amazon_br",
+    "last_success_price": 1622.93,
+    "query_used": "dunu sa6 ultra",
+    "query_strategy": "ultra_commercial_query",
+    "audit_records": [],
+    "brand_median_price": 1622.93,
+    "source_counts": {
+      "amazon_br": 1
+    }
+  },
+  "skullcandy crusher wireless bass boost": {
+    "display_name": "Skullcandy Crusher Wireless (bass boost)",
+    "canonical_name": "skullcandy crusher wireless bass boost",
+    "price_brl_real": null,
+    "price_brl_estimated": 20.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 98,
+        "min_price_brl": 20.0,
+        "max_price_brl": 2035.35
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 16,
+        "min_price_brl": 1082.53,
+        "max_price_brl": 2825.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:03+00:00",
+    "ttl_until": "2026-06-21T02:56:03+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 20.0,
+    "query_used": "skullcandy crusher boost",
+    "query_strategy": "ultra_commercial_query",
+    "audit_records": [
+      {
+        "display_name": "Skullcandy Crusher Wireless (bass boost)",
+        "canonical_name": "skullcandy crusher wireless bass boost",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "ultra_commercial_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Skullcandy Crusher Wireless (bass boost)",
+        "canonical_name": "skullcandy crusher wireless bass boost",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "ultra_commercial_query",
+        "audit_reason": "many_variant_conflicts"
+      },
+      {
+        "display_name": "Skullcandy Crusher Wireless (bass boost)",
+        "canonical_name": "skullcandy crusher wireless bass boost",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "ultra_commercial_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 20.0,
+    "source_counts": {
+      "zoom_jacotei": 16,
+      "amazon_br": 98
+    }
+  },
+  "mim audio dark magician": {
+    "display_name": "MiM Audio Dark Magician",
+    "canonical_name": "mim audio dark magician",
+    "price_brl_real": 49.9,
+    "price_brl_estimated": null,
+    "price_confidence": "real_high",
+    "price_source": "kabum",
+    "price_source_type": "structured_search",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "kabum",
+        "count": 18,
+        "min_price_brl": 35.91,
+        "max_price_brl": 78.9
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 3,
+        "min_price_brl": 50.92,
+        "max_price_brl": 50.92
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:11+00:00",
+    "ttl_until": "2026-06-19T02:56:11+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "kabum",
+    "last_success_price": 49.9,
+    "query_used": "mim",
+    "query_strategy": "model_core_query",
+    "audit_records": [],
+    "brand_median_price": 59.9,
+    "source_counts": {
+      "zoom_jacotei": 3,
+      "kabum": 18
+    }
+  },
+  "moondrop aria": {
+    "display_name": "Moondrop Aria",
+    "canonical_name": "moondrop aria",
+    "price_brl_real": null,
+    "price_brl_estimated": 20.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 39,
+        "min_price_brl": 20.0,
+        "max_price_brl": 350.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:11+00:00",
+    "ttl_until": "2026-06-21T02:56:11+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 20.0,
+    "query_used": "Moondrop Aria",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Moondrop Aria",
+        "canonical_name": "moondrop aria",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "original_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 20.0,
+    "source_counts": {
+      "amazon_br": 39
+    }
+  },
+  "kiwi ears quartet off off": {
+    "display_name": "Kiwi Ears Quartet (off-off)",
+    "canonical_name": "kiwi ears quartet off off",
+    "price_brl_real": null,
+    "price_brl_estimated": 20.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 43,
+        "min_price_brl": 10.0,
+        "max_price_brl": 550.0
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 2,
+        "min_price_brl": 352.87,
+        "max_price_brl": 2302.91
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:12+00:00",
+    "ttl_until": "2026-06-21T02:56:12+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 20.0,
+    "query_used": "kiwi",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "Kiwi Ears Quartet (off-off)",
+        "canonical_name": "kiwi ears quartet off off",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 20.0,
+    "source_counts": {
+      "zoom_jacotei": 2,
+      "amazon_br": 43
+    }
+  },
+  "kiwi ears orchestra lite": {
+    "display_name": "Kiwi Ears Orchestra Lite",
+    "canonical_name": "kiwi ears orchestra lite",
+    "price_brl_real": null,
+    "price_brl_estimated": 60.95,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 45,
+        "min_price_brl": 6.0,
+        "max_price_brl": 719.6
+      },
+      {
+        "source": "zoom_jacotei",
+        "count": 2,
+        "min_price_brl": 352.87,
+        "max_price_brl": 2302.91
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:13+00:00",
+    "ttl_until": "2026-06-21T02:56:13+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 60.95,
+    "query_used": "kiwi",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "Kiwi Ears Orchestra Lite",
+        "canonical_name": "kiwi ears orchestra lite",
+        "price_brl_real": null,
+        "price_brl_estimated": 60.95,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Kiwi Ears Orchestra Lite",
+        "canonical_name": "kiwi ears orchestra lite",
+        "price_brl_real": null,
+        "price_brl_estimated": 60.95,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 60.95,
+    "source_counts": {
+      "zoom_jacotei": 2,
+      "amazon_br": 45
+    }
+  },
+  "kiwi ears quartet off on": {
+    "display_name": "Kiwi Ears Quartet (off-on)",
+    "canonical_name": "kiwi ears quartet off on",
+    "price_brl_real": null,
+    "price_brl_estimated": 352.87,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 2,
+        "min_price_brl": 352.87,
+        "max_price_brl": 2302.91
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:14+00:00",
+    "ttl_until": "2026-06-21T02:56:14+00:00",
+    "source_health": "healthy",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": 352.87,
+    "query_used": "Kiwi Ears Quartet (off-on)",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 352.87,
+    "source_counts": {
+      "zoom_jacotei": 2
+    }
+  },
+  "moondrop blessing 3": {
+    "display_name": "Moondrop Blessing 3",
+    "canonical_name": "moondrop blessing 3",
+    "price_brl_real": 3709.27,
+    "price_brl_estimated": null,
+    "price_confidence": "real_medium",
+    "price_source": "amazon_br",
+    "price_source_type": "marketplace",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 48,
+        "min_price_brl": 85.49,
+        "max_price_brl": 6294.47
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:16+00:00",
+    "ttl_until": "2026-06-18T14:56:16+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "amazon_br",
+    "last_success_price": 3709.27,
+    "query_used": "Moondrop Blessing 3",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Moondrop Blessing 3",
+        "canonical_name": "moondrop blessing 3",
+        "price_brl_real": 3709.27,
+        "price_brl_estimated": null,
+        "price_source": "amazon_br",
+        "price_confidence": "real_medium",
+        "query_strategy": "original_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Moondrop Blessing 3",
+        "canonical_name": "moondrop blessing 3",
+        "price_brl_real": 3709.27,
+        "price_brl_estimated": null,
+        "price_source": "amazon_br",
+        "price_confidence": "real_medium",
+        "query_strategy": "original_query",
+        "audit_reason": "many_variant_conflicts"
+      }
+    ],
+    "brand_median_price": 647.25,
+    "source_counts": {
+      "amazon_br": 48
+    }
+  },
+  "kiwi ears quartet on off": {
+    "display_name": "Kiwi Ears Quartet (on-off)",
+    "canonical_name": "kiwi ears quartet on off",
+    "price_brl_real": null,
+    "price_brl_estimated": 352.87,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "zoom_jacotei",
+        "count": 2,
+        "min_price_brl": 352.87,
+        "max_price_brl": 2302.91
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:17+00:00",
+    "ttl_until": "2026-06-21T02:56:17+00:00",
+    "source_health": "healthy",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": 352.87,
+    "query_used": "Kiwi Ears Quartet (on-off)",
+    "query_strategy": "original_query",
+    "audit_records": [],
+    "brand_median_price": 352.87,
+    "source_counts": {
+      "zoom_jacotei": 2
+    }
+  },
+  "sennheiser ie 200": {
+    "display_name": "Sennheiser IE 200",
+    "canonical_name": "sennheiser ie 200",
+    "price_brl_real": null,
+    "price_brl_estimated": 20.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 51,
+        "min_price_brl": 20.0,
+        "max_price_brl": 800.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:22+00:00",
+    "ttl_until": "2026-06-21T02:56:22+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 20.0,
+    "query_used": "Sennheiser IE 200",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "Sennheiser IE 200",
+        "canonical_name": "sennheiser ie 200",
+        "price_brl_real": null,
+        "price_brl_estimated": 20.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "original_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 20.0,
+    "source_counts": {
+      "amazon_br": 51
+    }
+  },
+  "moondrop quarks dsp": {
+    "display_name": "Moondrop Quarks DSP",
+    "canonical_name": "moondrop quarks dsp",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:56:26+00:00",
+    "ttl_until": "2026-06-21T02:56:26+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "kiwi ears quartet on on": {
+    "display_name": "Kiwi Ears Quartet (on-on)",
+    "canonical_name": "kiwi ears quartet on on",
+    "price_brl_real": null,
+    "price_brl_estimated": 60.0,
+    "price_confidence": "estimated_low",
+    "price_source": null,
+    "price_source_type": "estimated",
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 45,
+        "min_price_brl": 6.0,
+        "max_price_brl": 719.6
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:27+00:00",
+    "ttl_until": "2026-06-21T02:56:27+00:00",
+    "source_health": "healthy",
+    "failure_reason": "strong_candidates_below_floor",
+    "last_success_source": null,
+    "last_success_price": 60.0,
+    "query_used": "kiwi",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "Kiwi Ears Quartet (on-on)",
+        "canonical_name": "kiwi ears quartet on on",
+        "price_brl_real": null,
+        "price_brl_estimated": 60.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Kiwi Ears Quartet (on-on)",
+        "canonical_name": "kiwi ears quartet on on",
+        "price_brl_real": null,
+        "price_brl_estimated": 60.0,
+        "price_source": null,
+        "price_confidence": "estimated_low",
+        "query_strategy": "model_core_query",
+        "audit_reason": "estimated_after_strong_candidate_conflict"
+      }
+    ],
+    "brand_median_price": 60.0,
+    "source_counts": {
+      "amazon_br": 45
+    }
+  },
+  "kz x hbb pr2": {
+    "display_name": "KZ x HBB PR2",
+    "canonical_name": "kz x hbb pr2",
+    "price_brl_real": 399.59,
+    "price_brl_estimated": null,
+    "price_confidence": "real_medium",
+    "price_source": "amazon_br",
+    "price_source_type": "marketplace",
+    "price_match_score": 1.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 48,
+        "min_price_brl": 37.0,
+        "max_price_brl": 478.96
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:28+00:00",
+    "ttl_until": "2026-06-18T14:56:28+00:00",
+    "source_health": "healthy",
+    "failure_reason": null,
+    "last_success_source": "amazon_br",
+    "last_success_price": 399.59,
+    "query_used": "kz pr2",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "KZ x HBB PR2",
+        "canonical_name": "kz x hbb pr2",
+        "price_brl_real": 399.59,
+        "price_brl_estimated": null,
+        "price_source": "amazon_br",
+        "price_confidence": "real_medium",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "KZ x HBB PR2",
+        "canonical_name": "kz x hbb pr2",
+        "price_brl_real": 399.59,
+        "price_brl_estimated": null,
+        "price_source": "amazon_br",
+        "price_confidence": "real_medium",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_variant_conflicts"
+      }
+    ],
+    "brand_median_price": 399.59,
+    "source_counts": {
+      "amazon_br": 48
+    }
+  },
+  "shuoer galileo": {
+    "display_name": "Shuoer Galileo",
+    "canonical_name": "shuoer galileo",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:56:28+00:00",
+    "ttl_until": "2026-06-21T02:56:28+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "tanchjim hana 2021": {
+    "display_name": "Tanchjim HANA 2021",
+    "canonical_name": "tanchjim hana 2021",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:56:30+00:00",
+    "ttl_until": "2026-06-21T02:56:30+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  },
+  "moondrop x crinacle blessing2 dusk": {
+    "display_name": "Moondrop x Crinacle Blessing2 Dusk",
+    "canonical_name": "moondrop x crinacle blessing2 dusk",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 47,
+        "min_price_brl": 81.04,
+        "max_price_brl": 6294.47
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:31+00:00",
+    "ttl_until": "2026-06-21T02:56:31+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": "moondrop blessing2",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "Moondrop x Crinacle Blessing2 Dusk",
+        "canonical_name": "moondrop x crinacle blessing2 dusk",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "Moondrop x Crinacle Blessing2 Dusk",
+        "canonical_name": "moondrop x crinacle blessing2 dusk",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_variant_conflicts"
+      }
+    ],
+    "brand_median_price": null,
+    "source_counts": {
+      "amazon_br": 47
+    }
+  },
+  "thieaudio hype 2": {
+    "display_name": "ThieAudio Hype 2",
+    "canonical_name": "thieaudio hype 2",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 10,
+        "min_price_brl": 183.77,
+        "max_price_brl": 4131.21
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:38+00:00",
+    "ttl_until": "2026-06-21T02:56:38+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": "ThieAudio Hype 2",
+    "query_strategy": "original_query",
+    "audit_records": [
+      {
+        "display_name": "ThieAudio Hype 2",
+        "canonical_name": "thieaudio hype 2",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "original_query",
+        "audit_reason": "many_accessory_discards"
+      },
+      {
+        "display_name": "ThieAudio Hype 2",
+        "canonical_name": "thieaudio hype 2",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "original_query",
+        "audit_reason": "many_variant_conflicts"
+      }
+    ],
+    "brand_median_price": null,
+    "source_counts": {
+      "amazon_br": 10
+    }
+  },
+  "shuoer ej07m kinda lava edition": {
+    "display_name": "Shuoer EJ07M Kinda Lava Edition",
+    "canonical_name": "shuoer ej07m kinda lava edition",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [
+      {
+        "source": "amazon_br",
+        "count": 48,
+        "min_price_brl": 60.44,
+        "max_price_brl": 5755.0
+      }
+    ],
+    "updated_at": "2026-06-18T02:56:41+00:00",
+    "ttl_until": "2026-06-21T02:56:41+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_strong_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": "shuoer ej07m",
+    "query_strategy": "model_core_query",
+    "audit_records": [
+      {
+        "display_name": "Shuoer EJ07M Kinda Lava Edition",
+        "canonical_name": "shuoer ej07m kinda lava edition",
+        "price_brl_real": null,
+        "price_brl_estimated": null,
+        "price_source": null,
+        "price_confidence": "missing",
+        "query_strategy": "model_core_query",
+        "audit_reason": "many_accessory_discards"
+      }
+    ],
+    "brand_median_price": null,
+    "source_counts": {
+      "amazon_br": 48
+    }
+  },
+  "tangzu zetian wu": {
+    "display_name": "TANGZU Zetian Wu",
+    "canonical_name": "tangzu zetian wu",
+    "price_brl_real": null,
+    "price_brl_estimated": null,
+    "price_confidence": "missing",
+    "price_source": null,
+    "price_source_type": null,
+    "price_match_score": 0.0,
+    "candidates_summary": [],
+    "updated_at": "2026-06-18T02:56:41+00:00",
+    "ttl_until": "2026-06-21T02:56:41+00:00",
+    "source_health": "missing_price",
+    "failure_reason": "no_candidates",
+    "last_success_source": null,
+    "last_success_price": null,
+    "query_used": null,
+    "query_strategy": null,
+    "audit_records": [],
+    "brand_median_price": null
+  }
 }

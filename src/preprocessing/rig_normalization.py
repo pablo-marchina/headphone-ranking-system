@@ -1,4 +1,3 @@
-
 """Cross-rig normalization helpers.
 
 The goal is to estimate a systematic dB offset between measurement rigs
@@ -20,29 +19,46 @@ def _normalize_rig_name(value: Optional[str]) -> str:
 
 
 def _extract_curve(entry: Mapping[str, Any]):
+    """
+    Extract (freqs, mags) from a source dict.
+
+    BUG FIX: the original code used:
+        mags = entry.get("mags") or entry.get("magnitudes") or entry.get("response")
+    which raises ValueError when entry.get("mags") returns a numpy array, because
+    Python's `or` operator calls bool() on the array — invalid for arrays with
+    more than one element.
+
+    Fixed by using explicit None checks instead of truthiness evaluation.
+    """
     freqs = entry.get("freqs")
+
+    # Explicit None checks — never use `or` with numpy arrays
     mags = entry.get("mags")
     if mags is None:
         mags = entry.get("magnitudes")
     if mags is None:
         mags = entry.get("response")
+
     if freqs is None or mags is None:
         return None
+
     freqs = np.asarray(freqs, dtype=float)
-    mags = np.asarray(mags, dtype=float)
+    mags  = np.asarray(mags,  dtype=float)
+
     if freqs.size != mags.size or freqs.size < 2:
         return None
+
     order = np.argsort(freqs)
     return freqs[order], mags[order]
 
 
-def estimate_rig_offset(common_headphone_pairs: Iterable[Mapping[str, Any]], reference_rig: str = "oratory1990", comparison_rig: str = "crinacle", band: tuple[float, float] = (200.0, 2000.0)) -> Optional[float]:
-    """Estimate a median dB offset between two rigs from common headphones.
-
-    Each item in ``common_headphone_pairs`` should contain either:
-        - keys matching the rig names directly, each with ``freqs``/``mags``
-        - a ``sources`` list of dicts with ``source`` / ``reviewer`` fields
-    """
+def estimate_rig_offset(
+    common_headphone_pairs: Iterable[Mapping[str, Any]],
+    reference_rig: str = "oratory1990",
+    comparison_rig: str = "crinacle",
+    band: tuple[float, float] = (200.0, 2000.0),
+) -> Optional[float]:
+    """Estimate a median dB offset between two rigs from common headphones."""
     diffs: list[float] = []
     ref_key = _normalize_rig_name(reference_rig)
     cmp_key = _normalize_rig_name(comparison_rig)
@@ -60,7 +76,9 @@ def estimate_rig_offset(common_headphone_pairs: Iterable[Mapping[str, Any]], ref
                 for src in item["sources"]:
                     if not isinstance(src, Mapping):
                         continue
-                    label = _normalize_rig_name(src.get("source") or src.get("reviewer") or src.get("rig"))
+                    label = _normalize_rig_name(
+                        src.get("source") or src.get("reviewer") or src.get("rig")
+                    )
                     if ref_curve is None and ref_key in label:
                         ref_curve = _extract_curve(src)
                     if cmp_curve is None and cmp_key in label:
@@ -86,7 +104,10 @@ def estimate_rig_offset(common_headphone_pairs: Iterable[Mapping[str, Any]], ref
     return float(np.median(diffs))
 
 
-def build_rig_offset_map(common_headphone_pairs: Iterable[Mapping[str, Any]], rigs: Iterable[str] = ("oratory1990", "crinacle")) -> dict[tuple[str, str], float]:
+def build_rig_offset_map(
+    common_headphone_pairs: Iterable[Mapping[str, Any]],
+    rigs: Iterable[str] = ("oratory1990", "crinacle"),
+) -> dict[tuple[str, str], float]:
     """Build pairwise offsets for every ordered rig pair present in the data."""
     rigs = tuple(_normalize_rig_name(r) for r in rigs)
     offsets: dict[tuple[str, str], list[float]] = defaultdict(list)
@@ -94,12 +115,14 @@ def build_rig_offset_map(common_headphone_pairs: Iterable[Mapping[str, Any]], ri
     for item in common_headphone_pairs:
         if not isinstance(item, Mapping):
             continue
-        source_map = {}
+        source_map: dict[str, tuple] = {}
         if isinstance(item.get("sources"), list):
             for src in item["sources"]:
                 if not isinstance(src, Mapping):
                     continue
-                label = _normalize_rig_name(src.get("source") or src.get("reviewer") or src.get("rig"))
+                label = _normalize_rig_name(
+                    src.get("source") or src.get("reviewer") or src.get("rig")
+                )
                 curve = _extract_curve(src)
                 if curve is not None:
                     source_map[label] = curve
